@@ -1,0 +1,87 @@
+# 8.20 Cumulative glossary additions
+
+- **Argument:** an object supplied by a caller to a callable.
+- **Base case:** a recursive case answered without a further recursive call.
+- **Call by sharing:** argument semantics in which parameters bind to supplied objects and shared mutation can be observed.
+- **Call stack:** ordered active function-call contexts under nested execution.
+- **Closure:** a function retaining access to bindings from a lexical environment.
+- **Decorator:** a callable receiving a defined object and returning the object to bind under its name.
+- **Decorator factory:** a callable producing a decorator from configuration.
+- **Defensive programming:** validation and protection placed at owned trust or responsibility boundaries.
+- **First-class object:** an object that can be bound, passed, returned, and stored through ordinary language mechanisms.
+- **Frame:** an execution context retaining local state and resumption information for code.
+- **Function:** a callable object packaging parameterised behaviour.
+- **Higher-order function:** a function accepting or returning callable behaviour.
+- **Introspection:** programmatic examination of runtime program objects and structure.
+- **Keyword-only parameter:** a parameter that must receive an argument by keyword.
+- **Lambda expression:** expression syntax creating a one-expression function.
+- **Late binding:** closure behaviour in which a retained binding is consulted when the function runs, not copied when created.
+- **LEGB:** summary of local, enclosing, global, and built-in name resolution.
+- **Memoisation:** retention of results keyed by inputs to avoid repeated computation.
+- **Nonlocal:** a declaration targeting a binding in an enclosing function scope.
+- **Parameter:** a name in a callable definition bound during a call.
+- **Positional-only parameter:** a parameter that cannot receive an argument by keyword.
+- **Pure function:** a function whose specified result depends only on arguments and that has no intentional externally observable effects under a stated model.
+- **Recursion:** solution of a problem through calls on smaller or structurally simpler instances of the same operation.
+- **Return value:** the object supplied when a call completes normally.
+- **Tail-call optimisation:** reuse or elimination of a caller frame for a call in final result position; not required by Python.
+- **Abstraction:** an interface preserving client-relevant properties while hiding choices irrelevant under its contract.
+- **Annotation:** metadata associated with parameters, returns, variables, or type-related constructs; not ordinary automatic runtime enforcement.
+- **Argument binding:** association of evaluated call arguments with a callable’s parameters under its signature.
+- **Binding cell:** retained storage for a lexical binding shared with nested function code.
+- **Bottom-up dynamic programming:** explicit computation of subproblem states in dependency order.
+- **Callback:** callable supplied for later invocation by another component under an inversion-of-control contract.
+- **Call compatibility:** ability of a supplied argument shape to bind to a callable signature; weaker than semantic compatibility.
+- **Callable:** an object supporting call syntax under the call protocol.
+- **Cell variable:** local binding stored for access by nested code.
+- **Cohesion:** degree to which a unit’s operations contribute to one intelligible responsibility or invariant.
+- **Command:** operation whose principal contract changes observable state.
+- **Command–query separation:** design principle distinguishing state-changing commands from state-observing queries except where one combined abstraction is justified.
+- **Composition:** construction of behaviour whose output from one function becomes input to another.
+- **Currying:** transformation of a multi-argument function into a sequence of one-argument functions.
+- **Decorator expression:** expression evaluated at definition execution to obtain a decorator callable.
+- **Dependency injection:** supplying an environmental dependency explicitly as a value, callable, or constructed collaborator.
+- **Design by contract:** specification discipline based on caller preconditions, implementation postconditions, and preserved invariants/frame conditions.
+- **Dynamic programming:** algorithmic method storing solutions to related subproblems so they need not be recomputed.
+- **Effect:** observable interaction or state dependence beyond a call’s ordinary returned value.
+- **Evaluation phase:** temporal stage in which expressions produce argument, decorator, default, or result objects before later binding/application.
+- **Fold:** repeated transition combining an accumulator with successive input values.
+- **Frame condition:** contract clause stating which state an operation may modify.
+- **Free variable:** name used by a code block and resolved through an enclosing function binding.
+- **Function object:** callable combining compiled code with defining globals, defaults, closure cells, annotations, and mutable metadata.
+- **Generative recursion:** recursion on subproblems computed from the current problem under an explicit progress measure.
+- **Global declaration:** compile-time directive making selected function-scope name operations target the defining module namespace.
+- **Idempotency key:** stable request identity used by a system protocol to coalesce retries into one logical effect.
+- **Induction hypothesis:** assumption that a claim holds for smaller instances, used to prove the next recursive case.
+- **Introspection metadata:** runtime attributes describing an object’s advertised name, signature, annotations, documentation, code, or wrapping relations.
+- **Inversion of control:** arrangement in which a host determines when caller-supplied code executes.
+- **Keyword argument:** argument associated with a parameter or variadic keyword entry by a supplied name.
+- **Memo table:** mapping from subproblem/input keys to retained computed results.
+- **Mutual recursion:** recursion cycle involving two or more functions calling one another.
+- **Normal result:** object produced when a call completes without propagating an exception.
+- **Optional argument:** parameter value that may be omitted due to a default; distinct from accepting <code>None</code>.
+- **Parameter kind:** one of positional-only, positional-or-keyword, variadic positional, keyword-only, or variadic keyword binding categories.
+- **Partial application:** creation of a callable by fixing selected arguments of another callable.
+- **Partial function:** a mathematical or program operation defined normally only on a subset of an apparent input domain.
+- **Policy injection:** supply of variable decision behaviour to a stable mechanism, commonly through a callable or explicit value.
+- **Positional argument:** argument assigned according to its position in the call’s positional sequence.
+- **Postcondition:** property guaranteed after a normal operation when its preconditions held.
+- **Precondition:** property required of state or arguments before an operation under a contract.
+- **Pure core:** computation intentionally isolated from external effects and hidden environmental state.
+- **Query:** operation whose principal contract returns information without changing observable domain state.
+- **Re-entrant function:** function safe to invoke again before a prior invocation has completed under a specified model.
+- **Recursive case:** branch solving a problem through one or more recursive subproblems.
+- **Referential transparency:** property allowing an expression to be replaced by its value without changing observations under a stated model.
+- **Result algebra:** explicitly designed set of normal and exceptional/tagged outcomes a call can produce.
+- **Signature:** ordered specification of a callable’s parameters, kinds, defaults, annotations, and return annotation metadata.
+- **Single-flight coordination:** protocol allowing concurrent requests for one missing key to share one in-progress computation.
+- **Structural recursion:** recursion over direct components of an inductively defined structure.
+- **Tail position:** expression position whose value becomes the enclosing function’s result without further computation.
+- **Test seam:** controlled dependency boundary through which deterministic substitutes can be supplied.
+- **Top-down memoisation:** recursive subproblem discovery with retained results keyed by state.
+- **Trust boundary:** point at which data or authority crosses between components with different guarantee assumptions.
+- **Variadic keyword parameter:** parameter collecting unmatched keyword arguments into a dictionary.
+- **Variadic positional parameter:** parameter collecting surplus positional arguments into a tuple.
+- **Wrapper:** callable mediating calls to another callable, often returned by a decorator.
+
+---

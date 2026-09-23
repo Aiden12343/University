@@ -1,0 +1,199 @@
+# 19.35 Cumulative glossary additions
+
+- **Abuse case:** description of an undesired interaction or outcome from the perspective of an actor seeking to violate a requirement.
+- **Access control:** mechanisms and policy deciding which principal may perform which action on which resource under a context.
+- **Access token:** credential representing delegated authority to a resource server for a defined audience, scope, subject, and lifetime.
+- **Account recovery:** alternative authentication and lifecycle process for restoring control after loss or compromise of ordinary authenticators.
+- **Accountability:** ability to associate relevant actions and decisions with principals under reliable evidence and governance.
+- **Active reconnaissance:** authorised information gathering that sends traffic or otherwise interacts with a target system.
+- **Adversary:** actor intentionally attempting to violate a security objective under stated capabilities and constraints.
+- **AEAD:** authenticated-encryption construction protecting plaintext confidentiality and the integrity of ciphertext plus associated data under a secret key.
+- **Algorithm agility:** planned ability to migrate cryptographic suites and parameters through authenticated versioning and constrained policy.
+- **Allowlist:** explicit set or grammar of permitted values, identities, operations, or destinations, with all others denied.
+- **Ambient authority:** authority implicitly available from a process environment rather than explicitly passed for one operation.
+- **Artifact:** immutable or versioned output such as a wheel, container image, executable, package, SBOM, or provenance statement.
+- **Asset:** information, capability, service, safety property, money, reputation, or other subject of protection.
+- **Assurance:** justified confidence, supported by evidence, that stated requirements hold under defined conditions.
+- **Attack surface:** reachable interfaces and behaviours through which an actor can influence a system.
+- **Attack tree:** hierarchical decomposition of an adversary goal into alternative or jointly required subgoals.
+- **Attack vector:** path or means by which an adversary attempts to reach and exploit a weakness.
+- **Attestation:** signed statement binding an identified subject, such as an artifact, to claims made by an identified issuer.
+- **Attribute-based access control:** authorisation model evaluating attributes of subject, resource, action, and environment.
+- **Audit log:** append-oriented event record designed to support accountability, investigation, and policy verification.
+- **Authentication:** establishment of evidence that a claimant controls an authenticator bound to a recognised principal.
+- **Authentication assurance level:** defined degree of confidence in authentication based on authenticator and protocol requirements.
+- **Authenticator:** something a claimant possesses or controls and uses to demonstrate an identity binding.
+- **Authorisation:** decision that a principal may perform one action on one resource in the current context.
+- **Availability:** property that authorised users can obtain correct service within required time and operating conditions.
+- **Bearer capability:** authority granted to whoever can present an unforgeable reference or token, without separate proof of holder identity.
+- **Blast radius:** maximum or observed extent of systems, data, tenants, identities, or functions affected by a failure or compromise.
+- **Blue team:** practitioners responsible for prevention, detection, response, and improvement during adversary simulation or operation.
+- **Break-glass access:** exceptional, strongly controlled, time-bounded authority for emergencies, followed by audit and review.
+- **Buffer overflow:** memory-safety violation in which a write exceeds the bounds of its intended buffer.
+- **Build provenance:** verifiable information describing source, builder, invocation, dependencies, and outputs of a build.
+- **Capability:** controlled, unforgeable reference or token carrying authority over a particular resource or operation.
+- **Canonicalisation:** mapping representations considered equivalent by one domain to a selected standard representation.
+- **Certificate:** signed structure binding a public key to identity, names, usage constraints, validity, and other attributes.
+- **Certificate authority:** trusted entity authorised under a public-key infrastructure to issue or sign certificates according to policy.
+- **Certificate revocation:** policy and mechanism for ending reliance on a certificate before ordinary expiry.
+- **Certificate Transparency:** publicly auditable logging system for issued web public-key certificates.
+- **Chain of custody:** documented history of evidence possession, handling, transfer, storage, and alteration.
+- **Ciphertext:** output of an encryption operation, intended to conceal corresponding plaintext under the scheme’s assumptions.
+- **Collision resistance:** property that finding any two distinct inputs with the same cryptographic digest is computationally infeasible.
+- **Compensating control:** alternative measure reducing risk when a primary control cannot presently be implemented.
+- **Confidentiality:** property that information is not disclosed to unauthorised actors.
+- **Confused deputy:** component induced by a less-authorised caller to misuse authority held on the caller’s behalf.
+- **Container isolation:** operating-system mechanisms separating process, namespace, resource, and policy views while commonly sharing a host kernel.
+- **Control:** technical, administrative, physical, or organisational measure intended to modify security risk.
+- **Control-flow integrity:** mitigation constraining indirect branches to an allowed control-flow policy.
+- **Coordinated vulnerability disclosure:** managed process through which a weakness is reported, remediated, communicated, and eventually published.
+- **Credential:** information or mechanism whose presentation or use supports identity or authority.
+- **Cryptographic erasure:** rendering encrypted data infeasible to recover by destroying every usable copy of required key material.
+- **Cryptographic hash:** fixed-length digest function designed to resist adversarial preimage, second-preimage, and collision finding as specified.
+- **Cryptoperiod:** interval during which a key is authorised for a particular cryptographic purpose or state.
+- **Cybersecurity:** discipline of managing risks to information systems and the people and institutions dependent on them.
+- **CVE:** Common Vulnerabilities and Exposures identifier for a publicly disclosed vulnerability record.
+- **CVSS:** Common Vulnerability Scoring System for expressing intrinsic, threat, and environmental vulnerability characteristics under its versioned model.
+- **CWE:** Common Weakness Enumeration identifier classifying a software or hardware weakness pattern.
+- **Data at rest:** data retained in storage rather than presently crossing a communications channel.
+- **Data minimisation:** limitation of data collection and retention to what a stated legitimate purpose requires.
+- **Data-flow diagram:** model of processes, stores, external entities, flows, and the trust boundaries among them.
+- **Data in transit:** data moving through a communication channel between components or principals.
+- **Data in use:** data currently interpreted, processed, or transformed by an executing component.
+- **Data-encryption key:** key used directly to encrypt application data, commonly wrapped by a separate key-encryption key.
+- **Decryption oracle:** interface whose distinguishable behaviour reveals information about attempted ciphertext decryption.
+- **Defence in depth:** composition of independent or partially independent controls across multiple failure boundaries.
+- **Denial of service:** degradation or prevention of authorised availability through resource consumption, disruption, or state manipulation.
+- **Dependency confusion:** resolution failure in which a package from an unintended source satisfies a name intended for another repository or namespace.
+- **Detection:** identification of evidence suggesting a policy violation, compromise, weakness, or other condition requiring assessment.
+- **Detection engineering:** disciplined design, implementation, testing, operation, and measurement of security detections.
+- **Deterministic random bit generator:** stateful cryptographic algorithm expanding secret state into pseudorandom output and reseeding under defined rules.
+- **Digital forensics:** acquisition, preservation, analysis, and communication of digital evidence under documented methods and limitations.
+- **Digital signature:** private-key operation producing publicly verifiable evidence of message integrity and origin from a key holder.
+- **Directory-relative operation:** filesystem operation resolving a name relative to an already opened directory descriptor or handle.
+- **Discretionary access control:** model in which an owner or authorised subject can grant permissions to other subjects.
+- **Domain separation:** cryptographic encoding and key practice preventing a value valid in one protocol purpose from being accepted in another.
+- **Dual control:** requirement that two sufficiently independent authorised parties or mechanisms approve a sensitive operation.
+- **Dynamic analysis:** examination of software properties by observing selected executions in a controlled environment.
+- **Encryption:** transformation of plaintext under key material to protect confidentiality against the scheme’s defined adversary.
+- **Entropy:** quantitative uncertainty relevant to how difficult a secret or random value is to predict.
+- **Envelope encryption:** scheme encrypting data under a data key and protecting that data key with separately managed wrapping authority.
+- **EPSS:** Exploit Prediction Scoring System estimating the probability of exploitation of a published vulnerability within a defined horizon.
+- **Evidence:** observations, records, measurements, or artifacts used to support or refute a security claim.
+- **Exploit:** method or input that uses a vulnerability to violate a security objective.
+- **Exploitability:** conditions and practical difficulty involved in turning a vulnerability into a security consequence.
+- **Fencing token:** monotonically ordered authority value that lets a resource reject operations from stale lease or lock holders.
+- **Forward secrecy:** property that later compromise of long-term key material does not by itself reveal earlier session keys.
+- **Fuzz testing:** automated generation or mutation of inputs to discover crashes, excessive cost, differentials, and invariant violations.
+- **Hash chaining:** construction in which each record digest commits to a previous digest and current canonical content.
+- **HMAC:** standard secret-key message-authentication construction built from a cryptographic hash function.
+- **Hardware security module:** specialised device or service boundary protecting cryptographic keys and performing controlled operations with them.
+- **Identity:** context-specific attributes by which a system distinguishes a principal.
+- **Identification:** presentation of a claimed identity before or independently of proof.
+- **Immutable artifact:** release object addressed or governed so its bytes cannot be silently replaced under the same accepted identity.
+- **Incident:** event or sequence threatening or violating policy and requiring coordinated investigation and response.
+- **Incident commander:** role responsible for coordinating objectives, decisions, roles, and communications during an incident.
+- **Incident response:** prepared activities for detecting, analysing, containing, eradicating, recovering from, and learning from incidents.
+- **Indicator of compromise:** observed artifact or behaviour associated with possible unauthorised activity, requiring contextual validation.
+- **Injection:** vulnerability in which untrusted data is interpreted as structure or commands in a downstream language.
+- **Integrity:** property that unauthorised alteration of information or state is prevented or detectable as required.
+- **Isolation:** restriction of communication, authority, resources, or failure propagation between components.
+- **Key agreement:** cryptographic protocol by which participants derive shared secret material without directly transmitting that material.
+- **Key derivation function:** reviewed construction deriving one or more cryptographic keys from source key material and explicit context.
+- **Key-encryption key:** key used to wrap or otherwise protect other cryptographic keys.
+- **Key hierarchy:** layered arrangement of root, wrapping, data, and derived keys designed to separate purpose and blast radius.
+- **Key rotation:** controlled transition from one cryptographic key version or state to another, including overlap and retirement.
+- **Least privilege:** granting only the authority required for a task, duration, scope, and resource.
+- **Lockfile:** record of resolved dependency versions and preferably exact artifacts or secure hashes for defined environments.
+- **MAC:** message authentication code providing integrity and symmetric source authentication among holders of a secret key.
+- **Mandatory access control:** centrally enforced access-control model using labels or policy not discretionary to ordinary resource owners.
+- **Memory safety:** enforcement of valid memory bounds, object lifetimes, initialisation, and ownership during execution.
+- **Mitigation:** measure reducing the likelihood, exploitability, or consequence of a threat without necessarily removing its root weakness.
+- **Multi-factor authentication:** authentication combining sufficiently independent factor categories rather than merely multiple checks.
+- **Nonce:** value required to be unique, unpredictable, or otherwise constrained for a cryptographic operation under one key.
+- **Non-repudiation:** contested objective that a party cannot plausibly deny an action under cryptographic, procedural, and legal evidence.
+- **Object-level authorisation:** permission decision concerning a principal’s action on one particular resource instance.
+- **Offline guessing:** credential-guessing attack performed locally against stolen verification material without the live service’s rate controls.
+- **One-time token:** scoped bearer value whose successful use is consumed atomically so later presentations fail.
+- **Online guessing:** credential-guessing attack submitted to a live verifier and therefore observable and governable by service controls.
+- **Parser differential:** disagreement between consumers about the structure or meaning of the same external representation.
+- **Passive reconnaissance:** information gathering from existing observations or records without sending traffic to the assessed target.
+- **Password hashing:** deliberately expensive, salted transformation producing a stored password verifier resistant to offline guessing.
+- **Path traversal:** escape from an intended filesystem namespace through manipulated path, link, race, or platform semantics.
+- **Pepper:** optional server-held secret incorporated into password verification through a supported construction and stored apart from verifiers.
+- **Penetration test:** authorised, scoped assessment using adversarial techniques to test whether weaknesses compose into defined impact.
+- **Phishing resistance:** authentication property binding proof to the legitimate verifier context so a lookalike intermediary cannot reuse it successfully.
+- **Plaintext:** information presented to an encryption operation or recovered by authenticated decryption.
+- **Post-incident review:** evidence-based reconstruction of impact, timeline, contributing conditions, response, and corrective actions after an incident.
+- **Preimage resistance:** property that finding an input for a given cryptographic digest is computationally infeasible.
+- **Principal:** user, service, device, process, or other entity recognised as an identity and potential bearer of authority.
+- **Privacy:** appropriate governance of information about people, including collection, use, inference, access, retention, correction, and deletion.
+- **Privilege separation:** distribution of operations among components holding different, narrowly bounded authority.
+- **Provenance:** evidence describing origin and transformations of source, data, configuration, or artifacts.
+- **Pseudonymisation:** replacement or separation of direct identifiers so attribution requires additional information, without guaranteeing anonymity.
+- **Public key:** non-secret half of an asymmetric key pair used for verification, encryption, or key agreement under a scheme.
+- **Public-key cryptography:** cryptography using related private and public keys for signatures, encryption, or authenticated key establishment.
+- **Purple team:** collaborative offensive-and-defensive exercise focused on measuring and improving controls and detections.
+- **Quota:** bound on cumulative resource consumption associated with a principal, tenant, workload, or period.
+- **Randomness:** unpredictability obtained and managed under a defined entropy-source and generator model.
+- **Rate limit:** policy limiting admitted operations or cost per identity and interval.
+- **Redaction:** removal or irreversible replacement of sensitive values before they reach a less-trusted representation or audience.
+- **Red team:** authorised practitioners emulating defined adversary objectives to assess prevention, detection, and response.
+- **Relationship-based access control:** authorisation model deriving permissions from graph relationships among subjects, resources, and organisations.
+- **Reproducible build:** build whose declared inputs can independently produce bit-for-bit equivalent output under specified conditions.
+- **Residual risk:** risk remaining after selected controls and treatments.
+- **Resilience:** ability to resist, absorb, recover from, and adapt to disruption while preserving defined service properties.
+- **Revocation:** invalidation of identity, credential, certificate, token, key, or delegated authority before ordinary expiry.
+- **Risk:** uncertain possibility and consequence of harm to assets or objectives.
+- **Risk acceptance:** accountable, time-bounded decision to retain specified residual risk with monitoring and review.
+- **Risk treatment:** decision to avoid, reduce, transfer defined consequences of, or accept risk.
+- **Role-based access control:** authorisation model assigning permissions through organisational or functional roles associated with principals.
+- **Rules of engagement:** written operational constraints governing authorised security assessment activities and handling of their effects and evidence.
+- **Salt:** unique non-secret input separating password verifiers and defeating shared precomputation.
+- **Sandbox:** enforced execution environment restricting a subject’s resources, communication, authority, and failure impact.
+- **SBOM:** software bill of materials identifying software components, versions, suppliers, hashes, and relationships in an artifact or system.
+- **Secret:** information whose disclosure grants authority or defeats a security property.
+- **Secret scanning:** automated search for material resembling credentials or cryptographic secrets in source and related artifacts.
+- **Secure by default:** property that ordinary installation or creation begins in an appropriately protected state without hidden hardening.
+- **Secure by design:** integration of security objectives, boundaries, and failure reasoning into architecture before and throughout implementation.
+- **Security invariant:** property required to hold across every permitted state transition and interface.
+- **Security laboratory:** isolated, disposable, observable environment for authorised study using synthetic or controlled assets.
+- **Security objective:** explicitly stated confidentiality, integrity, availability, authenticity, privacy, safety, or accountability property to preserve.
+- **Security principal:** entity represented by operating-system or application credentials for access-control decisions.
+- **Security testing:** evidence-seeking evaluation of defined security properties under stated scope, methods, versions, and assumptions.
+- **Session:** server-recognised association of requests with authenticated and application state over a bounded lifecycle.
+- **Side channel:** observable property correlated with secret state outside a construction’s intended output, such as timing or memory access.
+- **Signature:** cryptographic value produced with a private key and verified with a public key over precisely represented message bytes.
+- **Software supply chain:** sources, dependencies, tools, identities, builders, registries, and deployment systems producing executing software.
+- **Source distribution:** Python package archive containing source and build metadata from which a build backend produces an installable distribution.
+- **Static analysis:** approximation of software behaviour without executing every analysed path.
+- **STRIDE:** threat-elicitation mnemonic for spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.
+- **Structured logging:** emission of events as defined named fields and typed values rather than unparsed prose.
+- **Symmetric encryption:** encryption in which secret key material is shared across encryption and decryption roles.
+- **Tag:** fixed or bounded authentication output checked to detect forgery or modification under a cryptographic construction.
+- **Tamper evidence:** evidence allowing unauthorised alteration or deletion to be detected relative to a trusted reference or checkpoint.
+- **Threat:** potential cause of harm to an asset or security objective.
+- **Threat actor:** person, group, service, or state acting as an adversary under a threat model.
+- **Threat model:** explicit account of system, assets, actors, capabilities, boundaries, objectives, assumptions, controls, and residual risk.
+- **Time-of-check/time-of-use:** race in which security-relevant state changes between a predicate check and the operation relying on it.
+- **Token:** represented value conveying identity, authority, correlation, state, freshness, or another protocol claim.
+- **Token bucket:** rate-limiting model accumulating credits at a fixed rate up to a burst capacity and spending them per admitted action.
+- **Transparency log:** append-oriented publicly or independently auditable record supporting detection of inconsistent or unauthorised claims.
+- **Triage:** rapid, evidence-based classification of an event or vulnerability to determine confidence, impact, urgency, ownership, and next action.
+- **Trust:** acceptance of a component or principal’s behaviour for a specific security purpose.
+- **Trust anchor:** independently accepted root key, identity, configuration, or authority from which other trust decisions are derived.
+- **Trust boundary:** crossing where authority, identity, ownership, or validation assumptions change.
+- **Trusted computing base:** complete set of components whose correct behaviour is necessary for a stated security property.
+- **Trusted publisher:** configured workload identity authorised by a package index to publish without a reusable manually stored upload token.
+- **Typosquatting:** publication or registration of a confusingly similar name intended to induce mistaken dependency or destination selection.
+- **Untrusted input:** data whose producer or integrity is insufficient for the operation in which it will be interpreted.
+- **Validation:** checking parsed values against syntactic, semantic, structural, resource, and domain rules.
+- **Verifier:** stored value or component used to determine whether presented evidence satisfies an authentication or integrity check.
+- **Vulnerability:** weakness that permits a threat to violate a security objective under relevant conditions.
+- **Vulnerability disclosure policy:** published contact, scope, safe-harbour, communication, and handling terms for vulnerability reports.
+- **Vulnerability management:** continuing discovery, validation, prioritisation, treatment, deployment, verification, exception, and learning process for weaknesses.
+- **Weakness:** underlying design, implementation, configuration, or operational defect that can contribute to vulnerabilities.
+- **WebAuthn:** web authentication standard using origin-scoped public-key credentials and authenticators.
+- **Wheel:** Python built-distribution format containing installable files and potentially native executable code.
+- **Workload identity:** platform-established identity for a running service or job, commonly exchanged for short-lived scoped credentials.
+- **Zero trust:** architectural approach making explicit, least-privilege access decisions from identity, resource, and context rather than assumed network trust.

@@ -1,0 +1,48 @@
+# 6.20 Cumulative glossary additions
+
+- **Abrupt completion:** completion that transfers control by return, break, continue, or exception rather than ordinary fall-through.
+- **Basic block:** a maximal straight-line operation sequence with one entry and no internal branch except at its end.
+- **Capture pattern:** a pattern binding a subject or component to a name.
+- **Closed generator:** a generator that can no longer resume to yield another item.
+- **Control-flow graph:** a directed graph of operations or blocks and possible transfers among them.
+- **Created generator:** a generator whose frame exists but whose body has not begun.
+- **Decision table:** a tabular enumeration of condition combinations and their required outcomes.
+- **Dominance:** the property that every entry-to-node path passes through a particular earlier node.
+- **EAFP:** a style that attempts an operation and handles its narrowly specified failure.
+- **Exception boundary:** a layer owning translation, recording, protocol conversion, or termination for propagated failures.
+- **Exception group:** a tree-structured exception representing several component exceptions.
+- **Exception safety:** guarantees about invariants and state when an operation fails.
+- **Guard clause:** an early conditional exit establishing a precondition for the remaining path.
+- **Guard pattern:** a pattern case whose selection additionally requires a truth-valued expression.
+- **Join condition:** a property guaranteed on every path reaching a control-flow convergence.
+- **LBYL:** a style that checks a condition before attempting an operation.
+- **Normal completion:** arrival at a construct’s ordinary successor without abrupt transfer.
+- **Off-by-one error:** a defect placing a discrete boundary one unit too early or late.
+- **Priming read:** an input operation performed before a loop so its result can control the first test.
+- **Running generator:** a generator whose body is actively executing.
+- **Sentinel-controlled loop:** repetition terminated by obtaining a distinguished input value.
+- **Stack unwinding:** orderly departure from active frames during exceptional or other abrupt control transfer.
+- **Suspended generator:** a generator paused at a yield with its execution state retained.
+- **Tagged result:** an ordinary value whose explicit variant identifies success or a particular alternative outcome.
+- **Vacuous truth:** truth of a universal claim over an empty collection because no counterexample exists.
+- **Well-founded relation:** a relation admitting no infinite descending chain and therefore suitable for termination variants.
+- **Wildcard pattern:** a pattern matching without binding the subject.
+- **Break:** a statement exiting the nearest enclosing loop.
+- **Comprehension:** syntax constructing a collection through iteration, transformation, and optional filtering.
+- **Continue:** a statement transferring control to the next loop test or item request.
+- **Control flow:** the rule determining which operation executes next.
+- **Exception chaining:** an explicit causal relationship between a newly raised exception and an earlier one.
+- **Generator:** a stateful iterator whose execution can suspend and resume around yielded values.
+- **Generator expression:** lazy expression syntax producing values through iteration.
+- **Generator function:** a function whose relevant body contains `yield` and whose call creates a generator.
+- **Infinite loop:** repetition that does not reach an ordinary exit.
+- **Iterable:** an object from which an iterator can be requested.
+- **Iterator:** a stateful object producing successive values and signalling exhaustion.
+- **Lazy evaluation:** delaying work until its result is requested.
+- **Materialisation:** constructing and retaining a complete concrete collection from an iterable.
+- **Pattern matching:** structural selection and decomposition under `match`/`case` grammar.
+- **Short-circuit evaluation:** omitting a later operand when an earlier result determines the operation.
+- **StopIteration:** the exception used at the iterator protocol boundary to signal exhaustion.
+- **Yield:** suspension that produces one generator item while retaining resumable state.
+
+---

@@ -1,0 +1,49 @@
+# Glossary - Linear Algebra Terms
+
+Matrix, vector space, transformation, and decomposition words.
+
+- **matrix** - key term from [[7.1 Matrix Notation and Shape]]. Add your own definition after studying it.
+- **row** - key term from [[7.1 Matrix Notation and Shape]]. Add your own definition after studying it.
+- **column** - key term from [[7.1 Matrix Notation and Shape]]. Add your own definition after studying it.
+- **entry** - key term from [[7.1 Matrix Notation and Shape]]. Add your own definition after studying it.
+- **dimension** - key term from [[7.1 Matrix Notation and Shape]]. Add your own definition after studying it.
+- **same shape** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **scalar** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **entrywise operation** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **zero matrix** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **linear combination** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **dot product row by column** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **inner dimension** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **composition** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **non-commutative** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **matrix product** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **vector space** - key term from [[7.7 Vector Spaces Span and Basis]]. Add your own definition after studying it.
+- **span** - key term from [[7.7 Vector Spaces Span and Basis]]. Add your own definition after studying it.
+- **basis** - key term from [[7.7 Vector Spaces Span and Basis]]. Add your own definition after studying it.
+- **dimension** - key term from [[7.7 Vector Spaces Span and Basis]]. Add your own definition after studying it.
+- **linear independence** - key term from [[7.7 Vector Spaces Span and Basis]]. Add your own definition after studying it.
+- **eigenvector** - key term from [[7.9 Eigenvalues and Eigenvectors]]. Add your own definition after studying it.
+- **eigenvalue** - key term from [[7.9 Eigenvalues and Eigenvectors]]. Add your own definition after studying it.
+- **characteristic equation** - key term from [[7.9 Eigenvalues and Eigenvectors]]. Add your own definition after studying it.
+- **dominant eigenvalue** - key term from [[7.9 Eigenvalues and Eigenvectors]]. Add your own definition after studying it.
+- **diagonalisation** - key term from [[7.9 Eigenvalues and Eigenvectors]]. Add your own definition after studying it.
+- **orthogonal** - key term from [[7.10 Orthogonality and Least Squares]]. Add your own definition after studying it.
+- **projection** - key term from [[7.10 Orthogonality and Least Squares]]. Add your own definition after studying it.
+- **least squares** - key term from [[7.10 Orthogonality and Least Squares]]. Add your own definition after studying it.
+- **residual** - key term from [[7.10 Orthogonality and Least Squares]]. Add your own definition after studying it.
+- **normal equation** - key term from [[7.10 Orthogonality and Least Squares]]. Add your own definition after studying it.
+- **LU decomposition** - key term from [[7.11 Matrix Decompositions LU QR SVD]]. Add your own definition after studying it.
+- **QR decomposition** - key term from [[7.11 Matrix Decompositions LU QR SVD]]. Add your own definition after studying it.
+- **SVD** - key term from [[7.11 Matrix Decompositions LU QR SVD]]. Add your own definition after studying it.
+- **singular value** - key term from [[7.11 Matrix Decompositions LU QR SVD]]. Add your own definition after studying it.
+- **rank approximation** - key term from [[7.11 Matrix Decompositions LU QR SVD]]. Add your own definition after studying it.
+- **floating-point error** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **condition number** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **stability** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **pivoting** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **approximation** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **embedding space** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.
+- **projection** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.
+- **low-rank approximation** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.
+- **singular vector** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.
+- **latent factor** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.

@@ -1,0 +1,78 @@
+# 5.22 Cumulative glossary additions
+
+- **Absolute error:** the magnitude of the difference between an approximation and its reference value.
+- **Abstract syntax tree:** a hierarchical representation of grammatical program structure omitting selected surface details.
+- **Alias:** an additional reference or access path to the same object.
+- **Aliasing:** the condition in which several references designate one object.
+- **Argument:** an expression or resulting value supplied at a call site for association with a parameter.
+- **Associativity:** grammar determining grouping among selected operators of equal precedence.
+- **Big-endian:** multi-byte representation placing the most significant byte first.
+- **Binding:** an association between a name and an object in a namespace.
+- **Boolean context:** a language position that requests truth testing.
+- **Buffer protocol:** Python’s interface for exposing memory-backed data to consumers without requiring an intermediate copy.
+- **Bytearray:** Python’s mutable sequence of byte values.
+- **Bytes:** Python’s immutable sequence of integers from 0 through 255.
+- **Callable:** an object supporting call syntax.
+- **Code point:** a number assigned by Unicode to a textual element.
+- **Conditional expression:** value-producing syntax that evaluates a condition and exactly one of two result expressions.
+- **Definition-time default:** a default argument object produced when a function definition executes and retained by the resulting function.
+- **Deep copy:** an attempted recursive copy of a reachable object graph under type-specific rules.
+- **Descriptive source:** material reporting or explaining behaviour without necessarily defining a conformance obligation.
+- **Duck typing:** operation according to a behavioural protocol rather than insistence on one named concrete class.
+- **Dynamically typed:** having runtime values carry types without permanently fixing ordinary name bindings to one type.
+- **Equivalence relation:** a relation that is reflexive, symmetric, and transitive.
+- **Expression:** syntax whose successful evaluation produces a value.
+- **Keyword argument:** a call argument explicitly associated with a named parameter.
+- **Grapheme cluster:** one or more code points commonly perceived as one written character.
+- **Hash value:** an integer summary used to choose candidate locations in a hash structure.
+- **Hashable:** satisfying stable-hash and compatible-equality requirements for hashed collections.
+- **Identifier:** source text usable as a name under lexical and grammatical rules.
+- **Identity:** the property distinguishing one object from every other object during its lifetime.
+- **Immutable:** unable to change value after construction.
+- **Interning:** implementation reuse of one immutable object for selected equal values.
+- **Keyword:** a word reserved by a language grammar.
+- **Little-endian:** multi-byte representation placing the least significant byte first.
+- **Literal:** source syntax denoting a value construction or retrieval.
+- **Nominal typing:** compatibility determined through named class and inheritance relationships.
+- **Normative source:** a source defining obligations for conforming implementations or uses.
+- **Mutable:** able to change value while retaining identity.
+- **NaN:** a special floating-point value meaning “not a number” with unordered comparison behaviour.
+- **Namespace:** a mapping from names to objects.
+- **None:** Python’s singleton object conventionally representing absence under an interface.
+- **Object:** a Python datum with identity, type, and value.
+- **Object graph:** a model whose nodes are objects and whose directed edges are references.
+- **Ownership policy:** a contract assigning authority and responsibility for mutation, retention, and resource release.
+- **Parameter:** a name and binding rule declared by a callable for receiving an argument.
+- **Partial order:** an order relation that permits some pairs of values to remain incomparable.
+- **Positional argument:** a call argument associated with a parameter according to position.
+- **Precedence:** grammar determining grouping among different operator classes.
+- **Predicate:** an operation intended to classify input through a truth-valued result.
+- **Protocol:** a set of supported operations and their behavioural obligations.
+- **Pure function:** a function whose result depends only on explicit inputs and which produces no externally observable side effect under the stated model.
+- **Reachable:** designatable through a chain of live references from program roots.
+- **Reference:** a relationship by which program state designates an object.
+- **Relative error:** error magnitude divided by reference magnitude where that denominator is non-zero.
+- **Resurrection:** restoration of reachability to an object during its finalisation.
+- **Sentinel:** a distinguished value marking a boundary or special state.
+- **Shallow copy:** a new outer container initially retaining references to the same elements.
+- **Snapshot:** a representation of source state captured at a selected time.
+- **Side effect:** an observable state change beyond producing an expression value.
+- **Singleton:** a distinguished role for which one object instance is exposed.
+- **Soft keyword:** text given keyword meaning only in specified grammatical contexts.
+- **Statement:** a complete instruction in Python’s execution grammar.
+- **Strong reference:** a reference that contributes to keeping an object reachable.
+- **Structural typing:** compatibility determined through required operations rather than named ancestry.
+- **Suite:** a group of statements controlled by a compound-statement clause.
+- **Syntax:** the forms admitted by a language.
+- **Semantics:** the meanings assigned to admitted forms.
+- **Token:** a classified source unit supplied by lexical analysis to parsing.
+- **Total order:** an order relation under which every admitted pair is comparable.
+- **Truth testing:** the protocol mapping an object to a Boolean condition.
+- **Type:** the object property determining supported operations and behaviour.
+- **Unicode:** the standard assigning code points and properties across writing systems.
+- **Value:** an object’s abstract content or state under its type’s semantics.
+- **Variable:** in this work, a name capable of being bound and rebound; not an object-containing box.
+- **View:** an interface whose observations reflect a live underlying object.
+- **Weak reference:** a reference that observes a supported object without by itself extending that object’s lifetime.
+
+---

@@ -1,0 +1,90 @@
+# 7.18 Cumulative glossary additions
+
+- **Amortised complexity:** a bound distributing occasional expensive work across a sequence of operations.
+- **Atomic:** appearing indivisible relative to specified observers and a concurrency model.
+- **Cardinality:** number of distinct members in a set.
+- **Collection:** an object organising references or values under a behavioural contract.
+- **Collision:** competition between distinct hashed keys for a candidate table location or hash value.
+- **Deque:** a double-ended queue supporting efficient operations at both ends.
+- **Dictionary:** Python’s mutable insertion-ordered mapping from unique hashable keys to values.
+- **Dynamic array:** a contiguous indexable array with separately tracked logical length and capacity.
+- **Expected complexity:** average bound under a stated probability or distribution assumption.
+- **Frozenset:** Python’s immutable set type.
+- **Half-open interval:** an interval including its start and excluding its stop.
+- **Lexicographic order:** sequence order determined by the first unequal corresponding elements, then length.
+- **List:** Python’s mutable sequence type, implemented in CPython as a dynamic reference array.
+- **Mapping:** a collection associating keys with values.
+- **Normal form:** a chosen structural shape satisfying stated invariants.
+- **Set:** Python’s mutable unordered collection of unique hashable elements.
+- **Slice:** a sequence selection described by start, stop, and optional step.
+- **Stable sort:** a sort preserving input order among elements with equal comparison keys.
+- **Time complexity:** growth of work with a defined input size.
+- **Tuple:** Python’s immutable sequence of object references.
+- **View object:** a live iterable view over selected state of another object.
+- **Abstract character:** an element of a writing-system repertoire independent of a particular encoding.
+- **Adaptive algorithm:** an algorithm whose work improves when its input has exploitable structure such as existing ordered runs.
+- **Adjacency mapping:** a graph representation mapping each node to its neighbouring nodes or outgoing edges.
+- **Allocated capacity:** storage reserved for elements, including slots not presently part of logical length or cardinality.
+- **Antisymmetric relation:** a relation for which related elements in both directions must be equal.
+- **Binary frame:** a byte-level message unit delimited by fields such as a length header rather than textual boundaries.
+- **Buffer protocol:** an interface by which an object exposes raw memory to another object without necessarily copying it.
+- **Byte:** an integer storage unit conventionally comprising eight bits; Python byte-sequence elements lie from 0 through 255.
+- **Bytearray:** Python’s mutable sequence of byte values.
+- **Bytes:** Python’s immutable sequence of byte values.
+- **Canonical equivalence:** Unicode equivalence between code-point sequences regarded as the same abstract textual content without compatibility folding.
+- **Case folding:** Unicode transformation designed to support caseless matching, generally more aggressive than lowercasing.
+- **Code point:** an integer position in a coded character set; Python strings expose Unicode code-point sequences.
+- **Code unit:** a fixed-width unit used by an encoding form, such as an eight-bit unit in UTF-8.
+- **Collation:** assignment of an order to text under linguistic or application rules.
+- **Comparison sort:** a sorting algorithm whose information about key order comes from pairwise comparisons.
+- **Compatibility normalisation:** Unicode normalization that may erase compatibility distinctions in addition to canonical composition or decomposition.
+- **Consistency model:** a specification of which states or updates an observer may perceive under mutation or concurrency.
+- **Counter:** a mapping-oriented standard-library type associating elements with integer counts.
+- **Deep copy:** an attempted recursive reconstruction of an object graph under type-specific copying rules and memoized identity handling.
+- **Denormalisation:** intentional storage of information derivable from an authoritative form, usually to improve reads at the cost of coordinated updates.
+- **Dictionary view:** a live projection of a dictionary’s keys, values, or items.
+- **Display width:** the number of layout cells occupied when text is rendered under a particular terminal or typography model.
+- **Dominator:** in a rooted graph, a node appearing on every path from a root to another node.
+- **Encoding:** a rule mapping text to byte sequences.
+- **External sort:** a sorting method using external storage for data too large to order entirely in main memory.
+- **Extended grapheme cluster:** a Unicode-standard approximation to one user-perceived text unit, possibly containing several code points.
+- **Idempotent operation:** an operation whose repeated application has the same relevant result as one application.
+- **Insertion order:** encounter order established when distinct keys or elements are first inserted under a collection’s contract.
+- **Interning:** implementation reuse of one object to represent selected equal immutable values.
+- **Inverted index:** a mapping from content terms or features to the records or positions containing them.
+- **Key function:** a callable deriving the value by which an element is ordered or classified.
+- **Live view:** an interface whose observations can reflect later changes to an associated source object.
+- **Locality:** concentration of memory accesses in nearby locations or predictable patterns, relevant to cache behaviour.
+- **Mapping proxy:** a read-only mapping interface dynamically reflecting an underlying mapping.
+- **Memoryview:** Python’s view object over storage exported through the buffer protocol.
+- **Mojibake:** corrupted-looking text produced by applying an incorrect encoding or decoding interpretation.
+- **Multiset:** a collection associating each distinct element with a non-negative occurrence count.
+- **Normalisation:** transformation to a selected canonical or policy-defined representation.
+- **Object graph:** objects as nodes and references among them as directed edges.
+- **Open addressing:** a hash-table collision strategy storing entries in the table and probing alternative positions.
+- **Oracle:** an independently understandable mechanism used to determine expected results in tests.
+- **Output-sensitive complexity:** a bound expressed partly in terms of result size because producing the result itself incurs work.
+- **Packed representation:** storage placing homogeneous element payloads densely rather than retaining separate general Python objects.
+- **Partial order:** a reflexive, antisymmetric, transitive relation in which some pairs may be incomparable.
+- **Persistent data structure:** a structure preserving access to earlier logical versions, commonly through immutable structural sharing.
+- **Projection:** a derived view or mapping that selects components of a richer structure.
+- **Range:** Python’s compact immutable sequence representation for an arithmetic progression of integers.
+- **Reachable size:** aggregate size of objects reached from a root under a specified reference-edge policy.
+- **Read-only interface:** an interface lacking mutating operations; it does not necessarily imply that the underlying state is temporally fixed.
+- **Representation invariant:** a property that must hold for every valid concrete state representing an abstract value.
+- **Resident set size:** operating-system-accounted memory pages of a process currently resident in physical memory under a named measurement model.
+- **Retained size:** memory that would cease to be reachable if a selected owner or reference path were removed, under a specified root graph.
+- **Sequence:** an ordered collection addressed by integer positions under a sequence protocol.
+- **Shallow copy:** a new outer object whose element references ordinarily point to the same nested objects as the source.
+- **Shallow size:** storage directly attributed to one object without recursively charging referenced objects.
+- **Snapshot:** an observation intended to represent state at a particular logical time; depth and consistency must be specified.
+- **Source of truth:** the representation treated as authoritative when derived forms disagree or must be rebuilt.
+- **Structural sharing:** reuse of substructure among several containers or logical versions.
+- **Timsort:** the stable adaptive sorting algorithm used by CPython list sorting, based on identifying and merging ordered runs.
+- **Total order:** an ordering relation under which every pair in the domain is comparable and the relevant order laws hold.
+- **UTF-8:** a variable-length Unicode encoding using one to four eight-bit code units per encoded code point.
+- **Unicode normalisation form:** one of the standard NFC, NFD, NFKC, or NFKD transformations over Unicode text.
+- **Virtual size:** address-space ranges mapped or reserved for a process, not necessarily resident in physical memory.
+- **Weak consistency:** an iteration or observation contract that may reflect some concurrent updates without representing one atomic snapshot.
+
+---

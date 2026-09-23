@@ -1,0 +1,176 @@
+# 13.22 Cumulative glossary additions
+
+- **Adjacency list:** graph representation mapping vertices to neighbours.
+- **Adjacency matrix:** graph representation using a vertex-by-vertex edge table.
+- **Asymptotic notation:** notation classifying resource growth for large input size.
+- **Breadth-first search:** queue-based graph traversal exploring non-decreasing unweighted distance.
+- **Comparison sort:** sorting algorithm whose ordering information comes from comparisons.
+- **Cost model:** definition of input size and charged elementary operations.
+- **Depth-first search:** graph traversal exploring a path before backtracking.
+- **Directed acyclic graph:** directed graph containing no directed cycle.
+- **Dynamic programming:** retained evaluation of overlapping subproblems defined by states and recurrences.
+- **Graph:** vertices and edges representing entities and connections.
+- **Greedy algorithm:** algorithm committing to locally selected choices under a global-correctness proof.
+- **Heap:** tree-shaped priority structure maintaining parent–child order, commonly array-backed.
+- **Induction:** proof from base cases and preservation from one case to the next.
+- **Linked list:** nodes connected by references rather than contiguous positional storage.
+- **Load factor:** occupancy measure relating stored entries to hash-table capacity.
+- **Priority queue:** collection removing an item by priority rather than insertion time.
+- **Pseudo-polynomial:** polynomial in a numeric value but potentially exponential in that value’s encoded bit length.
+- **Structural induction:** proof following the constructors of a recursive structure.
+- **Topological order:** ordering of a DAG placing every predecessor before its successor.
+- **Abstract data type (ADT):** behavioural specification of values and operations independent of representation.
+- **Abstract machine:** simplified computational model assigning costs and effects to selected operations.
+- **Admissible heuristic:** A* estimate that never exceeds the true remaining path cost.
+- **Aggregate analysis:** amortised method bounding the total actual cost of an operation sequence.
+- **Algorithm:** finite, unambiguous, terminating method satisfying a computational problem’s contract under its preconditions.
+- **Amortised analysis:** deterministic analysis distributing total sequence cost across its operations.
+- **Approximation algorithm:** resource-bounded algorithm with a proved bound on solution quality relative to optimum.
+- **Approximation ratio:** worst-case multiplicative relation between an approximation algorithm’s objective and the optimum.
+- **Average-case cost:** expected cost under an explicitly stated probability distribution over inputs.
+- **Back edge:** DFS edge from a vertex to an active ancestor; in a directed graph it witnesses a cycle.
+- **Backtracking:** systematic decision-tree exploration that abandons partial candidates proved infeasible.
+- **Bellman–Ford algorithm:** repeated edge-relaxation algorithm supporting negative weights and reachable negative-cycle detection.
+- **Best-case cost:** minimum cost over admitted instances of a given size.
+- **Binary search:** logarithmic partition-point search over a monotone random-access domain.
+- **Bipartite graph:** graph whose vertices admit a two-part partition with every edge crossing between parts.
+- **Bit complexity:** cost model charging operations according to the bit lengths of represented values.
+- **Branch-and-bound:** optimisation search pruning a branch when a proved optimistic bound cannot improve the incumbent.
+- **Bucket:** hash-table subdivision containing or originating the search for colliding entries.
+- **Bucket sort:** distribution-based sort assigning values to ranges before sorting within those ranges.
+- **Certificate:** finite witness allowing a decision problem’s yes-answer to be verified.
+- **Chaining:** collision-resolution method storing multiple hash entries in each bucket.
+- **Collision:** occurrence of distinct keys with the same hash code or reduced table position.
+- **Combinatorial explosion:** exponential-or-faster growth in a candidate configuration space.
+- **Comparator:** operation or object defining pairwise ordering information.
+- **Complete binary tree:** tree with all levels full except possibly the final level, which fills from the left.
+- **Connected component:** maximal mutually reachable vertex set in an undirected graph.
+- **Consistent heuristic:** heuristic satisfying \(h(u)\le w(u,v)+h(v)\) on every relevant edge.
+- **Decision problem:** computational problem whose output is yes or no.
+- **Decision tree:** tree representing possible information outcomes of comparisons or choices.
+- **Decorate–sort–undecorate:** pattern attaching sortable keys, sorting decorated records, then removing decoration.
+- **Degree:** number of edge ends incident to a vertex under a stated loop convention.
+- **Dense graph:** graph containing a substantial fraction of the possible edges for its vertex count.
+- **Deque:** double-ended queue supporting insertion and removal at both ends.
+- **Dijkstra’s algorithm:** greedy shortest-path algorithm that settles minimum tentative distances under non-negative edge weights.
+- **Disjoint-set union (DSU):** structure maintaining a partition under representative lookup and component union.
+- **Double hashing:** open-addressing probe scheme deriving its step from a second hash.
+- **Doubly linked list:** linked structure in which nodes hold successor and predecessor references.
+- **Dynamic array:** contiguous resizable reference array with direct indexing and geometrically managed capacity.
+- **Edge list:** graph representation storing explicit edge records.
+- **Edge relaxation:** improvement test \(dist[v]\leftarrow\min(dist[v],dist[u]+w(u,v))\).
+- **Edit distance:** minimum cost of admitted edit operations transforming one sequence into another.
+- **Expected cost:** probability-weighted cost over a stated source of randomness.
+- **Exponential search:** repeated bound expansion, commonly doubling, followed by bounded binary search.
+- **External-memory model:** model emphasising block transfers between storage levels.
+- **Fixed-parameter tractable:** solvable in \(f(k)n^{O(1)}\) time for a selected parameter \(k\).
+- **Floyd–Warshall algorithm:** all-pairs dynamic program adding permitted intermediate vertices in sequence.
+- **Frame condition:** contract clause describing state a procedure leaves unchanged.
+- **Galloping:** Timsort merge mode accelerating repeated selection from one run.
+- **Graph condensation:** DAG obtained by contracting each strongly connected component to one vertex.
+- **Greedy-choice property:** fact that some optimum can include a specified local choice.
+- **Hash code:** integer result produced by hashing a key.
+- **Hash flooding:** deliberate or accidental concentration of keys into collision-heavy table behaviour.
+- **Hash function:** function mapping a key to an integer used to narrow table placement or lookup.
+- **Heapify:** transformation of an array into a heap, achievable bottom-up in linear time.
+- **Heuristic:** practical choice or search rule lacking a universal exactness or approximation guarantee.
+- **Huffman coding:** optimal prefix-code construction by repeatedly combining least frequent subtrees.
+- **In-degree:** number of directed edges entering a vertex.
+- **In-place algorithm:** algorithm using a bounded amount of auxiliary element storage under a stated convention.
+- **Instance:** one concrete input to a computational problem.
+- **Introsort:** hybrid sort using quicksort-like partitioning with a worst-case fallback such as heapsort.
+- **Invariant:** property true at a designated program or data-structure boundary and preserved by permitted transitions.
+- **Inverse Ackermann function:** extremely slowly growing function occurring in the amortised DSU bound.
+- **Inversion:** index pair whose values occur in the opposite order from the desired sort.
+- **I/O model:** cost model charging transfers or operations on input/output and storage rather than only CPU steps.
+- **Kahn’s algorithm:** indegree-based topological ordering by repeated removal of zero-indegree vertices.
+- **Key function:** function deriving the comparison key used to order an element.
+- **Kruskal’s algorithm:** MST algorithm adding non-cycle-forming edges in non-decreasing weight order.
+- **Lazy deletion:** policy leaving obsolete physical entries to be discarded during later access.
+- **Level-order traversal:** breadth-first traversal of tree nodes by increasing depth.
+- **Linear probing:** open-addressing collision resolution examining consecutive table positions.
+- **Little-o:** strict asymptotic upper relation in which the function ratio tends to zero.
+- **Loop invariant:** assertion holding before and after every loop iteration.
+- **Lower bound:** proof that a resource cost cannot fall asymptotically below a function under stated assumptions.
+- **Lower bound search:** binary search for the first element not less than a target.
+- **Matroid:** independence system with hereditary and exchange properties supporting certain greedy optimisations.
+- **Memoisation:** caching top-down subproblem results by state.
+- **Minimum spanning tree:** minimum-total-weight acyclic edge set connecting every vertex of a connected undirected graph.
+- **Monotone deque:** deque maintaining value order while expiring or dominating stream candidates.
+- **Monotone predicate:** Boolean predicate whose values change direction at most once over an ordered domain.
+- **Monotone stack:** stack maintaining key order while unresolved items enter and leave at most once.
+- **Multigraph:** graph permitting multiple distinct edges between the same endpoints.
+- **Multiset:** unordered collection retaining multiplicities.
+- **NP:** class of decision problems whose yes-instances have polynomially verifiable polynomial-size certificates.
+- **NP-complete:** both in NP and NP-hard under the selected reduction.
+- **NP-hard:** at least as hard as every NP problem under the selected reduction, without necessarily belonging to NP.
+- **Open addressing:** hash-table method storing entries directly in an array and following probe sequences.
+- **Optimal substructure:** property that an optimal solution contains optimal solutions to appropriate residual subproblems.
+- **Optimisation problem:** problem asking for a feasible object attaining an extremal objective.
+- **Out-degree:** number of directed edges leaving a vertex.
+- **Output-sensitive algorithm:** algorithm whose resource bound explicitly includes output size.
+- **P:** class of decision problems solvable in deterministic polynomial time.
+- **Parallel edge:** distinct edge sharing endpoints and direction with another edge.
+- **Parameterised analysis:** complexity analysis retaining a structural parameter separately from total input size.
+- **Partial correctness:** guarantee that terminating execution from a valid pre-state satisfies the postcondition.
+- **Partition point:** boundary between the false and true regions of a monotone predicate.
+- **Path compression:** DSU optimisation redirecting find-path vertices nearer their representative.
+- **Polynomial-time reduction:** polynomial-work transformation preserving answers between decision problems.
+- **Postcondition:** property required after a procedure terminates normally, or under a specified exit mode.
+- **Potential function:** non-negative state measure whose change transfers credit in amortised analysis.
+- **Precondition:** property an input and initial state must satisfy for a theorem or contract to apply.
+- **Prefix code:** variable-length code in which no codeword is a prefix of another.
+- **Primary clustering:** growth of contiguous occupied regions under linear probing.
+- **Probe sequence:** ordered table positions examined by an open-addressing operation.
+- **Pseudo-polynomial algorithm:** algorithm polynomial in numeric magnitudes but not necessarily their encoded lengths.
+- **Quadratic probing:** open-addressing scheme using quadratically changing offsets.
+- **Quickselect:** partition-based order-statistic selection exploring only the relevant partition.
+- **Quicksort:** partition-based recursive sorting family with performance determined by partition balance.
+- **Radix sort:** structured-key sort applying stable passes over digits or components.
+- **Randomised algorithm:** algorithm whose execution choices use a defined source of randomness.
+- **Ranking function:** value in a well-founded order that strictly decreases to prove termination.
+- **Recurrence relation:** equation defining a cost or value from smaller cases.
+- **Recursion tree:** levelled representation used to sum recursive subproblem costs.
+- **Relaxation:** see edge relaxation.
+- **Representation invariant:** condition every valid internal state of a data structure must satisfy at its abstraction boundary.
+- **Run:** consecutive subsequence already ordered in one direction for an adaptive sort.
+- **Search problem:** problem requiring production of a witness rather than only a yes/no answer.
+- **Selection problem:** problem asking for an order statistic without necessarily sorting all input.
+- **Self-loop:** edge whose two endpoints are the same vertex.
+- **Sentinel:** distinguished value or node used to represent a boundary or missing state.
+- **Separate chaining:** see chaining.
+- **Sift down:** heap repair moving an out-of-order parent toward leaves.
+- **Sift up:** heap repair moving a newly inserted key toward the root.
+- **Simple graph:** graph excluding self-loops and parallel edges under its stated model.
+- **Simple path:** path repeating no vertex.
+- **Sparse graph:** graph having relatively few edges compared with the number possible.
+- **Spanning tree:** acyclic connected subgraph containing every graph vertex.
+- **Stability:** sorting property preserving relative input order among equal-key elements.
+- **Stays-ahead argument:** greedy proof showing every greedy prefix is no worse by a selected measure.
+- **Strict weak ordering:** irreflexive transitive relation whose induced incomparability is transitive.
+- **Strongly connected component:** maximal directed vertex set with mutual reachability.
+- **Subsequence:** sequence obtained by deletion without reordering retained elements.
+- **Substitution method:** recurrence analysis by proposing a bound and proving it inductively.
+- **Tabulation:** bottom-up dynamic-programming evaluation in a dependency-respecting order.
+- **Timsort:** adaptive stable merge-based sorting family used by CPython.
+- **Tombstone:** marker preserving an open-address probe chain after logical deletion.
+- **Total correctness:** partial correctness together with termination on every valid input.
+- **Trail:** walk that repeats no edge.
+- **Tree rotation:** local search-tree restructuring preserving in-order key sequence.
+- **Trie:** key structure branching on successive key components.
+- **Undecidable problem:** problem for which no algorithm correctly terminates on every admitted instance.
+- **Union by size:** DSU policy attaching the smaller representative tree below the larger.
+- **Upper bound:** guarantee that a resource cost eventually does not exceed a constant multiple of a function.
+- **Variant:** well-founded measure that strictly progresses toward loop or recursion termination.
+- **Walk:** graph traversal sequence permitting repeated vertices and edges.
+- **Weakly connected:** connected after directed edges are treated as undirected.
+- **Worst-case cost:** maximum resource cost over admitted instances of a given size.
+- **Word-RAM model:** random-access model treating bounded machine-word operations as constant cost.
+- **Aho–Corasick algorithm:** multi-pattern trie search augmented with suffix-failure links.
+- **Fingerprint:** compact hash-like representative used to filter possible exact matches.
+- **Knuth–Morris–Pratt algorithm:** linear-time exact pattern search reusing prefix–suffix overlap.
+- **Proper prefix:** prefix shorter than the complete sequence.
+- **Rabin–Karp algorithm:** substring search using rolling fingerprints with exact collision verification.
+- **Rolling hash:** fingerprint updatable efficiently when a fixed-width window advances.
+- **Substring:** contiguous portion of a sequence, under a specified representation.
+- **Text normalisation:** transformation selecting a canonical textual representation under a declared standard.

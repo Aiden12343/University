@@ -1,0 +1,139 @@
+# Glossary - Discrete & Logic Terms
+
+Set, logic, proof, graph, counting, and automata words.
+
+- **translation** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **reflection** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **stretch** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **scale factor** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **transformation** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **model space** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **screen space** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **rotation** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **scaling** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **translation** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **set** - key term from [[5.1 Set Theory Basics]]. Add your own definition after studying it.
+- **element** - key term from [[5.1 Set Theory Basics]]. Add your own definition after studying it.
+- **membership** - key term from [[5.1 Set Theory Basics]]. Add your own definition after studying it.
+- **empty set** - key term from [[5.1 Set Theory Basics]]. Add your own definition after studying it.
+- **universal set** - key term from [[5.1 Set Theory Basics]]. Add your own definition after studying it.
+- **subset** - key term from [[5.2 Subsets Unions and Intersections]]. Add your own definition after studying it.
+- **proper subset** - key term from [[5.2 Subsets Unions and Intersections]]. Add your own definition after studying it.
+- **union** - key term from [[5.2 Subsets Unions and Intersections]]. Add your own definition after studying it.
+- **intersection** - key term from [[5.2 Subsets Unions and Intersections]]. Add your own definition after studying it.
+- **difference** - key term from [[5.2 Subsets Unions and Intersections]]. Add your own definition after studying it.
+- **proposition** - key term from [[5.5 Propositional Logic]]. Add your own definition after studying it.
+- **truth value** - key term from [[5.5 Propositional Logic]]. Add your own definition after studying it.
+- **and** - key term from [[5.5 Propositional Logic]]. Add your own definition after studying it.
+- **or** - key term from [[5.5 Propositional Logic]]. Add your own definition after studying it.
+- **not** - key term from [[5.5 Propositional Logic]]. Add your own definition after studying it.
+- **theorem** - key term from [[5.9 Direct Proof and Counterexample]]. Add your own definition after studying it.
+- **assumption** - key term from [[5.9 Direct Proof and Counterexample]]. Add your own definition after studying it.
+- **conclusion** - key term from [[5.9 Direct Proof and Counterexample]]. Add your own definition after studying it.
+- **counterexample** - key term from [[5.9 Direct Proof and Counterexample]]. Add your own definition after studying it.
+- **valid argument** - key term from [[5.9 Direct Proof and Counterexample]]. Add your own definition after studying it.
+- **contradiction** - key term from [[5.10 Proof by Contradiction and Contrapositive]]. Add your own definition after studying it.
+- **contrapositive proof** - key term from [[5.10 Proof by Contradiction and Contrapositive]]. Add your own definition after studying it.
+- **negation** - key term from [[5.10 Proof by Contradiction and Contrapositive]]. Add your own definition after studying it.
+- **impossible case** - key term from [[5.10 Proof by Contradiction and Contrapositive]]. Add your own definition after studying it.
+- **logical equivalence** - key term from [[5.10 Proof by Contradiction and Contrapositive]]. Add your own definition after studying it.
+- **base case** - key term from [[5.11 Proof by Induction]]. Add your own definition after studying it.
+- **inductive step** - key term from [[5.11 Proof by Induction]]. Add your own definition after studying it.
+- **induction hypothesis** - key term from [[5.11 Proof by Induction]]. Add your own definition after studying it.
+- **natural number** - key term from [[5.11 Proof by Induction]]. Add your own definition after studying it.
+- **recursive structure** - key term from [[5.11 Proof by Induction]]. Add your own definition after studying it.
+- **sequence** - key term from [[6.1 Sequences and Series]]. Add your own definition after studying it.
+- **term** - key term from [[6.1 Sequences and Series]]. Add your own definition after studying it.
+- **series** - key term from [[6.1 Sequences and Series]]. Add your own definition after studying it.
+- **arithmetic sequence** - key term from [[6.1 Sequences and Series]]. Add your own definition after studying it.
+- **geometric sequence** - key term from [[6.1 Sequences and Series]]. Add your own definition after studying it.
+- **modulus** - key term from [[6.3 Modular Arithmetic]]. Add your own definition after studying it.
+- **remainder** - key term from [[6.3 Modular Arithmetic]]. Add your own definition after studying it.
+- **congruence** - key term from [[6.3 Modular Arithmetic]]. Add your own definition after studying it.
+- **clock arithmetic** - key term from [[6.3 Modular Arithmetic]]. Add your own definition after studying it.
+- **residue** - key term from [[6.3 Modular Arithmetic]]. Add your own definition after studying it.
+- **permutation** - key term from [[6.5 Permutations and Combinations]]. Add your own definition after studying it.
+- **combination** - key term from [[6.5 Permutations and Combinations]]. Add your own definition after studying it.
+- **factorial** - key term from [[6.5 Permutations and Combinations]]. Add your own definition after studying it.
+- **order matters** - key term from [[6.5 Permutations and Combinations]]. Add your own definition after studying it.
+- **choose notation** - key term from [[6.5 Permutations and Combinations]]. Add your own definition after studying it.
+- **recurrence** - key term from [[6.6 Recurrence Relations]]. Add your own definition after studying it.
+- **initial condition** - key term from [[6.6 Recurrence Relations]]. Add your own definition after studying it.
+- **recursive definition** - key term from [[6.6 Recurrence Relations]]. Add your own definition after studying it.
+- **closed form** - key term from [[6.6 Recurrence Relations]]. Add your own definition after studying it.
+- **iteration method** - key term from [[6.6 Recurrence Relations]]. Add your own definition after studying it.
+- **graph** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **vertex** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **edge** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **degree** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **path** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **tree** - key term from [[6.8 Trees and Traversal]]. Add your own definition after studying it.
+- **root** - key term from [[6.8 Trees and Traversal]]. Add your own definition after studying it.
+- **leaf** - key term from [[6.8 Trees and Traversal]]. Add your own definition after studying it.
+- **depth** - key term from [[6.8 Trees and Traversal]]. Add your own definition after studying it.
+- **traversal** - key term from [[6.8 Trees and Traversal]]. Add your own definition after studying it.
+- **breadth-first search** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **depth-first search** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **shortest path** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **weighted graph** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **priority queue** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **relation** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **reflexive** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **symmetric** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **transitive** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **equivalence relation** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **alphabet** - key term from [[6.11 Formal Languages and Automata]]. Add your own definition after studying it.
+- **string** - key term from [[6.11 Formal Languages and Automata]]. Add your own definition after studying it.
+- **language** - key term from [[6.11 Formal Languages and Automata]]. Add your own definition after studying it.
+- **finite automaton** - key term from [[6.11 Formal Languages and Automata]]. Add your own definition after studying it.
+- **regular language** - key term from [[6.11 Formal Languages and Automata]]. Add your own definition after studying it.
+- **algorithm** - key term from [[6.12 Computability and Decidability]]. Add your own definition after studying it.
+- **decidable** - key term from [[6.12 Computability and Decidability]]. Add your own definition after studying it.
+- **undecidable** - key term from [[6.12 Computability and Decidability]]. Add your own definition after studying it.
+- **halting problem** - key term from [[6.12 Computability and Decidability]]. Add your own definition after studying it.
+- **reduction** - key term from [[6.12 Computability and Decidability]]. Add your own definition after studying it.
+- **Bernoulli** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **binomial** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **geometric** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **Poisson** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **probability mass function** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **correlation** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **linear regression** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **slope** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **residual** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **coefficient** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **public key** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **private key** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **RSA** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **Diffie-Hellman** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **discrete logarithm** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **state graph** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **network graph** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **heuristic** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **pathfinding** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **dependency graph** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **type** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **proposition as type** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **inference rule** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **lambda calculus** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **soundness** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **matching** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **flow network** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **cut** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **planar graph** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **connectivity** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **Bayesian network** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **Markov random field** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **conditional independence** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **factor graph** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **inference** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **elliptic curve** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **group law** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **scalar multiplication** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **ECDH** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **ECDSA** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **lattice** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **basis** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **shortest vector problem** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **Learning With Errors** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **post-quantum** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.

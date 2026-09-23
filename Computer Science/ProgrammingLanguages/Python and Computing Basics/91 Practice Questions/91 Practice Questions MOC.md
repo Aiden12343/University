@@ -1,0 +1,25 @@
+# Practice Questions MOC
+
+The original chapter exercises are retained without rewriting or answer-key changes.
+
+- [[01 Computer Hardware - Practice Questions|01 Computer Hardware]]
+- [[02 Systems, Translation & Operating Systems - Practice Questions|02 Systems, Translation & Operating Systems]]
+- [[03 Programs, Algorithms & the Shell - Practice Questions|03 Programs, Algorithms & the Shell]]
+- [[04 Python Workshop & Environment - Practice Questions|04 Python Workshop & Environment]]
+- [[05 Python Syntax & Semantics - Practice Questions|05 Python Syntax & Semantics]]
+- [[06 Control Flow & Iteration - Practice Questions|06 Control Flow & Iteration]]
+- [[07 Built-in Data Structures - Practice Questions|07 Built-in Data Structures]]
+- [[08 Functions, Scope & Abstraction - Practice Questions|08 Functions, Scope & Abstraction]]
+- [[09 Objects, Classes & the Data Model - Practice Questions|09 Objects, Classes & the Data Model]]
+- [[10 Modules, Packages & Distribution - Practice Questions|10 Modules, Packages & Distribution]]
+- [[11 Data, Files & the Standard Library - Practice Questions|11 Data, Files & the Standard Library]]
+- [[12 Software Engineering Discipline - Practice Questions|12 Software Engineering Discipline]]
+- [[13 Algorithms & Computational Thinking - Practice Questions|13 Algorithms & Computational Thinking]]
+- [[14 Concurrency & Performance - Practice Questions|14 Concurrency & Performance]]
+- [[15 Inside CPython - Practice Questions|15 Inside CPython]]
+- [[16 Data Science & Numerical Computing - Practice Questions|16 Data Science & Numerical Computing]]
+- [[17 Machine Learning - Practice Questions|17 Machine Learning]]
+- [[18 Web Development - Practice Questions|18 Web Development]]
+- [[19 Cybersecurity - Practice Questions|19 Cybersecurity]]
+- [[20 Systems & DevOps - Practice Questions|20 Systems & DevOps]]
+- [[90 Algorithms Handbook - Self Tests|Algorithms Handbook Self Tests]]

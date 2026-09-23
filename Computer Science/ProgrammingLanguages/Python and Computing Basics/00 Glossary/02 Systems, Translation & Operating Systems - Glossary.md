@@ -1,0 +1,93 @@
+# 2.17 Cumulative glossary additions
+
+- **Addressing mode:** an ISA rule for locating an instruction operand.
+- **Ahead-of-time compilation:** translation performed substantially before execution.
+- **Assembler:** a program translating assembly source into machine code or object code.
+- **Assembly language:** architecture-specific symbolic notation closely corresponding to machine instructions.
+- **AST:** abstract syntax tree; a structural representation of parsed source.
+- **Blocked:** unable to proceed until a required event occurs.
+- **Bytecode:** instructions for a software-defined abstract machine.
+- **Compiler:** a program translating one program representation into another while preserving specified meaning.
+- **Context switch:** saving one execution context and restoring another.
+- **Deoptimisation:** withdrawal from specialised compiled execution when its assumptions cease to hold.
+- **Device driver:** software exposing controlled operations for a hardware device to an operating system.
+- **Executable file:** a structured persistent program representation accepted by a loader.
+- **File:** an OS-managed resource presenting stored data and metadata.
+- **File descriptor:** a process-local integer handle for an open resource in POSIX-style interfaces.
+- **Filesystem:** structures and rules organising persistent data, names, directories, and metadata.
+- **Guard:** a runtime check protecting an optimisation assumption.
+- **Immediate operand:** an operand value encoded within an instruction.
+- **Interpreter:** a program carrying out behaviour described by another program representation.
+- **JIT compilation:** translation into executable code during a program’s run.
+- **Kernel:** the privileged core of an operating system.
+- **Linker:** a program combining translated units, resolving symbols, and applying relocations.
+- **Loader:** system machinery arranging a program’s executable representation into a process.
+- **Machine code:** ISA-specific encoded instructions.
+- **Mnemonic:** a symbolic name for an operation, commonly used in assembly.
+- **Object file:** translated code/data plus metadata for later linking; unrelated here to a Python object.
+- **Operating system:** software managing hardware resources and providing protected abstractions and services.
+- **Optimisation:** a meaning-preserving transformation intended to improve a resource measure.
+- **Page:** a fixed-size virtual-memory mapping unit.
+- **Page table:** data describing virtual-memory mappings and permissions.
+- **Path:** a structured description used to resolve a filesystem location.
+- **Process:** a protected running execution environment containing program state and resources.
+- **Relocation:** a recorded location requiring address adjustment after placement is known.
+- **Scheduler:** OS machinery choosing which runnable thread executes.
+- **Shared library:** a separately managed linked binary usable by multiple loaded programs.
+- **Specialisation:** creation of code or representation optimised for established conditions.
+- **Symbol:** a named code or data entity used during translation and linking.
+- **System call:** a controlled request by user space for a kernel service.
+- **Thread:** an execution sequence within a process.
+- **Token:** a classified lexical unit of source text.
+- **User space:** the restricted execution domain used by ordinary applications.
+- **Virtual address:** a process-visible address translated under a mapping context.
+- **Virtual address space:** the virtual addresses and mappings visible to a process.
+- **Virtual machine:** a software-defined abstract execution machine.
+- **ABI:** application binary interface; binary-level contract for separately compiled components and their environment.
+- **Abort:** processor exception class representing a severe condition not reliably restartable.
+- **Address-space layout randomisation:** variation of process mapping locations to make addresses less predictable.
+- **Advisory lock:** lock enforced by cooperation among participating programs.
+- **Basic block:** maximal straight-line instruction sequence with entry at the beginning and exit at the end.
+- **Bootloader:** program loading and transferring control to an operating-system kernel or later boot stage.
+- **Bootstrapping:** constructing a richer system from a smaller initial mechanism.
+- **Calling convention:** ABI rules for arguments, returns, registers, stack, and call transfer.
+- **COW:** copy-on-write; sharing until a write triggers private copying.
+- **Control-flow graph:** directed graph of basic blocks and possible transfers.
+- **Daemon:** background service process.
+- **Demand paging:** establishing or loading pages when first accessed.
+- **Directory:** filesystem object associating names with entries.
+- **Dynamic linking:** runtime or load-time resolution of references to separately stored libraries.
+- **Fault:** processor exception potentially repaired so execution can retry.
+- **Hard link:** additional directory entry naming the same filesystem object.
+- **Heap:** process region or allocator-managed storage used for dynamic allocation; not necessarily one contiguous structure.
+- **Inode:** Unix-like filesystem metadata object identified separately from directory names.
+- **Intermediate representation:** compiler form designed for analysis, transformation, or later lowering.
+- **IPC:** inter-process communication.
+- **Lexeme:** concrete source character sequence matched as a token occurrence.
+- **Memory mapping:** association of virtual addresses with file-backed or anonymous storage.
+- **Minor page fault:** page fault resolved without backing-storage input under common platform terminology.
+- **Mount:** attachment of a filesystem view at a namespace location.
+- **Multi-level page table:** hierarchical translation structure allocating lower tables for populated address regions.
+- **Open-file description:** kernel open state, such as offset and flags, referenced by one or more descriptors.
+- **Page frame:** physical-memory unit capable of backing a virtual page.
+- **Page replacement:** selection and eviction of memory pages under capacity pressure.
+- **Parse tree:** tree recording a token sequence’s grammatical derivation.
+- **Position-independent code:** code designed to execute at differing load addresses with limited relocation.
+- **Pre-emption:** involuntary suspension of running work so another activity can execute.
+- **Process control block:** kernel data representing a process’s resources, identity, and state.
+- **RPC:** remote procedure call; network interaction presented through call-like abstraction.
+- **Runtime system:** services implementing a programming language during execution.
+- **Section:** object/executable-file region grouping bytes with related purpose and attributes.
+- **Signal:** asynchronous process/thread notification under an operating-system protocol.
+- **SSA:** static single assignment; intermediate form giving each value name one definition.
+- **Static linking:** incorporation of required library code into a linked artifact before execution.
+- **Symbol table:** mapping from compiler/linker symbols to definitions, requirements, or metadata.
+- **Symbolic link:** filesystem object containing a path-like target.
+- **Thrashing:** excessive page movement caused by active memory exceeding available capacity.
+- **Time slice:** scheduling interval after which processor allocation can be reconsidered.
+- **Trap:** intentional or post-instruction synchronous processor exception under common terminology.
+- **Virtual page:** fixed-size unit of a virtual address space.
+- **Working set:** pages actively required during a selected interval.
+- **Zombie:** terminated child process record retaining exit status until collected.
+
+---

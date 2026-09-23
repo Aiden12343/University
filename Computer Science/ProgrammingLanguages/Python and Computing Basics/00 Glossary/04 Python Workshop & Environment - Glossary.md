@@ -1,0 +1,52 @@
+# 4.15 Cumulative glossary additions
+
+- **Absolute path:** a path anchored independently of the process’s ordinary current working directory.
+- **Activation:** modification of a shell environment so commands preferentially select a virtual environment.
+- **Artefact:** a concrete file or other durable output produced or selected by a software process.
+- **Build backend:** software implementing project build hooks requested through a packaging interface.
+- **Build frontend:** software orchestrating builds and invoking a project-selected backend.
+- **Build isolation:** use of a distinct temporary dependency context for declared build requirements.
+- **Code point:** a numbered abstract element of a character repertoire.
+- **Character encoding:** a rule representing text units as bytes.
+- **Clean-room handoff:** reconstruction using only declared artefacts, instructions, and admitted infrastructure.
+- **Command resolution:** the rules by which a shell maps a command spelling to an operation or executable.
+- **CPython:** the reference Python implementation, written principally in C.
+- **Dependency:** an external project required for operation, build, testing, or development.
+- **Distribution artefact:** a concrete installable representation of a project release.
+- **Distribution package:** an installable project unit managed by Python packaging tools.
+- **Editable installation:** an installation whose imports refer to a working source tree under a build tool’s mechanism.
+- **Environment manifest:** a structured record of execution-environment properties relevant to a claim.
+- **Extra:** a named optional set of dependencies published in distribution metadata.
+- **Functional core:** program logic organised as explicit-value transformations with external effects kept at a surrounding boundary.
+- **Glyph:** a visual shape used to render text.
+- **Imperative shell:** the program boundary coordinating external state and effects around a comparatively pure core.
+- **Implementation:** software realising the semantics of a language or abstract interface.
+- **Import package:** a Python module capable of containing submodules.
+- **Introspection:** programmatic examination of objects or runtime state.
+- **Lock file:** a record of an exact or constrained dependency solution for reproducible reconstruction.
+- **Logical line:** a source unit formed after Python’s line-continuation rules.
+- **Minimal reproduction:** the smallest self-contained construction known to exhibit a defect.
+- **Package manager:** software automating acquisition and management of distributed software.
+- **Package index:** a service exposing distribution metadata and artefacts for discovery and retrieval.
+- **Physical line:** a line as physically represented in source text before logical continuation.
+- **Processor architecture:** the machine-instruction family for which native executable code is produced.
+- **Project directory:** a chosen filesystem root for one coherent body of source, configuration, tests, and documentation.
+- **Project root:** a chosen filesystem reference directory against which project-relative structure is interpreted.
+- **Provenance:** evidence of an artefact’s origin and production transformations.
+- **Python:** the programming language defined by its syntax and semantic documentation, distinct from any one implementation.
+- **README:** a durable document explaining a project’s purpose and operating contract.
+- **REPL:** read–evaluate–print loop; an interactive program-evaluation session.
+- **Release:** a project version made available through a defined publication process.
+- **Requirement:** a packaging expression identifying a project together with version, feature, URL, or environment conditions.
+- **Resolution:** selection of a concrete dependency set satisfying applicable declared constraints.
+- **Search path:** an ordered collection of locations considered when resolving an unqualified name.
+- **Script:** a source file intended to be executed as an entry program.
+- **Source distribution:** an archive containing project source and metadata from which a build can be requested.
+- **Source file:** persistent text containing program source.
+- **Transitive dependency:** a dependency required by another dependency.
+- **UTF-8:** a variable-width encoding of Unicode code points.
+- **Version:** an identifier for a software release under a project’s versioning policy.
+- **Virtual environment:** an isolated Python execution context with environment-specific entry points and installed distributions.
+- **Wheel:** a standard built-distribution archive intended for installation without rebuilding the project at the target.
+
+---

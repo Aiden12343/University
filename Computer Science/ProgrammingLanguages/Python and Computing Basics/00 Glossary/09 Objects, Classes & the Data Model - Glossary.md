@@ -1,0 +1,91 @@
+# 9.23 Cumulative glossary additions
+
+- **Abstract base class (ABC):** nominal interface class that can mark required methods abstract and prevent ordinary instantiation until those requirements are resolved.
+- **Adapter:** component translating one interface, representation, or exception vocabulary into another.
+- **Ad hoc polymorphism:** selection of differing implementations for an operation according to involved types, as in overloaded operator dispatch.
+- **Aggregate:** object or object cluster treated as one invariant and consistency boundary.
+- **Aliasing contract:** specification of whether an operation preserves identity, mutates a shared object, or produces a separately owned value.
+- **Attribute:** named value resolved through an object and its type’s access protocol rather than necessarily one direct storage entry.
+- **Augmented assignment:** statement form such as <code>+=</code> that attempts an in-place protocol and can fall back to an ordinary operation plus rebinding.
+- **Behavioural subtype:** type whose instances preserve every relevant observable contract of a supertype.
+- **Bound method:** callable retaining a function and the instance or class supplied as its receiver.
+- **C3 linearisation:** algorithm computing Python’s monotonic method resolution order while respecting local base order.
+- **Capability:** reference or narrower interface conferring authority to perform a set of operations.
+- **Class:** object used to construct instances and govern shared behaviour through attribute lookup and protocols.
+- **Class attribute:** binding stored in a class namespace and potentially found by class or instance lookup.
+- **Class decorator:** callable applied to a completed class object whose return becomes the class statement’s final binding.
+- **Class method:** descriptor-wrapped function that binds the dynamic class as its first argument.
+- **Class variable:** type-annotation category expressing state conceptually owned by the class rather than each instance.
+- **Class-body namespace:** prepared mapping populated by execution of a class suite before construction of the class object.
+- **Closed operation:** operation that maps operands from a set back into that set.
+- **Coercion:** conversion of an operand into a representation accepted by an operation.
+- **Composition:** construction of higher behaviour from explicit component objects rather than inherited implementation.
+- **Composition root:** application location that creates concrete components and connects their dependencies.
+- **Cooperative method:** method that contributes local behaviour and delegates continuation through <code>super</code> under a shared MRO contract.
+- **Data descriptor:** descriptor whose type defines setting or deletion and which ordinarily precedes an instance dictionary entry during retrieval.
+- **Dataclass:** class transformed to generate selected record-like methods from declared fields and configuration.
+- **Delegation:** transfer of an operation from one object to a collaborating object.
+- **Dependency injection:** supply of a collaborator from outside a component rather than hidden location or construction within it.
+- **Descriptor:** class-owned object controlling attribute retrieval, assignment, or deletion through descriptor protocol methods.
+- **Design-pattern Decorator:** wrapper object implementing a component interface while adding behaviour before or after delegation; distinct from <code>@</code> decorator syntax.
+- **Double dispatch (limited operator form):** cooperation in which an operation may consult implementations associated with both operand types; Python binary operators provide a constrained form rather than a general multimethod system.
+- **Duck typing:** structural use of an object according to behaviour it supports rather than a demanded nominal ancestry.
+- **Dunder method:** informal name for a double-underscore special method participating in a Python protocol.
+- **Encapsulation:** assignment of state and invariant ownership behind a controlled interface.
+- **Entity:** domain object whose continuity and identity matter independently of equality of all present field values.
+- **Equivalence relation:** relation that is reflexive, symmetric, and transitive; the usual law expected of value equality.
+- **Factory:** callable whose responsibility is constructing or selecting objects, possibly with validation, caching, or implementation choice.
+- **Fluent interface:** interface whose operations return a suitable receiver-related value so calls can be chained.
+- **Hash:** integer summary used with equality to select candidate locations in hash-based collections.
+- **Hashable object:** object providing a stable hash during collection membership and equality coherent with equal objects’ hashes.
+- **History constraint:** behavioural-subtyping requirement that a subtype not introduce state evolutions forbidden by the supertype abstraction.
+- **Identity:** relation of being the very same object, tested with <code>is</code>.
+- **Immutable value object:** value-semantic object whose observable equality-relevant state cannot change after construction.
+- **In-place method:** special method such as <code>__iadd__</code> given first opportunity for augmented assignment; it may mutate or return a new object.
+- **Inheritance:** derivation of a class from one or more bases, creating nominal type and MRO relationships and optionally reusing implementation.
+- **Instance:** object related to a class through Python’s instance semantics and ordinarily governed by that class’s protocols.
+- **Instance attribute:** per-instance attribute state, commonly but not necessarily stored in an instance dictionary.
+- **Invariant:** condition that must hold at every publicly observable stable point in an object’s lifecycle.
+- **Law of Demeter:** coupling heuristic that discourages reaching through long collaborator chains and favours asking the owner of a responsibility to act.
+- **Liskov substitution principle:** requirement that subtype objects preserve the behavioural expectations available through their supertype interface.
+- **Local precedence order:** requirement that direct bases retain their declared left-to-right precedence in an MRO.
+- **Metaclass:** class whose instances are class objects and whose protocols can govern class creation and class behaviour.
+- **Metaclass conflict:** absence of one selected metaclass that is a subclass of the metaclass of every proposed base and compatible explicit candidate.
+- **Method resolution order (MRO):** linear class sequence used for inherited attribute search and cooperative <code>super</code> traversal.
+- **Mixin:** narrowly purposed base class intended to contribute a capability within a compatible inheritance composition.
+- **Monotonicity:** C3 property preventing a subclass from reversing precedence already established by a parent MRO.
+- **Name mangling:** class-definition transformation of selected double-leading-underscore names intended to reduce accidental subclass collision.
+- **Nominal subtype:** subtype relationship declared through class inheritance or another explicit nominal mechanism.
+- **Non-data descriptor:** retrieval descriptor lacking descriptor-type setting/deletion methods and therefore ordinarily shadowable by an instance dictionary entry.
+- **NotImplemented:** singleton result by which a selected binary/comparison method declines an operand combination and permits protocol fallback.
+- **NotImplementedError:** exception indicating that invoked code deliberately lacks an implementation; not the operator-cooperation sentinel.
+- **Null Object:** component implementing an interface with deliberately neutral behaviour to avoid repeated absence branching.
+- **Object graph:** objects represented as nodes and references as directed edges, including sharing and cycles.
+- **Observer-relative substitutability:** principle that compatibility is judged against behaviours visible to callers using the promised interface.
+- **Partial order:** ordering relation that permits some pairs to be incomparable.
+- **Polymorphism:** use of one operation or interface across values of differing types under a shared contract.
+- **Postcondition:** property promised after an operation completes successfully, including result and permitted state changes.
+- **Precondition:** condition a caller must satisfy before invoking an operation.
+- **Property:** data descriptor exposing managed attribute syntax through getter, setter, or deleter functions.
+- **Protocol:** behavioural interface defined by supported operations and their laws, whether expressed structurally, nominally, statically, or informally.
+- **Proxy:** object mediating access to a target object while presenting some selected part of its interface.
+- **Reflected operation:** right-operand special method that may implement the original ordered binary expression when selected by cooperative dispatch.
+- **Representation exposure:** leakage of internal mutable or sensitive structure through a public return, iterator, representation, or alias.
+- **Runtime-checkable protocol:** structural typing protocol opted into shallow <code>isinstance</code>/<code>issubclass</code>-style presence checks at runtime.
+- **Slot:** named instance-storage position represented by a class-owned descriptor and requested through <code>__slots__</code>.
+- **Static method:** descriptor wrapper suppressing automatic instance or class receiver binding for a class-namespaced function.
+- **Strategy:** replaceable policy object or callable selected independently from the coordinator that uses it.
+- **Structural subtype:** type accepted because it provides required interface structure rather than because it declares nominal ancestry.
+- **Subclass hook:** <code>__init_subclass__</code> method invoked on a newly created subclass through its inherited cooperative hook chain.
+- **Substitutability:** ability to use one object wherever an interface is promised without invalidating caller assumptions.
+- **Total order:** ordering relation in which every relevant pair is comparable and ordering laws hold.
+- **Type object:** class object used in runtime type relations and ordinarily callable to construct instances.
+- **Value object:** domain object understood primarily by immutable or controlled value semantics rather than independent identity.
+- **Variance:** rule governing how subtype relations between type arguments induce—or do not induce—relations between parameterised types.
+- **Virtual subclass:** class recognised nominally by an abstract base mechanism without inheriting its implementation or entering its MRO.
+- **Weak reference:** reference that observes an object without by itself keeping that object alive.
+- **<code>__classcell__</code>:** compiler/metaclass handoff cell enabling methods that require a lexical <code>__class__</code> reference, including zero-argument <code>super</code>.
+- **<code>__prepare__</code>:** metaclass hook returning the mapping used as a class body’s execution namespace.
+- **<code>__set_name__</code>:** class-creation hook notifying a namespace value of the owner class and attribute name under which it was defined.
+
+---

@@ -1,0 +1,284 @@
+# 20.38 Cumulative glossary additions
+
+- **Admission control:** decision performed before expensive work to accept, defer, prioritise, or reject a request under capacity and policy.
+- **Alert:** notification produced when evidence satisfies a condition requiring timely human or automated action.
+- **Alert fatigue:** degradation of response caused by excessive, low-value, repetitive, or unactionable alerts.
+- **Allocation:** assignment of shared resource or cost to an owner, service, tenant, or business purpose under a stated rule.
+- **Ambient state:** inherited or globally available process state not expressed explicitly in the immediate interface.
+- **Application consistency:** recoverable relationship among application-level records and systems at a defined logical boundary.
+- **Artifact:** versioned output of a build process intended for distribution, verification, or deployment.
+- **Artifact digest:** cryptographic content identifier computed over the exact bytes of an artifact.
+- **Atomic operation:** operation observed under its contract as occurring wholly or not at all, without an exposed intermediate state.
+- **Autoscaling:** feedback or predictive mechanism adjusting allocated capacity according to measured or forecast demand.
+- **Availability zone:** provider-defined failure and placement domain within a region, whose independence must be assessed rather than assumed.
+- **Average cost:** total selected cost divided by the number of selected units over a period.
+- **Backfill:** controlled processing of existing data to populate or transform state required by a newer representation.
+- **Backoff:** policy increasing delay between repeated attempts to reduce contention or pressure.
+- **Backup:** recoverable copy plus metadata, keys, artifacts, authority, and procedure required to restore intended state.
+- **Baggage:** application-defined contextual values propagated with distributed trace context.
+- **Baseline:** comparison population or state used to interpret the effect of a change or experiment.
+- **Blast radius:** maximum or observed scope of users, data, resources, or obligations affected by a change or failure.
+- **Blue–green deployment:** strategy preparing a parallel environment and switching traffic between old and new populations.
+- **Bottleneck:** resource or dependency whose usable capacity first constrains system throughput or latency.
+- **Break-glass access:** exceptional, strongly controlled, short-lived authority used when ordinary administrative paths are insufficient or unavailable.
+- **Build cache:** reusable result of a build action addressed by an identity intended to commit to every correctness-relevant input.
+- **Build closure:** transitive set of source, dependency, tool, environment, and other inputs capable of affecting a build output.
+- **Build context:** set of files and metadata made visible to a container or other build operation.
+- **Build graph:** directed dependency graph whose nodes are build actions or products and whose edges convey prerequisites.
+- **Build provenance:** authenticated evidence describing source, builder, invocation, materials, and subjects of a build.
+- **Bulkhead:** resource partition intended to prevent one workload or dependency from exhausting capacity required by others.
+- **Burn rate:** observed bad-event fraction divided by the error-budget fraction for an SLO.
+- **Business continuity:** organisational ability to continue or restore essential functions through disruption, including technical and non-technical dependencies.
+- **Cache:** discardable stored result used to avoid recomputation or refetching without becoming the sole authority for correctness.
+- **Canary:** deliberately limited population receiving a change before broader exposure so its consequences can be evaluated.
+- **Capacity:** sustainable workload a system can serve under stated latency, reliability, failure, and resource conditions.
+- **Cardinality:** number of distinct values or combinations in a dimension, especially metric label sets.
+- **Cgroup:** Linux kernel mechanism for hierarchical resource accounting, control, and limits over groups of processes.
+- **Change fail rate:** proportion of deployments requiring immediate intervention such as rollback or urgent repair under the selected DORA definition.
+- **Change lead time:** elapsed time from a committed change to its production deployment under the selected DORA definition.
+- **Change record:** evidence linking change intent, immutable subjects, approval, execution, observation, and final outcome.
+- **Chaos engineering:** controlled experimentation intended to build justified confidence in behaviour under specified disturbances.
+- **Chargeback:** accounting practice that transfers attributed shared technology cost to the responsible budget or unit.
+- **Checkpoint:** durable marker from which interrupted work can safely resume without repeating earlier completed effects incorrectly.
+- **Circuit breaker:** state machine that temporarily rejects calls after selected failures and probes for recovery under controlled admission.
+- **Cloud SDK:** language library wrapping remote provider APIs, authentication, pagination, retries, and data representations.
+- **Configuration:** externally selected, validated information that changes program behaviour without changing its source.
+- **Configuration drift:** divergence between intended or declared configuration and effective system state.
+- **Consistency point:** boundary at which a set of captured state satisfies a specified relationship suitable for recovery.
+- **Container:** isolated process set instantiated with filesystem and runtime metadata, ordinarily sharing a host kernel.
+- **Container image:** content-addressed configuration and ordered filesystem layers from which a container root filesystem and defaults are constructed.
+- **Continuous delivery:** practice of keeping software releasable and automating verified movement towards production while retaining an explicit release decision.
+- **Continuous deployment:** automatic production release of every change satisfying an enforced delivery policy.
+- **Continuous integration:** frequent integration of changes with automated, attributable verification of the resulting system or artifact.
+- **Control plane:** interfaces and components that configure, schedule, authorise, or observe resources performing service work.
+- **Controller:** process repeatedly observing actual state and acting to reduce divergence from desired state.
+- **Coordinated omission:** latency-measurement bias caused when a generator waits during slowness and therefore omits arrivals that would otherwise have queued.
+- **Cost allocation:** rule and process assigning shared technology expenditure to services, owners, tenants, or outcomes.
+- **Cost anomaly:** spending or usage behaviour materially inconsistent with an expected baseline or forecast.
+- **Counter:** cumulative metric that normally increases with events and resets only under a defined lifecycle.
+- **Crash consistency:** state recoverable as though components stopped abruptly, without necessarily preserving cross-system application invariants.
+- **Credential federation:** acceptance of identity assertions from another trusted issuer in exchange for scoped local credentials or sessions.
+- **CronJob:** controller or scheduled definition that creates finite jobs according to a time schedule and explicit overlap and missed-run semantics.
+- **Daemon:** background service process, historically detached from an interactive terminal.
+- **Data durability:** preservation of accepted data across a stated class of failures.
+- **Data plane:** components and paths that perform the service's intended user or business operations.
+- **Deadline:** latest time by which an operation remains useful, commonly propagated across dependency calls.
+- **Declarative configuration:** representation specifying desired outcome rather than a complete imperative sequence of mutations.
+- **Degraded mode:** explicitly reduced service behaviour preserving selected essential properties during constrained conditions.
+- **Dependency closure:** full transitive set of systems, artifacts, identities, keys, and information required for an operation or recovery.
+- **Deployment:** controlled change to installed or running artifacts, configuration, infrastructure, or policy.
+- **Deployment frequency:** number of deployments per period or interval between deployments under the selected DORA definition.
+- **Deployment rework rate:** proportion of deployments that are unplanned responses to production incidents under the current DORA definition.
+- **Desired state:** versioned description of the system state a controller is intended to establish or preserve.
+- **Differential backup:** backup containing changes since a selected full backup.
+- **Discovery:** process of obtaining candidate endpoints or resources corresponding to a logical identity.
+- **Disruption budget:** policy constraining selected voluntary concurrent workload disruptions without preventing involuntary failure.
+- **Drain:** transition that stops admitting new work while bounded existing work completes or reaches a safe checkpoint.
+- **Drift:** divergence among declared configuration, recorded state, remote observation, effective semantics, or intended ownership.
+- **Durable state:** state required to survive a specified process, host, zone, regional, or organisational failure.
+- **Dynamic configuration:** configuration capable of changing within a running process or deployment without replacing the artifact.
+- **Egress:** traffic leaving a workload, network segment, or other defined boundary.
+- **Endpoint:** addressable network destination offered as a candidate for a logical service or operation.
+- **Ephemeral runner:** build or CI execution environment created for bounded work and discarded rather than reused persistently.
+- **Error budget:** allowable bad-event fraction or amount implied by an SLO over its population and window.
+- **Event time:** time at which an event occurred in its source domain, distinguished from collection or ingestion time.
+- **Eventually consistent:** property under which replicas are expected to converge when specified update and communication conditions continue.
+- **Execution plan:** machine-readable proposal of mutations derived from configuration, state, observations, and provider semantics.
+- **External effect:** consequence occurring outside the local transaction or process, such as payment, email, deletion, or partner mutation.
+- **Failback:** controlled transition from a recovery location or mode back to a sustainable primary arrangement.
+- **Failover:** transfer of service responsibility to an alternate component, zone, region, or system after failure or planned exercise.
+- **Failure domain:** set of components liable to fail together under a specified disturbance.
+- **Feature flag:** governed dynamic configuration selecting behaviour independently from deployment.
+- **Federation:** trust arrangement in which one system accepts bounded identity claims issued by another.
+- **FinOps:** organisational and engineering practice connecting technology usage and cost to accountable business value and decisions.
+- **Firewall:** mechanism admitting or rejecting network traffic under rules over addresses, ports, protocols, state, and sometimes application information.
+- **Fleet percentile:** quantile calculated over the complete selected event population across service instances rather than averaged instance quantiles.
+- **Foreground process:** process remaining attached to supervisor-controlled lifecycle and streams rather than self-daemonising.
+- **Forward compatibility:** ability of an older consumer to handle, ignore, or safely reject information produced by a newer version under a stated contract.
+- **Full backup:** backup containing the complete selected dataset at a specified consistency point.
+- **Full jitter:** retry policy selecting a random delay from zero to the current capped backoff ceiling.
+- **Game day:** organised exercise testing technical systems, people, authority, procedures, and communications under a scenario.
+- **Gauge:** metric representing sampled state that may increase or decrease, such as queue depth or temperature.
+- **Generation precondition:** requirement that a remote object still has an observed version before a mutation is accepted.
+- **Golden signal:** high-level service signal such as latency, traffic, errors, or saturation used to begin operational assessment.
+- **Good event:** eligible event satisfying the explicitly defined success criteria of an SLI.
+- **Graceful degradation:** deliberate reduction of optional behaviour while preserving explicitly selected correctness, security, and availability properties.
+- **Graceful shutdown:** bounded protocol for stopping admission, draining or checkpointing work, releasing authority, and terminating under supervisor coordination.
+- **Guardrail:** monitored condition whose violation pauses, reverses, or limits a change or experiment.
+- **Head sampling:** trace-sampling decision made near operation start before its eventual outcome is known.
+- **Health check:** bounded observation used to decide a component's eligibility, restart, or operator attention under a specified meaning.
+- **Hermetic build:** build constrained to read declared inputs and produce declared outputs under an isolated execution boundary.
+- **Histogram:** metric representation counting observations in defined buckets, usually with total count and sum.
+- **Horizontal scaling:** changing the number of replicas or workers serving a workload.
+- **Host:** operating-system instance or machine supplying kernel and resources to one or more processes or containers.
+- **Hot key:** disproportionately requested partition, cache, or object key that concentrates load despite broad aggregate capacity.
+- **Hysteresis:** use of different thresholds or delays for opposing control transitions to reduce oscillation.
+- **IaC state:** persistent mapping and attributes connecting infrastructure declarations to remote resource identities.
+- **IAM:** identity and access management mechanisms mapping principals to permitted actions on resources under conditions.
+- **Idempotency:** property that repeated application of the same logical operation has the same intended effect as one application under its contract.
+- **Idempotency key:** caller- or operation-scoped identifier used to recognise and reconcile duplicate logical requests.
+- **Image index:** OCI object associating multiple platform-specific image manifests with operating-system and architecture descriptors.
+- **Immutable artifact:** artifact whose accepted identity cannot be silently rebound to different bytes after publication.
+- **Incident:** unplanned disruption, degradation, or policy violation requiring coordinated assessment and response.
+- **Incident commander:** role coordinating incident objectives, decisions, roles, cadence, and communication.
+- **Incremental backup:** backup containing changes since a preceding backup in a defined chain.
+- **Ingress:** traffic entering a workload, network segment, or other defined boundary.
+- **Infrastructure as code:** version-controlled machine-readable declaration and controlled reconciliation of infrastructure resources.
+- **Init system:** operating-system facility starting, supervising, ordering, and stopping system services.
+- **Inventory drift:** existence of resources outside the declared management inventory or ownership model.
+- **Isolation:** restriction of visibility, communication, authority, resource use, or failure propagation between subjects.
+- **Jitter:** deliberate random variation in timing used to reduce synchronised retries, starts, or other contention.
+- **Job:** finite workload whose controller seeks a specified number of successful completions.
+- **Key rotation:** controlled transition between versions of cryptographic or credential material, including adoption and retirement.
+- **Kill switch:** independently accessible mechanism to halt or disable an automated action at a defined safe boundary.
+- **Label cardinality:** count of distinct metric-series combinations created by label values.
+- **Last-known-good:** previously validated immutable configuration or policy version retained for bounded fallback.
+- **Latency:** elapsed time between explicitly named start and end events under a stated measurement method.
+- **Layer-4 load balancer:** distributor operating primarily on network and transport connection information.
+- **Layer-7 load balancer:** distributor parsing an application protocol to make content-aware routing or policy decisions.
+- **Least privilege:** provision of only the authority required for a defined task, resource, context, and duration.
+- **Liveness:** health dimension asking whether local restart is an appropriate remedy for the component's present state.
+- **Load balancer:** component distributing connections or operations among eligible backends under an algorithm and health model.
+- **Load shedding:** deliberate early rejection or deferral of selected work to preserve capacity for admitted work.
+- **Lock file:** filesystem object used as part of a mutual-exclusion protocol whose atomicity and stale-owner semantics must be specified.
+- **Logical service:** stable service identity represented independently of its changing runtime endpoint set.
+- **Long-lived connection:** connection persisting across many operations or substantial time, complicating balancing, draining, and endpoint change.
+- **Manifest digest:** content digest identifying an OCI or similar manifest that in turn identifies configuration and component objects.
+- **Marginal cost:** additional cost attributable to one more selected unit of demand or capacity.
+- **Memory limit:** enforced bound on memory use whose breach can cause reclamation, throttling under some systems, or abrupt termination.
+- **Metric:** numeric observation or aggregation over time with defined name, unit, labels, and semantics.
+- **Monotonic transition:** state change that accumulates information or progress without requiring reversal of established facts.
+- **Multi-stage build:** container build using separate stages so build tools and intermediate material need not enter the final runtime image.
+- **Multi-window burn alert:** alert combining short and long observation windows to detect fast or sustained SLO-budget consumption.
+- **Mutable tag:** readable artifact reference whose target digest is permitted to change.
+- **Namespace:** kernel facility giving processes an isolated view of selected identifiers or resources.
+- **Negative caching:** temporary caching of a name-resolution failure such as non-existence.
+- **Network address translation:** rewriting of packet addresses or ports between routing contexts.
+- **Network policy:** enforced rule set constraining permitted network communication between defined subjects and destinations.
+- **Node:** schedulable host supplying compute and runtime resources to orchestrated workloads.
+- **Normal change:** non-emergency change following the ordinary risk, review, evidence, and rollout path.
+- **Observability:** ability to investigate internal system state from designed outputs and associated operational evidence.
+- **Observed state:** controller's time-bounded and potentially stale view of actual resources and conditions.
+- **OCI:** Open Container Initiative specifications for container images, distribution, and runtime bundles and lifecycle.
+- **Open-loop load:** workload model scheduling arrivals independently of prior response completion.
+- **Operation identifier:** stable identifier correlating attempts and effects belonging to one logical operation.
+- **Orchestration:** scheduling and lifecycle management of workloads and their supporting resources across hosts.
+- **Out-of-memory termination:** process or container termination caused when memory demand cannot be satisfied under kernel and cgroup policy.
+- **Override:** explicitly authorised, scoped, and preferably expiring departure from ordinary desired state or policy.
+- **p99 latency:** 99th percentile of a precisely selected latency observation population under a named quantile method.
+- **Pagination:** division of a remote collection response into pages connected by continuation state or tokens.
+- **Persistent volume:** storage resource whose lifecycle and identity can outlive an individual scheduled Pod.
+- **Pipeline:** dependency graph of automated build, test, release, deployment, or operational jobs and their artifact and authority flows.
+- **Plan:** proposed set of actions derived before mutation from desired state, recorded state, and observations.
+- **Platform manifest:** platform-specific artifact manifest selected from a multi-platform index.
+- **Pod:** Kubernetes scheduling and lifecycle unit containing one or more containers sharing selected namespaces and volumes.
+- **Pod disruption budget:** Kubernetes policy limiting selected voluntary concurrent Pod disruptions for a workload.
+- **Point-in-time recovery:** restoration of state to a selected recoverable point using a consistent base and compatible change-log sequence.
+- **Policy as code:** machine-evaluated representation of organisational or technical constraints applied to artifacts, plans, or runtime state.
+- **Post-incident review:** evidence-based analysis of impact, timeline, contributing conditions, response, learning, and verified corrective action.
+- **Predictive scaling:** allocation of capacity in advance based on forecast or known schedule rather than only current feedback.
+- **Probe:** periodic diagnostic whose result influences lifecycle or routing decisions for a workload.
+- **Process contract:** explicit agreement covering process start, identity, inputs, readiness, health, shutdown, state, output, resources, and failure.
+- **Process supervisor:** parent or service manager controlling process lifecycle, restart, environment, and selected resources.
+- **Profile:** sampled or measured attribution of CPU, allocation, lock, or wall time to code locations.
+- **Progressive delivery:** controlled expansion of a release's exposure according to evidence and guardrails.
+- **Promotion:** approval of an unchanged identified artifact for a broader environment or use.
+- **Provenance:** evidence describing origin, identity, and transformations of source, artifact, data, or configuration.
+- **Provisioning:** creation or configuration of infrastructure resources to satisfy declared or requested state.
+- **Proxy-side discovery:** endpoint resolution and selection performed by a proxy rather than each application client.
+- **Quantile:** value at or below which a specified proportion of a selected observation distribution lies under a stated convention.
+- **Queue:** structure holding work awaiting service under ordering, capacity, durability, and admission semantics.
+- **Queue age:** elapsed time since queued work entered or became eligible, often a stronger timeliness signal than depth alone.
+- **Quota:** enforced allocation or ceiling on cumulative or concurrent resource use by a subject or scope.
+- **Readiness:** health dimension asking whether an instance should receive new work at the present time.
+- **Reconnection storm:** synchronised creation of replacement connections after many existing connections close or fail together.
+- **Reconciliation:** repeated comparison and action intended to converge observed state towards desired state.
+- **Reconciliation loop:** controller cycle of observation, difference calculation, bounded action, and renewed observation.
+- **Recovery point objective:** targeted maximum data-loss interval measured backwards from a disruption.
+- **Recovery time objective:** targeted maximum time to restore a defined service capability after disruption.
+- **Release:** act of making a capability available to its intended users or workload population.
+- **Replica:** one runtime copy of a workload or data set under a replication and identity model.
+- **Reproducible build:** build capable of yielding bit-for-bit equivalent output from the same declared inputs under specified conditions.
+- **Request idempotency:** convergence of repeated attempts representing the same logical request to one intended effect and result policy.
+- **Resource exhaustion:** failure or degradation caused by consumption of a bounded computational, storage, network, or external quota resource.
+- **Resource limit:** enforced maximum or control on resource consumption, with resource-specific breach behaviour.
+- **Resource request:** capacity declaration used by an orchestrator for scheduling, reservation, or quality-of-service classification.
+- **Restart storm:** correlated rapid process restarts that add load and obscure a persistent failure.
+- **Retention:** policy governing how long artifacts, data, evidence, or backups remain available and when they are deleted.
+- **Retry:** new attempt of a logical operation after selected non-success or uncertainty.
+- **Retry budget:** bound on retry attempts or retry load relative to original work over a scope and period.
+- **Rollback:** replacement of selected running artifact or configuration with a prior version under compatibility constraints.
+- **Roll-forward:** deployment of a newer corrective state when returning to an older state is unsafe or impossible.
+- **Rolling deployment:** gradual replacement of subsets of a workload while old and new versions coexist.
+- **Rootless container:** container runtime arrangement operating without host-root authority, commonly using user namespaces.
+- **Routing table:** ordered or prioritised mapping from destination prefixes to next-hop or interface decisions.
+- **Runbook:** versioned human or executable procedure for a recurring operational condition, including evidence and stop rules.
+- **Runtime:** execution environment and mechanisms instantiating an artifact as processes with configured resources and authority.
+- **Runtime contract:** explicit combined specification of workload identity, filesystem, kernel, network, resources, lifecycle, and evidence.
+- **Saturation:** condition in which a constrained resource approaches or reaches its usable capacity and queueing or rejection grows.
+- **Scale-to-zero:** elasticity policy removing all warm instances during idle periods and accepting subsequent cold-start behaviour.
+- **Secret zero:** initial credential or trust basis by which a workload obtains further secrets or service authority.
+- **Semantic drift:** behavioural divergence caused by changed provider or platform semantics despite apparently equal visible configuration.
+- **Service:** continuously or conditionally delivered capability exposed through a defined interface and operational obligation.
+- **Service account:** non-human principal representing a workload or automation under lifecycle and policy.
+- **Service contract:** complete behavioural and operational agreement covering interface, identity, state, objectives, failure, and support.
+- **Service discovery:** mapping from logical service identity to a changing set of candidate endpoints and metadata.
+- **Service-level agreement:** formal agreement defining service measures, obligations, exclusions, and possible consequences.
+- **Service-level indicator:** quantitative measure of selected user-relevant service behaviour over an explicit population.
+- **Service-level objective:** target range or proportion for an SLI over a defined window.
+- **Service manager:** operating-system or platform facility starting, stopping, supervising, and constraining service processes.
+- **Service mesh:** infrastructure layer using proxies and a control plane to apply transport, routing, identity, and telemetry policy among services.
+- **Session affinity:** policy attempting to route related client operations to the same backend.
+- **Showback:** reporting attributed shared cost to an owner without transferring the charge into that owner's budget.
+- **Sidecar:** auxiliary container sharing a Pod or equivalent lifecycle and selected namespaces with a primary workload.
+- **Signal:** asynchronous process notification carrying a limited event identity under operating-system semantics.
+- **Snapshot:** point-referenced storage copy or view whose consistency and independence depend on the underlying system.
+- **Socio-technical system:** system whose outcomes arise from interaction among software, hardware, people, organisations, and procedures.
+- **Split-horizon DNS:** name service returning different answers according to requester or network context.
+- **Spot capacity:** discounted interruptible compute capacity requiring workload tolerance of provider-initiated removal.
+- **Startup probe:** health probe granting a workload a separate initialisation interval before ordinary liveness evaluation.
+- **State:** information retained across steps and capable of influencing later behaviour.
+- **StatefulSet:** Kubernetes controller supplying ordered workload identity and persistent-volume relationships to replicas.
+- **Static configuration:** configuration applied only through process or workload start and replacement.
+- **Static validation:** examination of declarations or code without provisioning or executing the complete target system.
+- **Structured logging:** event emission as stable named and typed fields rather than unparsed prose.
+- **Supervisor:** component controlling another process's start, observation, restart, and stop lifecycle.
+- **Synthetic transaction:** controlled operation generated to test an end-to-end service path independently of organic user traffic.
+- **Systems engineering:** design and operation of interacting software, hardware, networks, people, and procedures as a coherent service.
+- **Tail latency:** latency behaviour in the upper quantiles of an operation distribution.
+- **Tail sampling:** trace-sampling decision made after observing enough of a trace to use outcome or latency criteria.
+- **Target utilisation:** resource-use level an autoscaling controller seeks to maintain under its model.
+- **Telemetry:** remotely collected metrics, events, traces, profiles, and associated metadata describing system behaviour.
+- **Temporary state:** short-lived data whose loss is acceptable under a stated operation but whose security and capacity remain governed.
+- **Termination grace period:** maximum interval granted for graceful shutdown before forced termination.
+- **Throttling:** deliberate limitation or delay of work when a quota, rate, or resource policy is reached.
+- **Time-based availability:** SLI sampling whether service behaviour is good across time intervals rather than weighting individual events.
+- **Time to live:** caching lifetime attached to a record before it should be refreshed under protocol and implementation rules.
+- **Toil:** recurring manual, tactical, automatable operational work whose volume tends to grow with service scale.
+- **Tombstone:** durable marker recording logical deletion or completion so older state cannot silently resurrect an object.
+- **Topology spread:** scheduling policy distributing replicas across named failure or placement domains.
+- **Trace:** causally related collection of spans representing the path of an operation through components.
+- **Trace context:** identifiers and flags propagated to relate distributed work into a trace.
+- **Traffic shifting:** controlled movement of request or connection exposure among backend populations or versions.
+- **Transactional outbox:** pattern recording an intended external message in the same transaction as authoritative state, then publishing it idempotently.
+- **Trust graph:** model of artifacts, identities, components, and authority relationships on which a process or pipeline relies.
+- **Unallocated cost:** expenditure not yet attributable under the selected ownership and allocation model.
+- **Unit economics:** analysis of cost relative to a meaningful successful business or service outcome.
+- **Unknown value:** planned attribute whose result is unavailable until a later apply or remote operation.
+- **Update strategy:** policy governing order, overlap, capacity, and health during workload replacement.
+- **User journey:** sequence of interactions through which a user seeks one meaningful outcome, often spanning many service operations.
+- **Utilisation:** fraction or rate of a resource's selected usable capacity consumed over a measurement interval.
+- **Variance:** measure of dispersion around a mean, relevant to queueing and capacity even when average demand is unchanged.
+- **Version precondition:** requirement that observed object or state version still matches before a mutation proceeds.
+- **Vertical scaling:** changing resources allocated to an existing or replaced workload instance.
+- **Virtual machine:** isolated execution environment presenting virtual hardware and ordinarily running its own guest kernel.
+- **Voluntary disruption:** orchestrator- or administrator-initiated workload interruption distinguishable from an involuntary failure.
+- **Volume:** storage exposed to a workload under defined attachment, persistence, sharing, and lifecycle semantics.
+- **Warm capacity:** already started and ready capacity available before new scaling actions complete.
+- **Watchdog:** mechanism expecting periodic evidence of progress and acting when that evidence is absent.
+- **Weighted round robin:** load-balancing algorithm distributing assignments cyclically in proportions represented by backend weights.
+- **Worker:** process or workload instance consuming and executing units of queued or assigned work.
+- **Workload:** application process set and resource requirements scheduled or operated as one unit.
+- **Workload identity:** platform-established non-human identity bound to a running workload and exchangeable for scoped authority.
+- **Workload model:** explicit statistical and semantic description of arrivals, operation mix, data, concurrency, and dependency behaviour used in testing or capacity analysis.
+- **Write-ahead log:** ordered durable record of intended state changes written before their main data structures, enabling recovery or replay.

@@ -1,0 +1,43 @@
+# 19 MOC - Cybersecurity
+
+This folder contains the complete source material for Chapter 19, split into navigable topic notes.
+
+## Topics
+- [ ] [[19.1 Dependency map and ethical scope|19.1 Dependency map and ethical scope]]
+- [ ] [[19.2 Security is a property relative to a threat model|19.2 Security is a property relative to a threat model]]
+- [ ] [[19.3 Confidentiality, integrity, availability, and authenticity|19.3 Confidentiality, integrity, availability, and authenticity]]
+- [ ] [[19.4 Trust and least privilege|19.4 Trust and least privilege]]
+- [ ] [[19.5 The operating-system security boundary|19.5 The operating-system security boundary]]
+- [ ] [[19.6 Capabilities and ambient authority|19.6 Capabilities and ambient authority]]
+- [ ] [[19.7 Memory safety and native boundaries|19.7 Memory safety and native boundaries]]
+- [ ] [[19.8 Parsing is an adversarial boundary|19.8 Parsing is an adversarial boundary]]
+- [ ] [[19.9 Canonicalisation and validation order|19.9 Canonicalisation and validation order]]
+- [ ] [[19.10 Path traversal|19.10 Path traversal]]
+- [ ] [[19.11 Command injection and subprocess boundaries|19.11 Command injection and subprocess boundaries]]
+- [ ] [[19.12 Injection as a general grammar failure|19.12 Injection as a general grammar failure]]
+- [ ] [[19.13 Unsafe deserialisation|19.13 Unsafe deserialisation]]
+- [ ] [[19.14 Dependency and supply-chain risk|19.14 Dependency and supply-chain risk]]
+- [ ] [[19.15 Secrets|19.15 Secrets]]
+- [ ] [[19.16 Cryptographic objectives and the rule against invention|19.16 Cryptographic objectives and the rule against invention]]
+- [ ] [[19.17 Cryptographic hash functions|19.17 Cryptographic hash functions]]
+- [ ] [[19.18 Message authentication codes|19.18 Message authentication codes]]
+- [ ] [[19.19 Symmetric authenticated encryption|19.19 Symmetric authenticated encryption]]
+- [ ] [[19.20 Public-key cryptography and signatures|19.20 Public-key cryptography and signatures]]
+- [ ] [[19.21 Password storage|19.21 Password storage]]
+- [ ] [[19.22 Cryptographic randomness|19.22 Cryptographic randomness]]
+- [ ] [[19.23 Key management|19.23 Key management]]
+- [ ] [[19.24 Race conditions as security defects|19.24 Race conditions as security defects]]
+- [ ] [[19.25 Denial of service and resource governance|19.25 Denial of service and resource governance]]
+- [ ] [[19.26 Logging, detection, and evidence|19.26 Logging, detection, and evidence]]
+- [ ] [[19.27 Defensive reconnaissance|19.27 Defensive reconnaissance]]
+- [ ] [[19.28 Vulnerability management|19.28 Vulnerability management]]
+- [ ] [[19.29 Secure development lifecycle|19.29 Secure development lifecycle]]
+- [ ] [[19.30 Security testing as hypothesis testing|19.30 Security testing as hypothesis testing]]
+- [ ] [[19.31 Incident response|19.31 Incident response]]
+- [ ] [[19.32 Synthesis - securing a document-ingestion service|19.32 Synthesis: securing a document-ingestion service]]
+
+## Chapter resources
+- [[19 Cybersecurity - Review Sheet|Common Misconceptions Review]]
+- [[19 Cybersecurity - Practice Questions|Practice Questions]]
+- [[19 Cybersecurity - Glossary|Chapter Glossary]]
+- [[19 Cybersecurity - References|References and Further Study]]

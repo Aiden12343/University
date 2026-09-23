@@ -1,0 +1,159 @@
+# Glossary - Functions & Calculus Terms
+
+Function, graph, rate of change, and accumulation words.
+
+- **function** - key term from [[3.2 Function Notation and Mapping]]. Add your own definition after studying it.
+- **input** - key term from [[3.2 Function Notation and Mapping]]. Add your own definition after studying it.
+- **output** - key term from [[3.2 Function Notation and Mapping]]. Add your own definition after studying it.
+- **domain** - key term from [[3.2 Function Notation and Mapping]]. Add your own definition after studying it.
+- **range** - key term from [[3.2 Function Notation and Mapping]]. Add your own definition after studying it.
+- **gradient** - key term from [[3.3 Linear Functions and Gradient]]. Add your own definition after studying it.
+- **intercept** - key term from [[3.3 Linear Functions and Gradient]]. Add your own definition after studying it.
+- **slope** - key term from [[3.3 Linear Functions and Gradient]]. Add your own definition after studying it.
+- **rate of change** - key term from [[3.3 Linear Functions and Gradient]]. Add your own definition after studying it.
+- **y equals mx plus c** - key term from [[3.3 Linear Functions and Gradient]]. Add your own definition after studying it.
+- **parabola** - the U-shaped graph made by a quadratic function.
+- **turning point** - the point where a curve changes from falling to rising, or rising to falling.
+- **roots** - the x-values where a function equals zero.
+- **axis of symmetry** - the vertical line that splits a parabola into two matching halves.
+- **quadratic coefficient** - the number multiplying x squared in `ax^2 + bx + c`.
+- **polynomial** - a sum of terms with non-negative whole-number powers of a variable.
+- **degree** - the highest power of the variable in a polynomial.
+- **coefficient** - the number multiplying a variable or power term.
+- **root** - a value of the variable that makes a polynomial equal zero.
+- **leading term** - the highest-degree term when a polynomial is written in standard order.
+- **exponential growth** - increase by a fixed multiplier per step.
+- **growth factor** - the multiplier greater than 1 used each step in exponential growth.
+- **decay factor** - the multiplier between 0 and 1 used each step in exponential decay.
+- **base** - the number raised to a power in an exponential or logarithmic expression.
+- **asymptote** - a line a graph approaches but does not reach.
+- **logarithm** - the inverse of exponentiation: the power needed to make a given number from a base.
+- **base** - reused in [[3.7 Logarithms]] as the number whose powers the logarithm asks about.
+- **power** - the exponent that tells how many repeated multiplications are being used.
+- **inverse operation** - an operation that undoes another operation.
+- **log laws** - rules for simplifying logarithms of products, quotients, and powers.
+- **inverse function** - a function that undoes another function.
+- **composition** - applying one function to the result of another.
+- **identity function** - the function that returns every input unchanged.
+- **one-to-one** - a function where different inputs always give different outputs.
+- **nested function** - a function written inside another function.
+- **translation** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **reflection** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **stretch** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **scale factor** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **transformation** - key term from [[3.9 Transformations of Graphs]]. Add your own definition after studying it.
+- **piecewise rule** - key term from [[3.10 Piecewise and Step Functions]]. Add your own definition after studying it.
+- **interval** - key term from [[3.10 Piecewise and Step Functions]]. Add your own definition after studying it.
+- **step function** - key term from [[3.10 Piecewise and Step Functions]]. Add your own definition after studying it.
+- **floor function** - key term from [[3.10 Piecewise and Step Functions]]. Add your own definition after studying it.
+- **ceiling function** - key term from [[3.10 Piecewise and Step Functions]]. Add your own definition after studying it.
+- **model space** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **screen space** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **rotation** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **scaling** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **translation** - key term from [[4.10 Geometry for Computer Graphics]]. Add your own definition after studying it.
+- **graph** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **vertex** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **edge** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **degree** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **path** - key term from [[6.7 Graph Theory Basics]]. Add your own definition after studying it.
+- **breadth-first search** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **depth-first search** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **shortest path** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **weighted graph** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **priority queue** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **relation** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **reflexive** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **symmetric** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **transitive** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **equivalence relation** - key term from [[6.10 Relations and Functions on Sets]]. Add your own definition after studying it.
+- **limit** - key term from [[9.1 Limits and Continuity]]. Add your own definition after studying it.
+- **approach** - key term from [[9.1 Limits and Continuity]]. Add your own definition after studying it.
+- **continuity** - key term from [[9.1 Limits and Continuity]]. Add your own definition after studying it.
+- **one-sided limit** - key term from [[9.1 Limits and Continuity]]. Add your own definition after studying it.
+- **undefined point** - key term from [[9.1 Limits and Continuity]]. Add your own definition after studying it.
+- **derivative** - key term from [[9.2 Differentiation Basics]]. Add your own definition after studying it.
+- **gradient function** - key term from [[9.2 Differentiation Basics]]. Add your own definition after studying it.
+- **tangent** - key term from [[9.2 Differentiation Basics]]. Add your own definition after studying it.
+- **rate of change** - key term from [[9.2 Differentiation Basics]]. Add your own definition after studying it.
+- **first principles** - key term from [[9.2 Differentiation Basics]]. Add your own definition after studying it.
+- **power rule** - key term from [[9.3 Differentiation Rules]]. Add your own definition after studying it.
+- **product rule** - key term from [[9.3 Differentiation Rules]]. Add your own definition after studying it.
+- **quotient rule** - key term from [[9.3 Differentiation Rules]]. Add your own definition after studying it.
+- **chain rule** - key term from [[9.3 Differentiation Rules]]. Add your own definition after studying it.
+- **implicit differentiation** - key term from [[9.3 Differentiation Rules]]. Add your own definition after studying it.
+- **turning point** - reused in [[9.4 Applications of Differentiation]] when calculus finds maxima and minima.
+- **maximum** - key term from [[9.4 Applications of Differentiation]]. Add your own definition after studying it.
+- **minimum** - key term from [[9.4 Applications of Differentiation]]. Add your own definition after studying it.
+- **stationary point** - key term from [[9.4 Applications of Differentiation]]. Add your own definition after studying it.
+- **second derivative** - key term from [[9.4 Applications of Differentiation]]. Add your own definition after studying it.
+- **integral** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **area under curve** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **antiderivative** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **constant of integration** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **definite integral** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **substitution** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **integration by parts** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **partial fractions** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **trig integral** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **numerical integration** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **partial derivative** - key term from [[9.8 Multivariable Functions]]. Add your own definition after studying it.
+- **gradient vector** - key term from [[9.8 Multivariable Functions]]. Add your own definition after studying it.
+- **level curve** - key term from [[9.8 Multivariable Functions]]. Add your own definition after studying it.
+- **surface** - key term from [[9.8 Multivariable Functions]]. Add your own definition after studying it.
+- **Jacobian** - key term from [[9.8 Multivariable Functions]]. Add your own definition after studying it.
+- **objective function** - key term from [[9.9 Gradient Descent and Optimisation]]. Add your own definition after studying it.
+- **learning rate** - key term from [[9.9 Gradient Descent and Optimisation]]. Add your own definition after studying it.
+- **gradient descent** - key term from [[9.9 Gradient Descent and Optimisation]]. Add your own definition after studying it.
+- **local minimum** - key term from [[9.9 Gradient Descent and Optimisation]]. Add your own definition after studying it.
+- **convergence** - key term from [[9.9 Gradient Descent and Optimisation]]. Add your own definition after studying it.
+- **convex function** - key term from [[9.10 Convex Optimisation Basics]]. Add your own definition after studying it.
+- **convex set** - key term from [[9.10 Convex Optimisation Basics]]. Add your own definition after studying it.
+- **global minimum** - key term from [[9.10 Convex Optimisation Basics]]. Add your own definition after studying it.
+- **constraint** - key term from [[9.10 Convex Optimisation Basics]]. Add your own definition after studying it.
+- **Lagrange multiplier** - key term from [[9.10 Convex Optimisation Basics]]. Add your own definition after studying it.
+- **public key** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **private key** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **RSA** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **Diffie-Hellman** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **discrete logarithm** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **state graph** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **network graph** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **heuristic** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **pathfinding** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **dependency graph** - key term from [[10.10 Graphs in Networks and AI Search]]. Add your own definition after studying it.
+- **matching** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **flow network** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **cut** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **planar graph** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **connectivity** - key term from [[11.4 Advanced Graph Theory]]. Add your own definition after studying it.
+- **Bayesian network** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **Markov random field** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **conditional independence** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **factor graph** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **inference** - key term from [[11.6 Probabilistic Graphical Models]]. Add your own definition after studying it.
+- **SGD** - key term from [[11.7 Advanced Optimisation for ML]]. Add your own definition after studying it.
+- **momentum** - key term from [[11.7 Advanced Optimisation for ML]]. Add your own definition after studying it.
+- **Adam** - key term from [[11.7 Advanced Optimisation for ML]]. Add your own definition after studying it.
+- **regularisation** - key term from [[11.7 Advanced Optimisation for ML]]. Add your own definition after studying it.
+- **loss landscape** - key term from [[11.7 Advanced Optimisation for ML]]. Add your own definition after studying it.
+- **gradient** - key term from [[11.8 Multivariable Calculus for Deep Learning]]. Add your own definition after studying it.
+- **Jacobian** - key term from [[11.8 Multivariable Calculus for Deep Learning]]. Add your own definition after studying it.
+- **Hessian** - key term from [[11.8 Multivariable Calculus for Deep Learning]]. Add your own definition after studying it.
+- **backpropagation** - key term from [[11.8 Multivariable Calculus for Deep Learning]]. Add your own definition after studying it.
+- **chain rule** - key term from [[11.8 Multivariable Calculus for Deep Learning]]. Add your own definition after studying it.
+- **lambda expression** - key term from [[11.12 Lambda Calculus and Formal Semantics]]. Add your own definition after studying it.
+- **variable binding** - key term from [[11.12 Lambda Calculus and Formal Semantics]]. Add your own definition after studying it.
+- **beta reduction** - key term from [[11.12 Lambda Calculus and Formal Semantics]]. Add your own definition after studying it.
+- **normal form** - key term from [[11.12 Lambda Calculus and Formal Semantics]]. Add your own definition after studying it.
+- **semantics** - key term from [[11.12 Lambda Calculus and Formal Semantics]]. Add your own definition after studying it.
+- **elliptic curve** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **group law** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **scalar multiplication** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **ECDH** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **ECDSA** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **lattice** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **basis** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **shortest vector problem** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **Learning With Errors** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **post-quantum** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.

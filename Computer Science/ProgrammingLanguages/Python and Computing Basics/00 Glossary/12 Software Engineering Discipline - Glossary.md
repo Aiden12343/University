@@ -1,0 +1,135 @@
+# 12.26 Cumulative glossary additions
+
+- **Acceptance criterion:** observable condition by which a requirement is judged.
+- **Code coverage:** measurement of program structures executed by a test suite.
+- **Continuous integration:** frequent combination of changes with automated reproducible verification.
+- **Debugging:** localisation and explanation of divergence between expected and observed behaviour.
+- **Equivalence partitioning:** division of inputs into classes expected to receive similar treatment.
+- **Fake:** a simplified working implementation used as a test collaborator.
+- **Fixture:** controlled state or resource supplied to tests.
+- **Functional requirement:** required system behaviour or result.
+- **Index (Git):** staging state proposed for the next commit; distinct from a collection index or database index.
+- **Integration test:** test of cooperation across real component boundaries.
+- **Metamorphic relation:** expected relationship between outputs under a defined input transformation.
+- **Mock:** a test double configured with and verifying expected interactions.
+- **Mutation testing:** evaluation of a test suite by deliberate small program changes.
+- **Property-based testing:** generated-input testing of general behavioural properties.
+- **Quality attribute:** required property such as security, performance, or reliability.
+- **Regression test:** test preserving established behaviour after a change or defect repair.
+- **Requirement:** a capability, property, or constraint a system must satisfy.
+- **Software engineering:** disciplined software construction and evolution under requirements and change.
+- **Spy:** a test double recording interactions for later assertion.
+- **Static type checker:** tool approximating type flows without executing every program path.
+- **Stub:** a test double supplying predetermined responses.
+- **Test:** an executable experiment comparing observation with an expected claim.
+- **Test double:** controlled replacement for a collaborator in a test.
+- **Unit test:** focused test of a small behavioural unit with controlled collaborators.
+- **Variance:** relationship between generic and parameter subtype relations.
+- **Version control:** system recording and relating project states over time.
+
+- **Abstract execution:** static analysis over approximated sets of values and states rather than every concrete execution.
+- **Acceptance test:** evaluation of a system against stakeholder-facing acceptance criteria.
+- **Annotated tag:** Git tag object carrying target, tagger, message, and optionally a cryptographic signature.
+- **Architecture decision record (ADR):** durable record of a consequential design decision, its context, alternatives, and consequences.
+- **Assertion:** executable claim that a condition must hold at a particular observation point.
+- **Attestation:** signed statement making claims about an artefact, process, or event.
+- **Autospeccing:** construction of a test double constrained by a target object’s callable interface.
+- **Bisectable history:** commit history whose revisions and tests permit meaningful regression bisection.
+- **Blob:** Git object storing file content without the path that names it.
+- **Branch:** movable Git reference conventionally naming the tip of a line of development.
+- **Build provenance:** information connecting an artefact to its source, builder, invocation, and material inputs.
+- **Canary:** limited production exposure used to gather evidence before broader rollout.
+- **Characterisation test:** test recording current observed behaviour when an adequate normative specification is absent.
+- **CI job:** one pipeline execution unit consuming declared inputs and producing status or artefacts.
+- **Cognitive complexity:** family of heuristic measures intended to approximate difficulty of understanding control flow.
+- **Cohesion:** degree to which responsibilities within a unit form one related concept or purpose.
+- **Commit:** Git object naming a project tree, parent commit or commits, message, and authorship/committer metadata.
+- **Completeness (analysis):** degree to which reported issues correspond only to actual behaviours or defects under the chosen formal usage.
+- **Component:** unit treated as a whole at a selected architectural level.
+- **Connector:** interaction mechanism between architectural components.
+- **Content-addressed storage:** storage in which an identifier is derived from content under a defined format and hash.
+- **Continuous delivery:** practice of keeping changes in a releasable state through an automated path to a release decision.
+- **Continuous deployment:** policy of automatically deploying changes that satisfy integration and release gates.
+- **Contract:** explicit obligations and guarantees at an interaction boundary.
+- **Contravariance:** reversal of a parameter subtype relation by a generic type constructor.
+- **Correlation identifier:** value propagated to relate records belonging to one operation or context.
+- **Coverage-guided fuzzing:** input generation or mutation directed by feedback about newly reached program structure.
+- **Cyclomatic complexity:** control-flow-graph measure related to linearly independent execution paths.
+- **Data race:** unsynchronised concurrent conflicting memory accesses under the relevant memory model.
+- **Deadlock:** state in which participants wait cyclically for events that cannot occur while those waits persist.
+- **Decision table:** tabular specification mapping combinations of conditions to actions or outcomes.
+- **Definition of done:** local minimum evidence policy for considering a change complete.
+- **Dependency inversion:** design principle directing high-level policy and low-level mechanisms towards appropriate abstractions rather than policy depending directly on mechanism.
+- **Deprecation:** managed notice that a supported interface is intended for future removal or incompatible change.
+- **Detached HEAD:** Git state in which <code>HEAD</code> identifies a commit directly rather than through a local branch.
+- **Differential testing:** comparison of independent implementations supplied with the same inputs.
+- **Digital signature:** cryptographic operation binding bytes or a statement to control of a private key, interpreted under an identity and trust policy.
+- **Discriminated union:** union whose variants carry a field or structural form that permits reliable narrowing.
+- **End-to-end test:** test entering through a production-like boundary and observing an assembled user-relevant path.
+- **Failure:** externally observable behaviour that does not satisfy a requirement.
+- **Failure mode:** particular way a component or process can fail to perform a required function.
+- **Fault:** incorrect artefact or state capable of causing failure; also called a defect in this chapter.
+- **Flaky test:** test whose outcome varies without a relevant change to declared program or environment.
+- **Functional core:** deterministic policy or transformation isolated from imperative external effects.
+- **Fuzz testing:** high-volume generated or mutated input testing for crashes, hangs, invariant violations, and other failures.
+- **Generic:** definition parameterised by types so relationships can be preserved across multiple concrete specialisations.
+- **Golden master:** previously approved output used as a regression oracle; also called a snapshot in some tools.
+- **Hazard:** condition with potential to contribute to harm.
+- **Health check:** operational probe reporting whether a component can perform a defined liveness or readiness role.
+- **Hermetic test:** test whose inputs are declared and controlled and whose outputs are isolated.
+- **Heisenbug:** defect whose manifestation changes materially as a consequence of observation.
+- **Hypothesis ledger:** record of candidate explanations, predictions, experiments, results, and current status during debugging.
+- **Idempotence:** property that repeating an operation has the same relevant effect as performing it once under stated identity and state assumptions.
+- **Imperative shell:** boundary code that obtains external state and performs effects around a more deterministic core.
+- **Invariant:** property intended to hold in every relevant reachable state.
+- **Linter:** static tool reporting selected error-prone, insecure, complex, or stylistically non-conforming source patterns.
+- **Liveness property:** requirement that some desired event eventually occurs under stated assumptions.
+- **Livelock:** continued activity in which participants repeatedly react but make no required progress.
+- **Log event:** structured or textual operational record of an occurrence.
+- **MC/DC:** modified condition/decision coverage, requiring evidence that each simple condition can independently affect a decision.
+- **Minimal reproducible example:** smallest self-contained case presently known to reproduce a specified failure.
+- **Monotonic clock:** clock intended for measuring elapsed time without ordinary civil-time adjustments moving it backwards.
+- **NewType:** typing construct creating a distinct static type over a runtime representation without constructing a runtime subclass.
+- **Operational definition:** definition stated through observable procedure, classification, or measurement.
+- **Oracle:** mechanism or knowledge determining an expected test result.
+- **Pairwise testing:** combinatorial selection in which every pair of factor values appears in at least one case.
+- **Pipeline:** ordered dependency graph of automated integration, build, verification, or release jobs.
+- **Postcondition:** property guaranteed after an operation completes normally when its preconditions held.
+- **Post-incident review:** evidence-based analysis of an incident’s mechanisms, contributing conditions, response, and corrective controls.
+- **Precondition:** condition required before an operation under a specified caller–supplier contract.
+- **Progressive delivery:** controlled increase of production exposure accompanied by observation and abort policy.
+- **Protocol (typing):** static structural interface specifying operations rather than requiring nominal inheritance.
+- **Reachable object (Git):** object discoverable by graph traversal from a retained reference or other root.
+- **Reference (Git):** name storing or symbolically resolving to an object identifier.
+- **Refactoring:** structural change intended to preserve behaviour under a declared observation boundary.
+- **Reflog:** local record of updates to a Git reference or <code>HEAD</code>.
+- **Remote-tracking reference:** local record of a remote reference as of the last relevant fetch.
+- **Release engineering:** discipline governing construction, identification, verification, distribution, and support of releases.
+- **Reproducible build:** build process yielding byte-identical artefacts from the same declared inputs under specified conditions.
+- **Risk:** uncertainty concerning events and their consequences, evaluated under an explicit model.
+- **Safety property:** requirement that a defined undesirable event never occurs in relevant traces.
+- **Service-level agreement (SLA):** service commitment that may attach contractual consequences.
+- **Service-level indicator (SLI):** quantitative measure of a defined aspect of delivered service.
+- **Service-level objective (SLO):** target range for an SLI over a stated period.
+- **Snapshot test:** comparison with a previously approved representation, useful but capable of preserving accidental output.
+- **Socio-technical system:** system whose outcomes arise jointly from technical components, people, organisations, and procedures.
+- **Software bill of materials (SBOM):** inventory of software components associated with an artefact or product.
+- **Software lifecycle:** activities through which software is conceived, specified, constructed, evaluated, operated, evolved, and retired.
+- **Soundness (analysis):** degree to which an analysis includes every behaviour of interest within its formal scope.
+- **Source distribution:** Python distribution archive providing source and metadata to a build process.
+- **Stakeholder:** person, group, or institution affecting, affected by, or legitimately authoritative over a system.
+- **Starvation:** indefinite denial of progress to one participant while the system or other participants continue.
+- **State machine:** model consisting of states, events, transition rules, and associated outputs or effects.
+- **Stub file:** <code>.pyi</code> file declaring static Python interfaces without an ordinary runtime implementation.
+- **System test:** test of an assembled system under a representative environment.
+- **Test-driven development (TDD):** micro-cycle of failing test, minimal passing change, and behaviour-preserving refactoring.
+- **Test matrix:** selected combinations of environment, platform, version, or feature factors evaluated by a suite.
+- **Trace:** ordered abstraction of relevant inputs, states, outputs, and interactions during execution.
+- **Traceability:** ability to follow justified relations among needs, requirements, decisions, implementation, evidence, releases, and outcomes.
+- **TypedDict:** static structural description of dictionary-shaped records; not a runtime validating dictionary class.
+- **Union type:** static type admitting values from any one of its alternatives.
+- **Validation:** evaluation of whether specified and built behaviour addresses the actual stakeholder need.
+- **Verification:** evaluation of whether an artefact satisfies its stated specification.
+- **Version scheme:** rules for identifying and ordering releases.
+- **Wheel:** Python installation-format archive carrying package files and metadata under the wheel specification.
+- **Worktree (Git):** one checked-out working tree associated with a Git repository, with per-worktree administrative state.

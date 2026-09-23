@@ -1,0 +1,84 @@
+# Glossary - CS & Algorithms Terms
+
+Algorithm, complexity, cryptography, ML, and research words.
+
+- **breadth-first search** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **depth-first search** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **shortest path** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **weighted graph** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **priority queue** - key term from [[6.9 Graph Algorithms BFS DFS Dijkstra]]. Add your own definition after studying it.
+- **best case** - key term from [[10.2 Algorithm Complexity Case Studies]]. Add your own definition after studying it.
+- **average case** - key term from [[10.2 Algorithm Complexity Case Studies]]. Add your own definition after studying it.
+- **worst case** - key term from [[10.2 Algorithm Complexity Case Studies]]. Add your own definition after studying it.
+- **loop count** - key term from [[10.2 Algorithm Complexity Case Studies]]. Add your own definition after studying it.
+- **recursive cost** - key term from [[10.2 Algorithm Complexity Case Studies]]. Add your own definition after studying it.
+- **binary** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **hexadecimal** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **bit** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **byte** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **base conversion** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **hash function** - key term from [[10.5 Hashing and Checksums]]. Add your own definition after studying it.
+- **collision** - key term from [[10.5 Hashing and Checksums]]. Add your own definition after studying it.
+- **checksum** - key term from [[10.5 Hashing and Checksums]]. Add your own definition after studying it.
+- **modular arithmetic** - key term from [[10.5 Hashing and Checksums]]. Add your own definition after studying it.
+- **avalanche effect** - key term from [[10.5 Hashing and Checksums]]. Add your own definition after studying it.
+- **public key** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **private key** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **RSA** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **Diffie-Hellman** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **discrete logarithm** - key term from [[10.6 Cryptography RSA and Diffie Hellman]]. Add your own definition after studying it.
+- **feature vector** - key term from [[10.8 Machine Learning Vectors and Matrices]]. Add your own definition after studying it.
+- **weight vector** - key term from [[10.8 Machine Learning Vectors and Matrices]]. Add your own definition after studying it.
+- **matrix multiplication** - key term from [[10.8 Machine Learning Vectors and Matrices]]. Add your own definition after studying it.
+- **embedding** - key term from [[10.8 Machine Learning Vectors and Matrices]]. Add your own definition after studying it.
+- **linear model** - key term from [[10.8 Machine Learning Vectors and Matrices]]. Add your own definition after studying it.
+- **neuron** - key term from [[10.9 Neural Network Maths]]. Add your own definition after studying it.
+- **activation function** - key term from [[10.9 Neural Network Maths]]. Add your own definition after studying it.
+- **weight** - key term from [[10.9 Neural Network Maths]]. Add your own definition after studying it.
+- **bias** - key term from [[10.9 Neural Network Maths]]. Add your own definition after studying it.
+- **loss function** - key term from [[10.9 Neural Network Maths]]. Add your own definition after studying it.
+- **type** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **proposition as type** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **inference rule** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **lambda calculus** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **soundness** - key term from [[10.11 Type Theory and Program Logic Intro]]. Add your own definition after studying it.
+- **definition** - key term from [[10.12 Research Paper Maths Reading]]. Add your own definition after studying it.
+- **lemma** - key term from [[10.12 Research Paper Maths Reading]]. Add your own definition after studying it.
+- **theorem** - key term from [[10.12 Research Paper Maths Reading]]. Add your own definition after studying it.
+- **proof sketch** - key term from [[10.12 Research Paper Maths Reading]]. Add your own definition after studying it.
+- **notation table** - key term from [[10.12 Research Paper Maths Reading]]. Add your own definition after studying it.
+- **reduction** - key term from [[11.1 Advanced Complexity Theory]]. Add your own definition after studying it.
+- **NP-complete** - key term from [[11.1 Advanced Complexity Theory]]. Add your own definition after studying it.
+- **co-NP** - key term from [[11.1 Advanced Complexity Theory]]. Add your own definition after studying it.
+- **PSPACE** - key term from [[11.1 Advanced Complexity Theory]]. Add your own definition after studying it.
+- **complexity hierarchy** - key term from [[11.1 Advanced Complexity Theory]]. Add your own definition after studying it.
+- **randomised algorithm** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **Las Vegas algorithm** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **Monte Carlo algorithm** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **expected runtime** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **amplification** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **approximation ratio** - key term from [[11.3 Approximation Algorithms]]. Add your own definition after studying it.
+- **greedy algorithm** - key term from [[11.3 Approximation Algorithms]]. Add your own definition after studying it.
+- **optimal solution** - key term from [[11.3 Approximation Algorithms]]. Add your own definition after studying it.
+- **hardness** - key term from [[11.3 Approximation Algorithms]]. Add your own definition after studying it.
+- **PTAS** - key term from [[11.3 Approximation Algorithms]]. Add your own definition after studying it.
+- **elliptic curve** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **group law** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **scalar multiplication** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **ECDH** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **ECDSA** - key term from [[11.14 Elliptic Curve Cryptography]]. Add your own definition after studying it.
+- **lattice** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **basis** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **shortest vector problem** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **Learning With Errors** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **post-quantum** - key term from [[11.15 Lattice-Based Cryptography]]. Add your own definition after studying it.
+- **qubit** - key term from [[11.16 Quantum Computing Maths Intro]]. Add your own definition after studying it.
+- **superposition** - key term from [[11.16 Quantum Computing Maths Intro]]. Add your own definition after studying it.
+- **unitary matrix** - key term from [[11.16 Quantum Computing Maths Intro]]. Add your own definition after studying it.
+- **measurement** - key term from [[11.16 Quantum Computing Maths Intro]]. Add your own definition after studying it.
+- **tensor product** - key term from [[11.16 Quantum Computing Maths Intro]]. Add your own definition after studying it.
+- **definition** - key term from [[11.18 Research Methods and Mathematical Writing]]. Add your own definition after studying it.
+- **notation** - key term from [[11.18 Research Methods and Mathematical Writing]]. Add your own definition after studying it.
+- **claim** - key term from [[11.18 Research Methods and Mathematical Writing]]. Add your own definition after studying it.
+- **proof outline** - key term from [[11.18 Research Methods and Mathematical Writing]]. Add your own definition after studying it.
+- **literature review** - key term from [[11.18 Research Methods and Mathematical Writing]]. Add your own definition after studying it.

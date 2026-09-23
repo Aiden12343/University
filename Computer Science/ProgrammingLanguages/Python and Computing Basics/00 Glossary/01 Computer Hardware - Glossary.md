@@ -1,0 +1,123 @@
+# 1.14 Cumulative glossary after Chapter 1
+
+- **Abstraction:** a model exposing selected properties while hiding details under a stated contract.
+- **Accumulator:** a register retaining an intermediate arithmetic result.
+- **Address:** a numeric designation for a memory or device location.
+- **Addressable memory:** storage whose locations can be selected by address.
+- **ALU:** arithmetic logic unit; processor circuitry performing arithmetic and logical operations.
+- **Bandwidth:** quantity transferable per unit time.
+- **Binary:** having two alternatives; in notation, using radix two.
+- **Bit:** one binary digit.
+- **Boolean algebra:** rules for values such as false and true and operations over them.
+- **Bus:** an interconnection carrying a related group of signals or transfers.
+- **Byte:** conventionally, a group of eight bits.
+- **Cache:** small, fast storage retaining copies of data from a slower level.
+- **Clock:** a repeating signal coordinating synchronous state transitions.
+- **Clock cycle:** one repetition of a clock signal.
+- **Combinational circuit:** a circuit whose settled outputs depend on current inputs alone.
+- **Computer:** a physical system arranged to represent and transform information according to rules.
+- **CPU:** central processing unit; the subsystem that obtains and carries out instructions.
+- **Decode:** interpret an instruction pattern according to an ISA.
+- **DMA:** direct memory access; block transfer between a device and memory with limited per-unit CPU work.
+- **Fetch:** obtain the next instruction designated by the program counter.
+- **Flip-flop:** a storage element designed to capture state in relation to a clock transition.
+- **Functional completeness:** the ability of a set of logical operations to express every Boolean function.
+- **Hertz:** one cycle per second.
+- **Information state:** a distinguishable condition used to represent a possibility.
+- **Input/output (I/O):** exchange of represented information with external devices or systems.
+- **Instruction:** an encoded operation defined by a processor architecture.
+- **Instruction register:** processor storage holding the instruction currently being handled.
+- **Instruction set architecture (ISA):** the machine-level contract visible to software.
+- **Interpretation:** a rule assigning meaning to a representation.
+- **Interrupt:** an event causing processing to enter a designated handler.
+- **Latency:** elapsed time from request to result.
+- **Locality:** tendency for access to recur in time or nearby addresses.
+- **Logic gate:** a component implementing a Boolean function.
+- **Logic level:** a permitted signal range interpreted as a logical value.
+- **Main memory:** addressable working storage holding active instructions and data.
+- **Memory hierarchy:** storage levels organised by speed, capacity, cost, and persistence.
+- **Noise margin:** tolerance separating valid physical signal ranges.
+- **Numeral:** a written representation of a number.
+- **Opcode:** the portion of an instruction identifying its operation.
+- **Operand:** a value or location to which an operation applies.
+- **Overflow:** a result outside the representable range of a fixed representation.
+- **Pipelining:** overlapping stages of multiple instructions.
+- **Polling:** repeatedly checking whether an event or device condition is present.
+- **Program counter (PC):** processor state designating the next instruction address.
+- **Propagation delay:** finite time between an input change and valid corresponding output.
+- **Radix:** the base of a positional numeral system.
+- **Register:** small, fast processor storage treated as a multi-bit unit.
+- **Representation:** a physical or symbolic arrangement interpreted as standing for something.
+- **Sequential circuit:** a circuit whose output or future behaviour depends on retained state as well as current input.
+- **Signal:** a varying physical quantity used to convey information.
+- **State:** retained information capable of affecting later behaviour.
+- **State transition:** a change from one retained condition to another.
+- **Stored-program computer:** a computer that holds instruction representations in addressable memory.
+- **Transistor:** a semiconductor device allowing one electrical signal to control another current path.
+- **Truth table:** an exhaustive mapping from Boolean input combinations to outputs.
+- **Two’s complement:** a conventional fixed-width signed-binary interpretation.
+- **Volatile:** requiring continued power to retain state.
+- **Von Neumann architecture:** a stored-program model in which instructions and data occupy a common addressable memory organisation.
+- **Amdahl’s law:** bound on total speedup when only a fraction of execution is accelerated.
+- **Arithmetic right shift:** right shift that supplies high bits according to a signed representation rule.
+- **Arbitration:** selection of one requester among contenders for a shared resource.
+- **Associated microarchitectural state:** internal implementation state, such as caches or predictors, not ordinarily part of architectural program state.
+- **Atomic rename:** filesystem replacement operation appearing indivisible to specified observers under platform conditions.
+- **Branch prediction:** speculation about branch direction or target before resolution.
+- **Cache coherence:** coordination of cached copies for accesses to one memory location.
+- **Cache line:** block transferred and tracked as a unit in a cache.
+- **Carry-lookahead:** addition structure computing carries through generate/propagate relations with reduced dependency depth.
+- **Clock domain:** sequential region governed by one clock relationship.
+- **Combinational hazard:** transient output error caused by unequal path delays.
+- **Commit:** point at which an instruction’s result becomes architecturally visible.
+- **Control hazard:** pipeline uncertainty caused by a possible program-counter change.
+- **Control word:** collection of microarchitectural signals selecting datapath actions for one phase.
+- **Critical path:** timing path with the greatest relevant delay.
+- **Current:** rate of electric-charge transfer, measured in amperes.
+- **Decoder circuit:** combinational circuit asserting outputs according to an encoded input.
+- **Direct-mapped cache:** cache permitting each memory block in exactly one line.
+- **DRAM:** dense dynamic memory retaining bits as charge and requiring refresh.
+- **Electrical power:** energy transferred per unit time, measured in watts.
+- **Encoder circuit:** combinational circuit producing a code for asserted input conditions.
+- **Fan-out:** driven input load supported by one output under electrical and timing specifications.
+- **Finite-state machine:** finite set of states with input-governed transition and output rules.
+- **Full adder:** circuit adding two operand bits and a carry-in to produce sum and carry-out.
+- **Generate signal:** bit-position signal indicating that operands create carry regardless of carry-in.
+- **Glitch:** unintended transient logical transition.
+- **Half adder:** circuit adding two bits without a carry-in.
+- **Hold time:** interval after a sampling event during which input must remain stable.
+- **Instruction format:** allocation of instruction bits to operation and operand fields.
+- **Kibibyte:** 1024 bytes.
+- **Latch:** storage element whose input can affect state while an enable level is active.
+- **Loading:** electrical demand presented to a driven signal.
+- **Logical shift:** bit shift inserting zeros at the vacated side.
+- **Mealy machine:** state machine whose outputs can depend on current state and current inputs.
+- **Memory consistency model:** rules constraining observed ordering of memory operations across agents.
+- **Memory-mapped I/O:** device-register access through selected processor address ranges.
+- **Metastability:** temporary unresolved analogue state following sampling near a storage element’s timing boundary.
+- **Microcode:** internal control instructions implementing some processor operations.
+- **Moore machine:** state machine whose outputs are functions of current state.
+- **Multiplexer:** circuit selecting one data input according to selector values.
+- **Out-of-order execution:** execution of ready later operations before stalled earlier ones while preserving required architectural results.
+- **Parity:** redundant bit recording evenness or oddness of the number of asserted bits.
+- **Pipeline hazard:** condition preventing a pipeline operation from proceeding in its intended cycle.
+- **Priority encoder:** encoder selecting one input according to a defined priority when several are asserted.
+- **Propagate signal:** bit-position signal indicating that incoming carry passes to the next position.
+- **Register file:** addressable collection of processor registers with defined read and write ports.
+- **Register renaming:** mapping architectural register names to physical storage to remove false dependencies.
+- **Resistance:** opposition to electric current under a circuit model, measured in ohms.
+- **Retirement:** in-order commitment of completed instruction effects to architectural state.
+- **Setup time:** interval before a sampling event during which input must remain stable.
+- **Set-associative cache:** cache dividing entries into sets with several candidate ways per mapped block.
+- **Signed overflow:** fixed-width signed arithmetic result outside its representable range.
+- **Speculative execution:** execution before certainty that an operation lies on the required architectural path.
+- **SRAM:** bistable static memory retaining state while powered without refresh.
+- **Structural hazard:** pipeline conflict over an unavailable shared resource.
+- **Synchroniser:** circuit reducing metastability-propagation risk when transferring a signal between timing domains.
+- **TLB:** translation lookaside buffer; cache of recent virtual-memory translations and permissions.
+- **Voltage:** electric potential difference, measured in volts.
+- **Write allocate:** cache policy bringing a missed store’s line into the cache.
+- **Write back:** cache policy deferring lower-level update until a dirty line is displaced or flushed.
+- **Write through:** cache policy promptly forwarding stores to a lower level.
+
+---

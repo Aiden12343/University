@@ -1,0 +1,39 @@
+# 3.16 Cumulative glossary additions
+
+- **Algorithm:** a finite, unambiguous general method intended to satisfy a specification.
+- **Command line:** one textual command submission interpreted by a shell.
+- **Computational dossier:** organised claims and evidence defending a program and its execution contract.
+- **Computational problem:** a family of questions defined by admitted inputs and required answers.
+- **Contract:** stated obligations governing an interface.
+- **Current working directory:** the ordinary base used to resolve relative paths for a process.
+- **Data:** represented information available to computation.
+- **Data structure:** an organised representation with operations and invariants.
+- **Environment variable:** a named string supplied in a process environment.
+- **Execution:** one concrete history of a running program.
+- **Exit status:** a process’s numeric completion classification supplied to its parent environment.
+- **Greatest common divisor:** the greatest positive integer dividing each of two integers without remainder.
+- **Halting problem:** the undecidable general problem of determining whether an arbitrary program stops on an arbitrary input.
+- **Interface:** a boundary through which components exchange values, effects, or requests.
+- **Invariant:** a property preserved at designated points of an algorithm.
+- **Partial correctness:** the property that any terminating result satisfies the specification.
+- **Pipeline:** a composition connecting one process’s output stream to another’s input stream.
+- **Postcondition:** a property required after successful completion.
+- **Precondition:** a property required before an operation begins.
+- **Problem instance:** one concrete admitted input to a computational problem.
+- **Program:** a representation of algorithms and associated data processable by a computational system.
+- **Prompt:** terminal text indicating readiness for command input.
+- **Shell:** a program interpreting command language and coordinating program execution.
+- **Specification:** a precise statement of required behaviour for admitted conditions.
+- **Standard error:** the conventional process stream for diagnostics.
+- **Standard input:** the conventional process stream for ordinary input.
+- **Standard output:** the conventional process stream for ordinary results.
+- **Stream:** an ordered flow of data available over time.
+- **Terminal:** a text-oriented interface conveying input and displaying output.
+- **Termination:** completion after finitely many steps for the inputs under consideration.
+- **Test oracle:** an independent rule or source determining an expected result.
+- **Total correctness:** partial correctness together with termination.
+- **Turing-complete:** able, given sufficient abstract resources, to simulate universal Turing computation.
+- **Undecidable problem:** a decision problem having no algorithm correct for every admitted instance.
+- **Variant:** a well-founded measure that moves strictly towards a termination boundary.
+
+---

@@ -1,0 +1,139 @@
+# Glossary - Number & Algebra Terms
+
+Number and algebra words used from arithmetic through equations.
+
+- **Counting objects** - key term from [[1.1 Counting and Number Sense]]. Add your own definition after studying it.
+- **one-to-one matching** - key term from [[1.1 Counting and Number Sense]]. Add your own definition after studying it.
+- **less than and greater than** - key term from [[1.1 Counting and Number Sense]]. Add your own definition after studying it.
+- **number line** - key term from [[1.1 Counting and Number Sense]]. Add your own definition after studying it.
+- **zero as a number** - key term from [[1.1 Counting and Number Sense]]. Add your own definition after studying it.
+- **digits and value** - key term from [[1.2 Place Value and Number Lines]]. Add your own definition after studying it.
+- **expanded form** - key term from [[1.2 Place Value and Number Lines]]. Add your own definition after studying it.
+- **number lines** - key term from [[1.2 Place Value and Number Lines]]. Add your own definition after studying it.
+- **rounding to landmarks** - key term from [[1.2 Place Value and Number Lines]]. Add your own definition after studying it.
+- **comparing large numbers** - key term from [[1.2 Place Value and Number Lines]]. Add your own definition after studying it.
+- **equal groups** - key term from [[1.4 Multiplication and Times Tables]]. Add your own definition after studying it.
+- **arrays** - key term from [[1.4 Multiplication and Times Tables]]. Add your own definition after studying it.
+- **times tables** - key term from [[1.4 Multiplication and Times Tables]]. Add your own definition after studying it.
+- **commutativity** - key term from [[1.4 Multiplication and Times Tables]]. Add your own definition after studying it.
+- **multiplying by 10 and 100** - key term from [[1.4 Multiplication and Times Tables]]. Add your own definition after studying it.
+- **sharing equally** - key term from [[1.5 Division and Remainders]]. Add your own definition after studying it.
+- **grouping** - key term from [[1.5 Division and Remainders]]. Add your own definition after studying it.
+- **remainders** - key term from [[1.5 Division and Remainders]]. Add your own definition after studying it.
+- **inverse of multiplication** - key term from [[1.5 Division and Remainders]]. Add your own definition after studying it.
+- **division by 10 and 100** - key term from [[1.5 Division and Remainders]]. Add your own definition after studying it.
+- **numerator and denominator** - key term from [[1.6 Fractions]]. Add your own definition after studying it.
+- **equivalent fractions** - key term from [[1.6 Fractions]]. Add your own definition after studying it.
+- **simplifying** - key term from [[1.6 Fractions]]. Add your own definition after studying it.
+- **adding fractions** - key term from [[1.6 Fractions]]. Add your own definition after studying it.
+- **multiplying fractions** - key term from [[1.6 Fractions]]. Add your own definition after studying it.
+- **tenths and hundredths** - key term from [[1.7 Decimals and Percentages]]. Add your own definition after studying it.
+- **decimal place value** - key term from [[1.7 Decimals and Percentages]]. Add your own definition after studying it.
+- **converting fractions** - key term from [[1.7 Decimals and Percentages]]. Add your own definition after studying it.
+- **percent means per hundred** - key term from [[1.7 Decimals and Percentages]]. Add your own definition after studying it.
+- **percentage increase and decrease** - key term from [[1.7 Decimals and Percentages]]. Add your own definition after studying it.
+- **temperature model** - key term from [[1.8 Negative Numbers]]. Add your own definition after studying it.
+- **opposites** - key term from [[1.8 Negative Numbers]]. Add your own definition after studying it.
+- **adding negatives** - key term from [[1.8 Negative Numbers]]. Add your own definition after studying it.
+- **subtracting negatives** - key term from [[1.8 Negative Numbers]]. Add your own definition after studying it.
+- **absolute value** - key term from [[1.8 Negative Numbers]]. Add your own definition after studying it.
+- **brackets** - key term from [[1.9 Order of Operations]]. Add your own definition after studying it.
+- **indices** - key term from [[1.9 Order of Operations]]. Add your own definition after studying it.
+- **multiplication and division** - key term from [[1.9 Order of Operations]]. Add your own definition after studying it.
+- **addition and subtraction** - key term from [[1.9 Order of Operations]]. Add your own definition after studying it.
+- **left-to-right ties** - key term from [[1.9 Order of Operations]]. Add your own definition after studying it.
+- **factor** - key term from [[1.10 Factors Multiples and Primes]]. Add your own definition after studying it.
+- **multiple** - key term from [[1.10 Factors Multiples and Primes]]. Add your own definition after studying it.
+- **prime number** - key term from [[1.10 Factors Multiples and Primes]]. Add your own definition after studying it.
+- **composite number** - key term from [[1.10 Factors Multiples and Primes]]. Add your own definition after studying it.
+- **prime factorisation** - key term from [[1.10 Factors Multiples and Primes]]. Add your own definition after studying it.
+- **ratio notation** - key term from [[1.12 Ratio Proportion and Units]]. Add your own definition after studying it.
+- **unit rates** - key term from [[1.12 Ratio Proportion and Units]]. Add your own definition after studying it.
+- **direct proportion** - key term from [[1.12 Ratio Proportion and Units]]. Add your own definition after studying it.
+- **scaling recipes** - key term from [[1.12 Ratio Proportion and Units]]. Add your own definition after studying it.
+- **unit conversion** - key term from [[1.12 Ratio Proportion and Units]]. Add your own definition after studying it.
+- **variable** - key term from [[2.1 Variables Expressions and Equations]]. Add your own definition after studying it.
+- **constant** - key term from [[2.1 Variables Expressions and Equations]]. Add your own definition after studying it.
+- **expression** - key term from [[2.1 Variables Expressions and Equations]]. Add your own definition after studying it.
+- **equation** - key term from [[2.1 Variables Expressions and Equations]]. Add your own definition after studying it.
+- **solution** - key term from [[2.1 Variables Expressions and Equations]]. Add your own definition after studying it.
+- **common factor** - key term from [[2.4 Factorising]]. Add your own definition after studying it.
+- **factor pair** - key term from [[2.4 Factorising]]. Add your own definition after studying it.
+- **quadratic factorisation** - key term from [[2.4 Factorising]]. Add your own definition after studying it.
+- **difference of squares** - key term from [[2.4 Factorising]]. Add your own definition after studying it.
+- **checking by expansion** - key term from [[2.4 Factorising]]. Add your own definition after studying it.
+- **balancing** - key term from [[2.5 Solving Linear Equations]]. Add your own definition after studying it.
+- **inverse operations** - key term from [[2.5 Solving Linear Equations]]. Add your own definition after studying it.
+- **one-step equation** - key term from [[2.5 Solving Linear Equations]]. Add your own definition after studying it.
+- **two-step equation** - key term from [[2.5 Solving Linear Equations]]. Add your own definition after studying it.
+- **unknown on both sides** - key term from [[2.5 Solving Linear Equations]]. Add your own definition after studying it.
+- **system of equations** - key term from [[2.8 Simultaneous Equations]]. Add your own definition after studying it.
+- **elimination** - key term from [[2.8 Simultaneous Equations]]. Add your own definition after studying it.
+- **substitution** - key term from [[2.8 Simultaneous Equations]]. Add your own definition after studying it.
+- **intersection point** - key term from [[2.8 Simultaneous Equations]]. Add your own definition after studying it.
+- **consistent system** - key term from [[2.8 Simultaneous Equations]]. Add your own definition after studying it.
+- **base** - key term from [[2.9 Indices and Powers]]. Add your own definition after studying it.
+- **exponent** - key term from [[2.9 Indices and Powers]]. Add your own definition after studying it.
+- **square** - key term from [[2.9 Indices and Powers]]. Add your own definition after studying it.
+- **cube** - key term from [[2.9 Indices and Powers]]. Add your own definition after studying it.
+- **index laws** - key term from [[2.9 Indices and Powers]]. Add your own definition after studying it.
+- **square root** - key term from [[2.10 Surds and Roots]]. Add your own definition after studying it.
+- **cube root** - key term from [[2.10 Surds and Roots]]. Add your own definition after studying it.
+- **surd** - key term from [[2.10 Surds and Roots]]. Add your own definition after studying it.
+- **rationalising** - key term from [[2.10 Surds and Roots]]. Add your own definition after studying it.
+- **exact form** - key term from [[2.10 Surds and Roots]]. Add your own definition after studying it.
+- **algebraic numerator** - key term from [[2.11 Algebraic Fractions]]. Add your own definition after studying it.
+- **algebraic denominator** - key term from [[2.11 Algebraic Fractions]]. Add your own definition after studying it.
+- **common denominator** - key term from [[2.11 Algebraic Fractions]]. Add your own definition after studying it.
+- **cancel common factors** - key term from [[2.11 Algebraic Fractions]]. Add your own definition after studying it.
+- **restriction** - key term from [[2.11 Algebraic Fractions]]. Add your own definition after studying it.
+- **sine** - key term from [[4.5 Trig Ratios SOHCAHTOA]]. Add your own definition after studying it.
+- **cosine** - key term from [[4.5 Trig Ratios SOHCAHTOA]]. Add your own definition after studying it.
+- **tangent** - key term from [[4.5 Trig Ratios SOHCAHTOA]]. Add your own definition after studying it.
+- **opposite** - key term from [[4.5 Trig Ratios SOHCAHTOA]]. Add your own definition after studying it.
+- **adjacent** - key term from [[4.5 Trig Ratios SOHCAHTOA]]. Add your own definition after studying it.
+- **Boolean variable** - key term from [[5.8 Boolean Algebra and De Morgan Laws]]. Add your own definition after studying it.
+- **Boolean expression** - key term from [[5.8 Boolean Algebra and De Morgan Laws]]. Add your own definition after studying it.
+- **De Morgan law** - key term from [[5.8 Boolean Algebra and De Morgan Laws]]. Add your own definition after studying it.
+- **identity law** - key term from [[5.8 Boolean Algebra and De Morgan Laws]]. Add your own definition after studying it.
+- **absorption** - key term from [[5.8 Boolean Algebra and De Morgan Laws]]. Add your own definition after studying it.
+- **same shape** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **scalar** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **entrywise operation** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **zero matrix** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **linear combination** - key term from [[7.2 Matrix Addition and Scalar Multiplication]]. Add your own definition after studying it.
+- **dot product row by column** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **inner dimension** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **composition** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **non-commutative** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **matrix product** - key term from [[7.3 Matrix Multiplication]]. Add your own definition after studying it.
+- **floating-point error** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **condition number** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **stability** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **pivoting** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **approximation** - key term from [[7.12 Numerical Stability in Linear Algebra]]. Add your own definition after studying it.
+- **integral** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **area under curve** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **antiderivative** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **constant of integration** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **definite integral** - key term from [[9.5 Integration Basics]]. Add your own definition after studying it.
+- **substitution** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **integration by parts** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **partial fractions** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **trig integral** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **numerical integration** - key term from [[9.6 Integration Techniques]]. Add your own definition after studying it.
+- **differential equation** - key term from [[9.7 Differential Equations Intro]]. Add your own definition after studying it.
+- **initial condition** - key term from [[9.7 Differential Equations Intro]]. Add your own definition after studying it.
+- **solution curve** - key term from [[9.7 Differential Equations Intro]]. Add your own definition after studying it.
+- **growth model** - key term from [[9.7 Differential Equations Intro]]. Add your own definition after studying it.
+- **decay model** - key term from [[9.7 Differential Equations Intro]]. Add your own definition after studying it.
+- **binary** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **hexadecimal** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **bit** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **byte** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **base conversion** - key term from [[10.3 Binary Hexadecimal and Number Bases]]. Add your own definition after studying it.
+- **embedding space** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.
+- **projection** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.
+- **low-rank approximation** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.
+- **singular vector** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.
+- **latent factor** - key term from [[11.9 Linear Algebra for Representation Learning]]. Add your own definition after studying it.

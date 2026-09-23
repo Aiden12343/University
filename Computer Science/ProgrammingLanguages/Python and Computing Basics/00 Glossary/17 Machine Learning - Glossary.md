@@ -1,0 +1,199 @@
+# 17.37 Cumulative glossary additions
+
+- **Abstention:** prediction policy that defers or declines selected cases rather than forcing an ordinary output.
+- **Accuracy:** proportion of evaluated classifications whose predicted label equals the recorded target.
+- **Activation function:** usually nonlinear function applied to a neuron’s affine input.
+- **Active learning:** procedure that selects cases whose labels should be acquired under a query policy.
+- **Adaptive optimiser:** optimiser that changes coordinate-wise update scaling from observed gradient history.
+- **Affine transformation:** linear transformation followed by addition of an offset or bias.
+- **Anomaly detection:** assignment of model-relative unusualness to observations, often without labelled anomalies.
+- **Architecture:** specified arrangement of model components, connections, representations, and operations.
+- **Artificial neuron:** affine combination of inputs followed ordinarily by an activation function.
+- **Attention:** mechanism forming data-dependent weighted combinations of represented elements.
+- **Attribution:** allocation of a model output or output difference among represented features under a defined explanation rule.
+- **Automatic differentiation:** exact-to-rounding derivative computation through composition of primitive derivative rules.
+- **Average precision:** summary of a precision–recall curve based on precision improvements across recall thresholds.
+- **Area under the ROC curve:** probability-equivalent ranking summary obtained by integrating true-positive rate against false-positive rate.
+- **Backpropagation:** reverse-mode accumulation of gradients through a layered computation graph.
+- **Bagging:** fitting models to resampled or perturbed training sets and aggregating their predictions.
+- **Baseline:** declared reference procedure against which a candidate is evaluated.
+- **Batch:** collection of examples processed together in one computation.
+- **Batch normalisation:** layer using mini-batch statistics during training and maintained statistics during ordinary evaluation.
+- **Bayesian optimisation:** sequential search using a probabilistic surrogate of configuration performance to choose evaluations.
+- **Bias:** systematic difference between an estimator’s expectation and its estimand; context must distinguish this from social bias or a model intercept.
+- **Bias–variance trade-off:** decomposition-based account of how systematic approximation and sample sensitivity contribute to prediction error under assumptions.
+- **Binary classification:** prediction for a target with two represented categories.
+- **Bootstrap:** resampling method drawing observations, or appropriate sampling units, with replacement from observed data.
+- **Brier score:** mean squared error between predicted probabilities and binary outcomes, with multiclass generalisations.
+- **Calibration:** agreement between probabilistic forecasts and outcome frequencies under stated population and conditioning definitions.
+- **Calibration curve:** empirical comparison of forecast probabilities with observed frequencies, usually after binning or smoothing.
+- **Candidate model:** fitted or configurable procedure under consideration during selection.
+- **Causal mask:** attention mask preventing a sequence position from accessing prohibited later positions.
+- **Centroid:** representative centre of a cluster; in ordinary \(k\)-means, its arithmetic mean vector.
+- **Checkpoint:** persisted training state sufficient for selection, recovery, or continuation under a stated contract.
+- **Class imbalance:** unequal frequency of target categories in a population or sample.
+- **Class weight:** loss weight determined by target class, changing the fitted empirical objective.
+- **Classification:** prediction of one or more discrete target categories.
+- **Cluster:** group induced by a specified representation, similarity, objective, and clustering procedure.
+- **Clustering:** unsupervised assignment or organisation of observations into model-relative groups.
+- **Coefficient:** parameter multiplying a represented feature in a linear predictor or related expression.
+- **Computation graph:** directed dependency graph of primitive operations, inputs, and intermediate values.
+- **Concept drift:** change in a target relationship, often formalised as change in \(p(y\mid x)\), though usage varies.
+- **Conditional probability:** probability of an event or variable value given specified information.
+- **Confusion matrix:** table counting predicted and recorded classes jointly.
+- **Convolution:** shared local linear operation applied across positions; many learning libraries implement cross-correlation under this name.
+- **Convex function:** function lying no higher than line segments joining values at any two domain points.
+- **Covariate shift:** change in input distribution under an assumption that the conditional target relation remains stable.
+- **Cross-entropy:** scoring loss derived from the negative logarithm of probability assigned to an observed category.
+- **Cross-fitting:** constructing predictions or learned encodings for each training case using a fit that excluded that case.
+- **Cross-validation:** repeated fitting and evaluation over prescribed partitions of development data.
+- **Data augmentation:** generation of transformed training examples under an asserted target-preservation or equivariance rule.
+- **Data card:** structured documentation of a dataset’s origin, composition, processing, uses, governance, and limitations.
+- **Data drift:** observed change in data distributions or data-quality properties across periods or environments.
+- **Data leakage:** improper information path from unavailable, target, validation, or test information into fitting or selection.
+- **Data loader:** component that retrieves, samples, batches, transforms, and delivers examples to a training or evaluation loop.
+- **Dataset shift:** difference between source and target data-generating distributions.
+- **Decision boundary:** set of represented inputs at which a prediction rule changes categorical decision.
+- **Decision threshold:** cutoff or rule translating a score or probability into an action or label.
+- **Dense layer:** layer in which each output unit ordinarily has a learned connection to every input component.
+- **Density ratio:** quotient of target and source probability densities used, for example, in importance weighting.
+- **Derivative:** limit describing a function’s local rate of change with respect to one scalar input.
+- **Design matrix:** matrix whose rows are instances and columns are represented features.
+- **Deterministic algorithm:** implementation mode intended to return the same result for fixed inputs and environment under its documented guarantees.
+- **Dimensionality reduction:** mapping from a representation to fewer coordinates while attempting to preserve declared structure.
+- **Directional derivative:** local rate of change of a multivariable function along a specified direction.
+- **Discrimination:** ability of scores to rank or separate target outcomes, distinct from probability calibration.
+- **Distribution shift:** change between development and application data-generating conditions.
+- **Dropout:** training-time stochastic masking of activations or units with a corresponding scaling convention.
+- **Early stopping:** selection of a training checkpoint using a predefined monitored criterion.
+- **Embedding:** vector representation learned or constructed so selected relations are expressed geometrically.
+- **Empirical risk:** sample average, or weighted sample average, of a loss.
+- **Ensemble:** predictive system aggregating outputs from multiple fitted models.
+- **Epoch:** one conceptual traversal of a training dataset under a specified sampler and batching procedure.
+- **Estimator:** algorithmic object or statistical rule that learns state from data and produces estimates or predictions.
+- **Evaluation set:** observations reserved for measuring a fitted or selected procedure under a declared protocol.
+- **Expected calibration error:** binned empirical summary of absolute differences between confidence and outcome frequency.
+- **Explanation:** purpose-relative representation intended to make some aspect of model behaviour understandable to an audience.
+- **Fairness:** normative and technical property of a socio-technical allocation or decision process, requiring an explicit criterion and context.
+- **False negative:** negative prediction for an instance whose recorded target is positive.
+- **False positive:** positive prediction for an instance whose recorded target is negative.
+- **Feature:** represented input component supplied to a model.
+- **Feature engineering:** design or learning of input representations from raw or upstream data.
+- **Feature importance:** model-, data-, and method-relative measure of association with or reliance by predictions.
+- **Feature map:** function transforming raw instances into the representation consumed by a model.
+- **Feature store:** system for defining, computing, versioning, and serving shared features with lineage and time semantics.
+- **Fine-tuning:** additional parameter training of a previously trained model for a new dataset, task, or objective.
+- **Finite difference:** numerical derivative approximation formed from function values at nearby arguments.
+- **Forward pass:** evaluation of a model from inputs through intermediate operations to outputs and loss.
+- **Generalisation:** performance on relevant cases not used to choose the fitted model or procedure.
+- **Gradient:** vector of partial derivatives of a scalar function.
+- **Gradient boosting:** sequential additive fitting in which new learners address objective gradients or related residuals.
+- **Gradient check:** comparison of computed derivatives with an independent numerical or analytic derivative calculation.
+- **Gradient clipping:** modification that bounds a gradient norm or component before an optimiser update.
+- **Gradient descent:** iterative optimisation moving parameters opposite a computed gradient under a step-size rule.
+- **Group calibration:** calibration condition evaluated within defined population groups.
+- **Group cross-validation:** resampling that keeps observations sharing a group together across each train/evaluation boundary.
+- **Group fairness:** family of criteria comparing allocations, errors, predictions, or calibration among defined groups.
+- **Hessian:** matrix of second partial derivatives of a scalar-valued function.
+- **Hidden layer:** internal learned layer whose outputs are neither raw inputs nor final predictions.
+- **Holdout set:** data withheld from specified fitting and selection operations for later evaluation.
+- **Hyperparameter:** configuration chosen outside an individual parameter-fitting operation.
+- **Hyperparameter optimisation:** search over configuration values using an evaluation procedure and finite budget.
+- **Imputation:** model-based or rule-based replacement or representation of missing data.
+- **Inductive bias:** assumptions encoded by representation, architecture, objective, optimisation, or learning procedure that favour some solutions.
+- **Inference:** in operational machine learning, computation of predictions from a fitted model; statistical usage can instead mean reasoning from samples.
+- **Instance:** one task-defined observational or prediction unit represented to a model.
+- **Interaction:** represented dependence in which one feature’s association with prediction varies with another.
+- **Intersectional audit:** evaluation of outcomes for groups defined by combinations of attributes.
+- **Jacobian:** matrix of first partial derivatives of a vector-valued function.
+- **\(k\)-means:** clustering procedure minimising within-cluster squared Euclidean distance to \(k\) centroids.
+- **\(k\)-nearest neighbours:** prediction procedure using targets or values of the \(k\) closest stored examples under a metric.
+- **Label:** recorded target value used in supervised learning; it can be noisy, selective, or normatively contested.
+- **Label shift:** change in target prevalence under a stability assumption for class-conditional input distributions.
+- **Label smoothing:** replacement of hard class targets by distributions with non-zero mass assigned beyond the recorded class.
+- **Language model:** model assigning probabilities or scores to token sequences or conditional token continuations.
+- **Lasso:** regression or related estimator using an \(L_1\) coefficient penalty that can produce exact zeros.
+- **Latent representation:** internal or unobserved representation inferred from observed data.
+- **Layer normalisation:** normalisation over designated features within an example, followed ordinarily by learned affine parameters.
+- **Learning curve:** plot or relation of training and evaluation performance to training-set size or training progress.
+- **Learning rate:** global scale applied to an optimisation update.
+- **Likelihood:** probability or density of observed data viewed as a function of model parameters under a statistical model.
+- **Linear regression:** modelling a numeric target through a predictor linear in coefficients, commonly fitted by least squares.
+- **Log loss:** negative logarithmic score assigned to the predicted probability of the observed outcome.
+- **Logit:** unconstrained log-odds or class score supplied to a sigmoid or softmax.
+- **Loss:** numerical penalty used to evaluate a prediction against a target during fitting or assessment.
+- **Machine learning:** computational improvement on a defined task from data under a performance criterion.
+- **Macro averaging:** calculating a metric separately by class or group and taking an unweighted mean.
+- **Mean absolute error:** arithmetic mean of absolute prediction residuals.
+- **Mean squared error:** arithmetic mean of squared prediction residuals.
+- **Metadata routing:** declared forwarding of auxiliary information such as groups or sample weights among pipeline components.
+- **Micro averaging:** aggregating elementary counts across classes or groups before computing a metric.
+- **Mini-batch:** subset of training examples used together to estimate an optimisation update.
+- **Mixed precision:** deliberate use of multiple numeric precisions across model operations and state.
+- **Model:** selected parameterised or non-parameterised mapping from represented inputs to outputs.
+- **Model card:** structured documentation of a model’s purpose, evaluation, limitations, governance, and maintenance.
+- **Model registry:** governed store of model artifacts, versions, lineage, evidence, approvals, and lifecycle state.
+- **Momentum:** optimiser state accumulating past gradients to alter current update direction.
+- **Multiclass classification:** classification in which one target is selected from more than two mutually exclusive classes.
+- **Multilabel classification:** classification in which each instance can possess several non-exclusive labels.
+- **Nested cross-validation:** outer evaluation whose every training partition contains a complete inner model-selection procedure.
+- **Neural network:** composition of parameterised transformations, ordinarily including nonlinear activations.
+- **Normalisation:** transformation relative to a norm or computed statistics; the precise axes and state must be stated.
+- **One-hot encoding:** categorical representation with one indicator coordinate per represented category.
+- **Online learning:** updating a model incrementally as observations or batches arrive.
+- **Out-of-bag estimate:** evaluation using bootstrap-excluded observations for the fitted ensemble members that did not receive them.
+- **Overfitting:** adaptation to sample-specific variation or selection noise that impairs relevant new-case performance.
+- **Parameter:** model state learned within a fitting operation.
+- **Partial dependence:** average prediction obtained while setting selected features to chosen values over an evaluation distribution.
+- **Partial derivative:** derivative with respect to one coordinate while other represented coordinates are held fixed.
+- **Principal component analysis:** orthogonal linear projection ordered by represented sample variance after required centring.
+- **Pipeline:** composed sequence of fitted transformations and final estimator operations.
+- **Point-in-time correctness:** guarantee that a historical feature uses only information available by its simulated decision time.
+- **Precision:** among predicted positives, the proportion whose recorded target is positive.
+- **Prediction interval:** interval procedure intended to cover a future target value at a stated rate under specified conditions.
+- **Predictive parity:** group criterion requiring equality of positive predictive value or a related conditional outcome rate.
+- **Probability calibration:** empirical or model-based alignment of probability forecasts with outcome frequencies.
+- **Proxy feature:** represented feature carrying information about another property, including a protected attribute.
+- **Random forest:** ensemble of decorrelated decision trees fitted with bootstrap and feature-subsampling mechanisms.
+- **Recall:** among recorded positives, the proportion predicted positive; also called sensitivity.
+- **Receptive field:** region of an original input capable of affecting a particular represented unit.
+- **Regression:** prediction of a numeric target or estimation of a numeric conditional relation.
+- **Regularisation:** penalty, constraint, perturbation, or stopping mechanism discouraging selected complexity.
+- **Reliability diagram:** visual comparison of predicted probability bins with observed outcome frequencies.
+- **Representation:** encoded form in which an instance or variable is supplied to computation.
+- **Residual:** observed target minus fitted or predicted value under a stated sign convention.
+- **Reverse-mode automatic differentiation:** backward propagation of output sensitivities to compute vector–Jacobian products.
+- **Ridge regression:** linear regression with a squared \(L_2\) coefficient penalty.
+- **Risk:** expected loss over a defined data-generating distribution.
+- **ROC curve:** plot of true-positive rate against false-positive rate as a binary score threshold varies.
+- **Sample:** finite collection drawn or selected from a population or process under a sampling mechanism.
+- **Sample weight:** non-negative or signed contribution assigned to an observation in an objective or estimate, under method-specific rules.
+- **Score:** continuous model output used for ranking, probability estimation, loss calculation, or decision making.
+- **Self-supervised learning:** learning targets constructed from structure within otherwise unlabelled data.
+- **Sensitivity:** true-positive rate; the proportion of recorded positives predicted positive.
+- **Sigmoid:** logistic function mapping a real logit to the open interval between zero and one.
+- **Softmax:** transformation mapping a vector of logits to non-negative components summing to one.
+- **Sparse matrix:** matrix representation storing primarily non-zero entries rather than every coordinate.
+- **Specificity:** true-negative rate; the proportion of recorded negatives predicted negative.
+- **Stochastic gradient descent:** optimisation using gradients estimated from sampled individual examples or mini-batches.
+- **Stratification:** split construction preserving selected marginal category proportions across partitions.
+- **Supervised learning:** learning from paired represented inputs and target outputs.
+- **Target:** outcome a supervised procedure is fitted to predict.
+- **Tensor:** multidimensional numerical object with dtype, shape, layout, device, and optional gradient metadata.
+- **Test set:** data reserved from fitting and selection for final evaluation of the selected procedure.
+- **Token:** discrete vocabulary element used to represent part of a sequence.
+- **Tokeniser:** versioned procedure mapping raw sequences to and from token identifiers under normalisation and segmentation rules.
+- **Training-serving skew:** difference between feature or prediction semantics in development and production.
+- **Training set:** data used to learn model parameters and fitted transformation state.
+- **Transformer:** in estimator APIs, component that learns and applies a representation change.
+- **Transformer architecture:** neural architecture built from attention, feed-forward transformations, residual paths, normalisation, and positional information.
+- **Tree:** hierarchical predictive structure that recursively partitions represented input space.
+- **True negative:** negative prediction for an instance whose recorded target is negative.
+- **True positive:** positive prediction for an instance whose recorded target is positive.
+- **Underfitting:** failure of a fitted procedure to capture task-relevant structure available under its representation and data.
+- **Unsupervised learning:** learning structure without supplied target labels.
+- **Validation set:** development data used for model, hyperparameter, threshold, or checkpoint selection.
+- **Vector–Jacobian product:** multiplication of an output cotangent by a function’s Jacobian, central to reverse-mode differentiation.
+- **Weight decay:** optimiser mechanism shrinking parameters, either coupled to a gradient penalty or decoupled depending on definition.
+- **Weighted empirical risk:** sample loss aggregate in which observations contribute according to specified weights.
+- **Zero-shot learning:** application to a task, class, or instruction without parameter updates using examples from that target setting.

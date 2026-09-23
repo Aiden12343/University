@@ -1,0 +1,199 @@
+# 16.31 Cumulative glossary additions
+
+- **Accuracy:** closeness of a measurement or estimate to its relevant true or reference value; it is distinct from representational resolution and repeated-measure precision.
+- **Aggregation:** operation mapping several observations to fewer summary values under a declared grouping and missingness rule.
+- **Algorithmic validity:** degree to which a computational algorithm correctly realises its stated mathematical or stochastic method, including characterised approximation error.
+- **Alignment:** matching of labelled pandas values by index or column labels before selection, assignment, or combination.
+- **Alternative hypothesis:** model claim or family against which a null hypothesis is contrasted by a statistical test.
+- **Ambiguous time:** local civil clock label that refers to more than one instant, typically when a zone’s clocks move backward.
+- **Array scalar:** NumPy scalar object carrying an array dtype while representing one value rather than a positive-dimensional ndarray.
+- **Axis:** one indexed direction of a multidimensional array, table, or operation; its domain meaning must be declared separately from its position.
+- **Backward error:** size of the smallest perturbation to supplied input for which a computed result would be exact.
+- **Bayes’ theorem:** probability identity relating reverse conditional probabilities through a prior probability and marginal evidence.
+- **Bias:** difference between an estimator’s expected value and its estimand under a repeated-sampling model.
+- **BitGenerator:** NumPy stateful component that produces pseudorandom bit patterns for a higher-level Generator.
+- **Block bootstrap:** resampling procedure that draws blocks of neighbouring observations to retain selected local dependence.
+- **Boolean mask:** array-like sequence of truth values selecting positions or, for a pandas Series, labelled rows under alignment rules.
+- **Bootstrap:** family of procedures approximating a sampling distribution by resampling observed units or simulating from a fitted model.
+- **Broadcasting:** trailing-axis compatibility rules allowing elementwise operations on arrays of unequal but compatible shapes.
+- **Byte order:** convention specifying whether the most or least significant byte of a multi-byte value occurs first in storage.
+- **Calendar period:** labelled civil interval, such as a month or quarter, whose elapsed duration need not be fixed.
+- **Cardinality:** number of elements or rows; in joins, the multiplicity relationship of key matches between inputs.
+- **Categorical dtype:** pandas dtype representing values relative to a finite category set and optional declared order.
+- **Causal consistency:** assumption connecting a unit’s observed outcome under its received treatment to the corresponding defined potential outcome.
+- **Causal effect:** contrast between outcomes under specified interventions in a defined population and causal model.
+- **Causal identification:** determination that an estimand is uniquely expressible from observable distributions under explicit assumptions.
+- **Causal model:** formal representation of how interventions, variables, timing, and counterfactual outcomes are related.
+- **Census:** attempted enumeration or measurement of every unit in a defined frame, which can still suffer coverage and measurement errors.
+- **Central limit theorem:** family of results giving limiting distributions, often normal, for suitably normalised aggregates under stated conditions.
+- **Chained assignment:** attempted mutation through successive indexing operations whose intermediate object does not provide a sound original-target contract.
+- **Chunking:** processing bounded partitions while maintaining state sufficient to combine partial results.
+- **Civil time:** calendar-and-clock label interpreted under a locale’s calendar and time-zone rules.
+- **Collider:** causal variable receiving arrows from two variables, conditioning on which can open a non-causal association path.
+- **Columnar representation:** storage and computation organisation in which values of a table column are represented together rather than as complete row objects.
+- **Complete-case analysis:** analysis restricted to units observed on every field required by that analysis.
+- **Composite key:** tuple of two or more fields whose combined values identify a record under a domain rule.
+- **Computational reproducibility:** ability to obtain materially equivalent computational results from supplied code, data, environment, and instructions under a declared criterion.
+- **Condition number:** measure of worst-case amplification of small relative input perturbations by a mathematical problem.
+- **Confidence interval:** output of an interval procedure with stated long-run coverage under a sampling design and model.
+- **Confounder:** pre-exposure common cause, or sufficient proxy structure, capable of distorting an unadjusted causal comparison.
+- **Consistency:** estimator property of converging to its estimand as information grows under a stated asymptotic regime.
+- **Contiguous array:** array whose strides describe an uninterrupted standard memory traversal order, commonly C or Fortran order.
+- **Continuous random variable:** random variable represented by probabilities over intervals, commonly described through a density rather than positive point masses.
+- **Copy-on-write:** ownership model that may share physical data until a logical copy is mutated, when separation is performed.
+- **Correlation:** standardised measure of an association form, most commonly Pearson linear association, in a specified population and measurement regime.
+- **Covariance:** expected product of two variables’ deviations from their means, carrying the product of their units.
+- **Credible interval:** interval containing a stated posterior probability under a Bayesian prior and likelihood model.
+- **Cumulative distribution function:** function (F(x)=P(X\leq x)) giving probability mass at or below each value.
+- **Data:** constructed recorded representations used as evidence, always dependent on provenance, definitions, and collection mechanisms.
+- **Data contract:** versioned agreement about data structure, semantics, ownership, permissible evolution, and behaviour on violations.
+- **Data lineage:** trace of an artefact’s source identities and transformations through a computational process.
+- **Data provenance:** evidence about a record’s origin, collection, custody, revisions, and processing history.
+- **Data validation:** executable checking of syntactic, representational, relational, and semantic requirements.
+- **DataFrame:** pandas two-dimensional labelled table whose columns can have heterogeneous dtypes.
+- **Design effect:** factor comparing an estimator’s variance under a complex design with variance under a reference simple-random design.
+- **Design matrix:** matrix whose rows represent modelled cases and columns represent defined numerical features or terms.
+- **Directed acyclic graph:** directed graph without directed cycles, used in causal analysis to encode assumed causal relations.
+- **Discrete random variable:** random variable whose possible values can be assigned point probabilities through a probability mass function.
+- **Distribution:** mathematical specification assigning probabilities to possible values or events of a random quantity.
+- **Dtype:** NumPy or pandas contract governing element representation, permissible values, and operation behaviour.
+- **Duration:** elapsed amount of time, distinct from a calendar period or local-clock advancement.
+- **Ecological fallacy:** invalid inference from a group-level association to corresponding individual-level relations.
+- **Effect size:** magnitude of a difference or association in natural or explicitly standardised units.
+- **Eigenvalue:** scalar (lambda) for which a square matrix has a non-zero vector (v) satisfying (Av=\lambda v).
+- **Eigenvector:** non-zero direction transformed by a matrix into a scalar multiple of itself.
+- **Empirical cumulative distribution function:** step function giving the observed proportion of sample values at or below each threshold.
+- **Empirical distribution:** probability distribution placing observed relative mass on the realised sample values.
+- **Equivalence test:** procedure whose null includes effects outside a predeclared practically equivalent region.
+- **Error budget:** allocation or bound for acceptable contributions from measurement, approximation, rounding, sampling, and other error sources.
+- **Estimand:** precisely defined population quantity, model functional, or causal contrast an analysis intends to estimate.
+- **Estimate:** realised numerical or structured value produced by an estimator from observed data.
+- **Estimator:** rule mapping every possible sample under a design to an estimate.
+- **Event time:** time at which the represented phenomenon occurred, distinct from ingestion, availability, processing, or revision time.
+- **Exchangeability:** invariance of a joint distribution under specified permutations, often justifying a resampling or comparative procedure.
+- **Expanding window:** ordered calculation over a set that grows from a fixed origin to each successive position.
+- **Expected value:** probability-weighted long-run centre of a random variable when the relevant integral or sum exists.
+- **Extension dtype:** pandas dtype implemented through an extension-array interface for semantics beyond ordinary homogeneous NumPy storage.
+- **False discovery rate:** expected proportion of false rejections among rejected hypotheses under a declared multiple-testing procedure.
+- **Family-wise error rate:** probability of at least one Type I error within a declared family of tests.
+- **Floating-point:** finite binary or decimal representation approximating a wide range of real numbers through sign, significand, exponent, and exceptional values.
+- **Foreign key:** field or tuple in one relation intended to reference a candidate or primary key in another.
+- **Forward error:** difference between a computed result and the exact result for the supplied input.
+- **Generator:** NumPy random interface that transforms a BitGenerator’s stateful output into distributional samples and permutations.
+- **Geometric mean:** (n)th root of the product of (n) positive values, equivalent to exponentiating their mean logarithm.
+- **Grain:** statement of what one row or record represents, including entity, event, time, and aggregation level.
+- **Groupby:** pandas abstraction that partitions rows by key equivalence before applying aggregation, transformation, filtering, or general functions.
+- **Histogram:** partition of a numerical domain into bins represented by counts, frequencies, or density areas.
+- **Hypothesis test:** calibrated decision procedure comparing a statistic with its distribution under a null model.
+- **Identically distributed:** property that random variables share the same marginal probability distribution; it does not imply independence.
+- **Ill-conditioned:** describing a problem in which small admissible input perturbations can produce large output changes.
+- **Imputation:** replacement or modelling of missing fields with one or more plausible analytical values under stated assumptions.
+- **Index:** immutable pandas label sequence attached to an axis and participating in selection and alignment.
+- **Independence:** probability property under which a joint distribution factorises into corresponding marginal distributions.
+- **Instant:** point on a time line, independent of the local civil label used to display it.
+- **Interquartile range:** difference between the third and first quartiles under a stated quantile convention.
+- **Invariant:** property required to remain true before and after a specified transformation.
+- **Inverse-probability weight:** weight proportional to the reciprocal of a unit’s modelled or designed inclusion or treatment probability.
+- **Join:** relational combination of records according to equality or another declared predicate over key values.
+- **Key:** field or field tuple intended to identify records or define a relationship within a stated domain.
+- **Kolmogorov axioms:** foundations requiring non-negative probabilities, unit probability for the sample space, and countable additivity for disjoint events.
+- **Law of large numbers:** family of results under which suitable sample averages converge to expected values as sample size grows.
+- **Least squares:** criterion selecting parameters that minimise a sum or norm of squared residuals.
+- **Linear transformation:** mapping preserving vector addition and scalar multiplication.
+- **Lock file:** machine-readable record of a resolved dependency graph used to reconstruct an application environment closely.
+- **Logarithmic scale:** visual or numerical scale on which equal distances represent equal ratios rather than equal differences.
+- **Look-ahead bias:** optimistic error caused by using information unavailable at the historical decision or prediction time.
+- **Manifest:** machine-readable execution record identifying code, inputs, environment, parameters, random-stream policy, and outputs.
+- **Matrix:** rectangular mathematical arrangement representing a linear transformation or other two-axis structure under a declared interpretation.
+- **Mean:** sum of numerical values divided by count, or corresponding probability expectation, under a stated weighting rule.
+- **Measurement:** rule-governed assignment of recorded values to properties, events, or constructs through an instrument or procedure.
+- **Measurement error:** discrepancy between a recorded measure and the target quantity under a measurement model.
+- **Median:** value or interval separating at least half the ordered mass on either side under a stated convention.
+- **Minimum practically important difference:** predeclared effect magnitude large enough to matter for a substantive decision.
+- **Missing at random:** model-relative condition that missingness is independent of the missing value after conditioning on observed variables.
+- **Missing completely at random:** model-relative condition that missingness is independent of relevant observed and unobserved values.
+- **Missing not at random:** missingness mechanism retaining dependence on an unobserved value or unmodelled cause after conditioning on observations.
+- **Missing value:** representation that an ordinary observed field value is absent under a specified cause and convention.
+- **Model validity:** adequacy of a mathematical or stochastic model for the phenomenon and inferential purpose.
+- **Monte Carlo method:** numerical method estimating a quantity through computation on pseudorandom or designed random-like draws.
+- **Monte Carlo standard error:** standard deviation attributable to a finite stochastic computation under its sampling scheme.
+- **MultiIndex:** pandas Index whose labels consist of tuples organised into named levels.
+- **Multiple imputation:** procedure creating several plausible completed datasets and combining estimates to reflect within- and between-imputation uncertainty.
+- **Naive datetime:** date-time value lacking offset or time-zone information sufficient for unambiguous timeline interpretation.
+- **NaN:** IEEE floating exceptional value representing not-a-number; ordinary equality involving it is false, including self-equality.
+- **Non-inferiority test:** directional procedure assessing whether an effect is no worse than a comparator by more than a justified margin.
+- **Normal distribution:** continuous probability distribution parameterised by a mean and positive variance with a symmetric bell-shaped density.
+- **Null hypothesis:** reference model claim used to calibrate a statistical test’s rejection behaviour.
+- **Numerical stability:** property of an algorithm controlling how rounding and approximation errors propagate relative to the problem.
+- **NumPy array:** homogeneous multidimensional <code>ndarray</code> described by shape, dtype, strides, data storage, and ownership relations.
+- **Object dtype:** NumPy representation storing references to Python objects rather than homogeneous unboxed numerical values.
+- **Observational unit:** entity, event, interval, or other unit on which one analytically distinct observation is defined.
+- **Operational intensity:** amount of useful arithmetic performed per byte transferred through a memory-hierarchy level.
+- **Outlier:** observation unusually separated under a stated reference distribution or rule, requiring investigation rather than automatic deletion.
+- **Oversubscription:** scheduling of more active software workers or native threads than available resources can efficiently serve.
+- **pandas:** Python library providing labelled Series and DataFrame abstractions and operations over tabular and time-series data.
+- **Parameter:** fixed but unknown feature of a population or model within a frequentist formulation; more generally, a value configuring a mathematical object.
+- **Permutation test:** test deriving a reference distribution by label or value rearrangements justified by a null exchangeability assumption.
+- **Population:** complete collection of units, events, or outcomes defined by an inferential question.
+- **Positivity:** causal-identification condition requiring non-zero probability of each compared treatment for relevant covariate patterns.
+- **Potential outcome:** outcome a unit would have under one specified intervention condition in a counterfactual model.
+- **Precision:** closeness of repeated measurements or narrowness of an estimator’s distribution, distinct from accuracy and storage resolution.
+- **Prediction interval:** interval procedure designed to cover a future or otherwise unobserved outcome under a model.
+- **Primary key:** selected candidate key that uniquely and non-nullably identifies records under a relational schema.
+- **Probability density function:** non-negative function whose integral over a region gives probability for a continuous random variable.
+- **Probability mass function:** function assigning probability to each possible value of a discrete random variable.
+- **Proxy measure:** observable variable used to represent another construct or cause that is not measured directly.
+- **Pseudorandom number generator:** deterministic state machine designed to produce sequences with specified statistical properties.
+- **p-value:** null-model probability of a test statistic at least as incompatible with the null as observed, under the declared procedure.
+- **Quantile:** boundary value below which a stated proportion of probability or empirical mass lies under a declared convention.
+- **Random variable:** measurable mapping from outcomes of a probability space to a value domain.
+- **Rank:** dimension of the independent row or column space of a matrix, numerically assessed relative to a tolerance.
+- **Record linkage:** identification of records referring to the same entity when stable exact common keys are unavailable or imperfect.
+- **Reduction:** operation combining values along one or more axes into a result with fewer axes or smaller extent.
+- **Relational model:** data model representing information as relations over named attributes, constrained by keys and dependencies.
+- **Reproducibility:** ability to reconstruct a process or obtain materially equivalent results under a stated artefact and equivalence contract.
+- **Resampling:** construction of repeated pseudo-samples through a declared sampling, permutation, or simulation rule.
+- **Residual:** observed or supplied value minus the corresponding fitted or reconstructed value under a model.
+- **Resolution:** smallest representable or distinguishable increment of a representation or instrument, not necessarily its accuracy.
+- **Robustness:** limited sensitivity of a method or conclusion to contamination, perturbation, or plausible alternative assumptions.
+- **Rolling window:** moving, usually overlapping set of ordered rows or time intervals over which a calculation is made.
+- **Sample:** realised collection of observed units used to describe or infer about a defined population.
+- **Sampling distribution:** probability distribution of a statistic over hypothetical repetitions of the sampling and analysis procedure.
+- **Schema:** declaration of fields, dtypes, units, constraints, relationships, missingness, and semantic definitions.
+- **Seed:** input used to initialise or derive pseudorandom generator state.
+- **SeedSequence:** NumPy mechanism for mixing input entropy and spawning reproducible child states for stream hierarchies.
+- **Selection bias:** distortion arising when inclusion in observed or analysed data depends on variables relevant to the target comparison.
+- **Series:** pandas one-dimensional labelled array-like object with an Index, dtype, values, and optional name.
+- **Significance level:** preselected bound on a test procedure’s Type I error rate under its null assumptions.
+- **Simulation:** execution of a formal model to generate trajectories, samples, or outcomes for analysis.
+- **Singular value:** non-negative scaling magnitude in a singular value decomposition, revealing amplification and numerical rank directions.
+- **Singular value decomposition:** factorisation (A=U\Sigma V^T) into orthogonal or unitary directions and non-negative singular values.
+- **Split–apply–combine:** pattern that partitions observations, computes within partitions, and assembles group results.
+- **Standard deviation:** non-negative square root of variance, expressed in the variable’s units.
+- **Standard error:** standard deviation of an estimator’s sampling distribution under a specified design and model.
+- **Statistic:** function of observed sample data that does not depend on an unknown parameter as an input.
+- **Statistical inference:** use of samples and probability models to reason about population, process, future, or causal quantities.
+- **Statistical power:** probability that a declared hypothesis test rejects under a specified alternative and design.
+- **Stride:** signed byte displacement used to move one logical element along an ndarray axis.
+- **Structured dtype:** NumPy fixed-record dtype containing named fields with specified representations and offsets.
+- **Surrogate key:** generated identifier used in place of a domain’s natural candidate key, without by itself guaranteeing entity correctness.
+- **Target population:** exact population to which an estimand and intended conclusion refer.
+- **Three-valued logic:** logical system containing true, false, and unknown, used by nullable Boolean operations.
+- **Time zone:** date-dependent rule set mapping civil clock labels to timeline offsets and instants.
+- **Timestamp:** represented date-time point with specified resolution and, where needed, time-zone or offset semantics.
+- **Tolerance interval:** interval procedure intended to contain a declared proportion of a population with stated confidence.
+- **Transformation:** deterministic or stochastic mapping from input data or representation to a derived output under a contract.
+- **Type I error:** rejection of a null hypothesis when the relevant null model is true.
+- **Type II error:** failure to reject a null hypothesis when a specified alternative is true.
+- **Ufunc:** NumPy universal-function object applying typed elementwise kernels and supporting methods such as reduction and accumulation.
+- **Unit of analysis:** level at which observations are treated as distinct for the substantive and statistical question.
+- **UTC:** Coordinated Universal Time, the civil time standard commonly used as a shared timeline reference.
+- **Variance:** expected squared deviation from a mean, or a sample estimator thereof under a declared divisor.
+- **Variance reduction:** modification of a stochastic estimator to lower Monte Carlo variance while preserving or characterising its target and bias.
+- **Vector:** ordered element of a vector space, commonly represented by a one-dimensional array under an explicit mathematical interpretation.
+- **Vectorisation:** expression of bulk operations so compiled or specialised kernels can process array data with reduced Python dispatch.
+- **View:** array object sharing underlying element storage with another object while having its own shape, strides, or metadata.
+- **Visual channel:** perceivable property such as position, length, hue, lightness, area, or shape used to encode data.
+- **Weighted mean:** sum of weighted values divided by the sum of weights under a specified weighting interpretation.
+- **Wide data:** table representation in which repeated conditions or occasions commonly occupy separate columns.
+- **Welford algorithm:** stable one-pass recurrence for updating count, mean, and centred sum of squares, with mergeable variants.

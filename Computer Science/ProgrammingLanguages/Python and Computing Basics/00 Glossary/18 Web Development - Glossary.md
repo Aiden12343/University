@@ -1,0 +1,199 @@
+# 18.37 Cumulative glossary additions
+
+- **Accessibility:** property that people with varied sensory, motor, cognitive, and technological needs can perceive, operate, understand, and use a system.
+- **Access token:** credential representing delegated authority to a resource server under defined scope, audience, and lifetime.
+- **ACID:** traditional grouping of database transaction properties: atomicity, consistency, isolation, and durability.
+- **Active content:** representation interpreted as executable or behaviour-producing content, such as browser script.
+- **Address family:** network-address format and protocol family, such as IPv4 or IPv6.
+- **Application factory:** callable constructing a configured application instance and its registered dependencies.
+- **Application server:** process or system implementing a server–application interface and managing application workers.
+- **ASGI:** asynchronous event interface between Python servers and applications for HTTP, WebSocket, and lifespan protocols.
+- **Authentication:** establishment of a principal’s identity and authentication strength under a confidence model.
+- **Authorisation:** decision that a principal may perform a particular action on a particular resource under context.
+- **Authoritative name server:** DNS server providing authoritative data for a delegated zone.
+- **Availability:** proportion or condition in which a system provides its intended service to eligible requests.
+- **Backpressure:** mechanism by which a slower consumer constrains or rejects a faster producer.
+- **Backup:** independently retained recoverable copy of data protected against failures affecting primary and replica state.
+- **Bearer token:** credential granting authority to any party able to present it.
+- **Blue–green deployment:** release method preparing a parallel environment and switching traffic between old and new versions.
+- **Body:** optional content transferred within an HTTP request or response under framing and method/status semantics.
+- **Browser:** user agent that retrieves, parses, renders, secures, and executes web representations.
+- **B-tree:** balanced ordered index structure supporting logarithmic search and ordered traversal under typical database implementations.
+- **Bulkhead:** isolation of capacity so one workload or dependency cannot exhaust every resource pool.
+- **Cache:** retained response, representation, or computed result reused under a validity policy.
+- **Cache key:** complete identity used to decide which cached value corresponds to a request or computation.
+- **Cache validator:** metadata, such as an ETag or modification date, used to test whether stored content remains reusable.
+- **Canary deployment:** release of a candidate version to a controlled subset before wider rollout.
+- **Candidate key:** minimal attribute set that uniquely identifies a relational tuple.
+- **Capability:** unforgeable or controlled authority to perform an operation on a resource.
+- **Certificate:** signed data binding a public key to names, identities, usages, and validity information.
+- **Certificate authority:** entity trusted under a public-key infrastructure to issue or sign certificates under policy.
+- **Circuit breaker:** stateful protective mechanism temporarily rejecting calls to an apparently failing dependency.
+- **Client:** protocol participant initiating a request or connection to a server.
+- **Client-side validation:** validation executed in a user-controlled client for feedback, not authoritative enforcement.
+- **Compression:** reversible encoding reducing transfer or storage size at CPU, memory, and security cost.
+- **Concurrency limit:** bound on simultaneous operations admitted to a component or dependency.
+- **Conditional request:** HTTP request whose method proceeds or representation transfers only if stated preconditions hold.
+- **Connection pool:** bounded reusable collection of established dependency connections.
+- **Consistency:** database property that committed transactions preserve declared invariants when transaction logic is correct.
+- **Container:** packaged process filesystem and configuration executed with operating-system isolation primitives.
+- **Content coding:** reversible transformation, such as gzip, applied to a representation for transfer.
+- **Content delivery network:** geographically distributed intermediary system serving cached or proxied content.
+- **Content negotiation:** selection of one representation using client preferences, server capability, and policy.
+- **Content Security Policy:** browser policy restricting active content and resource loading to reduce injection impact.
+- **Cookie:** user-agent-managed state returned on matching requests according to scope, lifetime, and security attributes.
+- **Correlation identifier:** value linking evidence concerning one request, operation, or causation chain.
+- **CORS:** browser mechanism by which a server permits selected cross-origin script access to responses.
+- **Credential:** evidence presented or possessed to establish identity or authority.
+- **Cross-origin request:** browser request whose destination origin differs from the initiating document’s origin.
+- **CSRF:** attack inducing a browser to perform an unwanted request with automatically attached victim credentials.
+- **Cursor pagination:** collection traversal using an opaque continuation state tied to a stable ordering and query scope.
+- **Data loader:** request-scoped GraphQL batching and caching mechanism mapping a set of keys to ordered results.
+- **Database:** managed system for durable structured state, queries, constraints, and concurrent access.
+- **Deadline:** absolute or remaining time after which an operation’s result is no longer awaited or useful.
+- **Dead-letter queue:** retained state for messages or jobs that exhausted normal processing policy.
+- **Denormalisation:** deliberate introduction of redundant derived data to optimise selected access at synchronisation cost.
+- **Deployment:** controlled introduction of an application artifact and configuration into an execution environment.
+- **Digital signature:** private-key operation whose verification authenticates signed bytes and detects modification under assumptions.
+- **DNS:** delegated distributed naming system storing typed records and cached answers.
+- **Domain name:** hierarchical textual name resolved through DNS or interpreted by another naming policy.
+- **DOM:** browser object-tree representation of a parsed document and its programmable interfaces.
+- **Durability:** transaction guarantee that committed state survives failures covered by the storage system’s contract.
+- **Entity tag:** HTTP validator identifying a selected representation under strong or weak comparison semantics.
+- **Error budget:** amount of not-good service permitted by an SLO over its measurement window.
+- **Event loop:** scheduler repeatedly running ready callbacks and tasks while awaiting asynchronous events.
+- **Failure domain:** components likely to fail together because they share infrastructure, administration, or dependency.
+- **Feature flag:** runtime-controlled activation policy separating feature exposure from artifact deployment.
+- **Field:** named HTTP metadata element whose value grammar and forwarding semantics are defined by specification.
+- **Foreign key:** database constraint requiring referenced key values to exist under configured update and delete actions.
+- **Forward proxy:** intermediary selected by a client to make requests toward origin servers.
+- **Frame:** bounded protocol unit carrying control information and payload within a connection or link.
+- **Graceful degradation:** intentional reduced service that preserves defined safe functionality during impairment.
+- **Graceful shutdown:** bounded process of withdrawing readiness, draining work, and releasing resources before termination.
+- **GraphQL:** typed query language and execution system through which clients request shaped application data.
+- **Health check:** bounded diagnostic endpoint or probe used to judge lifecycle or service condition.
+- **HMAC:** keyed message-authentication construction based on a cryptographic hash function.
+- **Host name:** name identifying a network host or virtual origin under DNS and application policy.
+- **HTML:** document language representing semantic structure, links, forms, embedded resources, and browser behaviour.
+- **HTTP:** stateless application protocol defining methods, statuses, fields, resources, and representations.
+- **HTTP method:** token expressing requested semantics such as retrieval, creation, replacement, or deletion.
+- **HTTP status code:** three-digit protocol result classifying a response to one request.
+- **HTTP/2:** binary-framed multiplexed expression of HTTP semantics over one transport connection.
+- **HTTP/3:** expression of HTTP semantics over QUIC’s encrypted multiplexed transport.
+- **HTTPS:** HTTP communicated through authenticated TLS transport.
+- **Hypermedia:** representations containing typed links or controls that expose available application transitions.
+- **Idempotency:** property that repeating an operation has the same intended effect as performing it once.
+- **Idempotency key:** client-supplied high-entropy identity mapping repeated requests to one logical operation.
+- **Identity provider:** authority authenticating principals and issuing identity assertions under a federation protocol.
+- **Index:** auxiliary database structure accelerating selected access patterns at storage and write cost.
+- **Injection:** unintended interpretation of untrusted data as command, code, query, or document structure.
+- **Integrity:** assurance that data or messages have not been modified outside authorised operations.
+- **Intermediary:** protocol component forwarding, caching, transforming, filtering, or observing messages between endpoints.
+- **IP address:** network-layer address used for routing packets to an interface or endpoint.
+- **Isolation:** transaction property controlling effects visible among concurrent operations.
+- **JSON:** text syntax representing null, booleans, numbers, strings, arrays, and string-keyed objects.
+- **JSON Web Token:** compact signed or encrypted claims representation used within protocols under explicit validation.
+- **Keyset pagination:** pagination selecting rows after a last-seen ordered key tuple rather than by numeric offset.
+- **Latency:** elapsed time between defined operation milestones.
+- **Least privilege:** assignment of only the minimum authority required for a subject or component’s purpose.
+- **Liveness check:** probe deciding whether a process should be restarted rather than whether it should receive traffic.
+- **Load balancer:** intermediary distributing admitted work among eligible upstream instances.
+- **Load shedding:** prompt rejection or degradation of excess work to preserve useful capacity under overload.
+- **Log:** ordered event record containing structured evidence for operation, audit, or diagnosis.
+- **Media type:** identifier describing the format and parameters of transferred content.
+- **Message broker:** system accepting, retaining, routing, and delivering messages under declared semantics.
+- **Middleware:** component wrapping a server–application or framework pipeline to observe or transform requests and responses.
+- **Migration:** versioned executable transformation of database schema or managed data state.
+- **Mutual TLS:** TLS configuration authenticating both server and client through certificates.
+- **Multipart encoding:** representation dividing one body into delimited parts with per-part metadata.
+- **Name resolution:** process converting a service or host name into candidate addressing and related records.
+- **NAT:** network address translation rewriting addresses or ports while maintaining mapping state.
+- **Nonce:** value intended for one use or context to prevent replay or cryptographic reuse.
+- **Normalisation:** transformation to a canonical or comparison form under one layer’s rules.
+- **OAuth 2.0:** framework for delegated authorisation among clients, authorisation servers, and resource servers.
+- **Object-level authorisation:** permission decision concerning a principal’s action on one particular resource instance.
+- **Observability:** capacity to infer internal system state from emitted evidence.
+- **OpenID Connect:** authentication and identity layer built on OAuth 2.0 protocols.
+- **Origin:** browser security tuple of scheme, host, and effective port.
+- **Origin server:** authoritative HTTP endpoint for a target resource, possibly behind intermediaries.
+- **ORM:** layer mapping object-oriented expressions and state to relational queries and rows.
+- **Outbox:** database records committed with domain changes for later at-least-once external publication.
+- **Packet:** bounded network-layer unit routed between addresses.
+- **Parameterised query:** query structure supplied separately from literal values interpreted through parameter slots.
+- **Password hashing:** slow salted password-verifier derivation using a purpose-built adaptive function.
+- **Payload:** data carried for a higher protocol layer or application meaning.
+- **PKCE:** OAuth proof mechanism binding an authorisation request and code exchange through a secret verifier.
+- **Port:** transport-layer number directing traffic at an address to an application endpoint.
+- **Precondition:** request field condition that must hold before a method is applied or content transferred.
+- **Preflight request:** browser CORS request checking permission for a planned non-simple cross-origin request.
+- **Prepared statement:** parsed or parameter-ready database statement keeping literal values separate from SQL structure.
+- **Primary key:** candidate key chosen as a table’s principal row identifier.
+- **Principal:** user, service, device, or process identity recognised by an authentication system.
+- **Private key:** secret cryptographic key used for signing, decryption, or key agreement under an algorithm.
+- **Protocol:** rules governing message representation, meaning, order, and participant behaviour.
+- **Public key:** non-secret cryptographic key used to verify signatures, encrypt, or establish keys under an algorithm.
+- **Query planner:** DBMS component selecting scans, joins, ordering, and other physical operations for a query.
+- **Queue:** bounded or durable ordering structure from which consumers retrieve pending work or messages.
+- **Rate limit:** bound on admitted operations over time under an identity and accounting policy.
+- **Readiness check:** probe deciding whether an instance should receive new traffic.
+- **Recovery point objective:** maximum tolerable data loss measured relative to a failure point.
+- **Recovery time objective:** target maximum elapsed time to restore a defined service after disruption.
+- **Redirect:** response instructing a user agent to follow another target under status-specific method semantics.
+- **Referential integrity:** property that references among relational rows satisfy declared foreign-key constraints.
+- **Relation:** set-like collection of tuples over named attributes in the relational model.
+- **Representation:** encoded state of a resource transferred with descriptive metadata.
+- **Request:** HTTP message asking a server to apply a method to a target.
+- **Request smuggling:** exploitation of differing HTTP message-boundary interpretations among intermediaries.
+- **Resolver:** component mapping a GraphQL field, DNS name, or other symbolic request to a value under context.
+- **Resource:** conceptual target identified by a URI and manipulated or represented through protocol semantics.
+- **Response:** HTTP message communicating status, fields, and optional content for a request.
+- **REST:** architectural style defined by constraints on distributed hypermedia systems.
+- **Retry budget:** explicit limit on additional attempts or work permitted for failed operations.
+- **Reverse proxy:** intermediary accepting client requests and forwarding them to upstream origin applications.
+- **Role-based access control:** authorisation model assigning permissions through roles attached to principals.
+- **Rollback:** restoration or reactivation of a prior compatible release or state after a failed change.
+- **Route:** configured association between request method/target pattern and application behaviour.
+- **Routing:** selection of application or network destination according to target and configured rules.
+- **Safe method:** HTTP method whose requested semantics are read-only even if incidental effects occur.
+- **Saga:** multi-step distributed process using local transactions, persisted state, and compensating actions.
+- **Salt:** unique non-secret value incorporated into password hashing to defeat shared precomputation.
+- **Same-origin policy:** family of browser controls restricting cross-origin reading and interaction.
+- **SameSite:** cookie attribute constraining attachment according to browser site context.
+- **Schema:** formal structure, fields, types, constraints, and evolution rules for represented data.
+- **Secret:** information whose disclosure grants authority or violates confidentiality.
+- **Serialisability:** isolation property making committed outcomes equivalent to some serial transaction order.
+- **Server:** protocol participant accepting connections or requests and producing responses or events.
+- **Server-Sent Events:** UTF-8 event stream delivered from server to browser over a continuing HTTP response.
+- **Service-level indicator:** measured property quantifying user-relevant service behaviour.
+- **Service-level objective:** target value or range for an SLI over a defined window.
+- **Session:** association of requests with server-recognised application and authentication state.
+- **Session fixation:** attack causing a victim to authenticate within a session identifier known to an attacker.
+- **Socket:** operating-system abstraction for a communication endpoint.
+- **SQL:** declarative language for defining, querying, and changing relational database state.
+- **SQL injection:** injection in which untrusted data alters SQL query structure.
+- **Static asset:** versioned file such as a stylesheet, script, font, or image served without per-request domain computation.
+- **Structured log:** event log using stable named fields and values rather than prose alone.
+- **Surrogate key:** identifier introduced for persistence identity rather than derived directly from domain meaning.
+- **TCP:** transport protocol providing an ordered reliable byte stream subject to connection failure.
+- **Telemetry:** emitted logs, metrics, traces, profiles, and related operational evidence.
+- **Throughput:** achieved rate of useful work or data transfer over a period.
+- **Time-of-check/time-of-use:** race in which a validated property changes before the operation relying on it.
+- **TLS:** protocol establishing authenticated and integrity-protected encrypted transport under configured trust.
+- **Token:** encoded value representing identity, state, authority, correlation, or another protocol claim.
+- **Trace:** causally related timed spans describing one operation across components.
+- **Transaction:** grouped database operations committed or rolled back under defined isolation and durability.
+- **Transactional outbox:** pattern atomically storing domain changes and messages for later at-least-once publication.
+- **Trust boundary:** crossing between components, parties, privileges, or domains with different security assumptions.
+- **TTL:** time-to-live value limiting ordinary cache reuse of a DNS record or other state.
+- **URI:** structured identifier for a resource under a registered scheme.
+- **URL:** URI locating a resource through components such as scheme, authority, path, and query.
+- **User agent:** software acting for a user when participating in an application protocol.
+- **Validation:** checking representation and values against syntactic, semantic, and domain rules.
+- **Validator:** HTTP metadata used in a precondition or cache revalidation comparison.
+- **Visibility timeout:** interval during which a delivered queue message is hidden before unacknowledged redelivery.
+- **Web application:** distributed application exposing browser or HTTP-mediated resources and state transitions.
+- **Webhook:** outbound HTTP event-delivery protocol to a consumer-controlled endpoint.
+- **WebSocket:** framed bidirectional message protocol established from an HTTP connection context.
+- **Worker:** process, thread, or task consuming admitted requests or queued jobs.
+- **WSGI:** synchronous Python callable interface between web servers and applications.
+- **XSS:** injection causing attacker-controlled content to execute in another user’s browser context.

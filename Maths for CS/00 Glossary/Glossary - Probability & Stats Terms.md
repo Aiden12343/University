@@ -1,0 +1,69 @@
+# Glossary - Probability & Stats Terms
+
+Probability, statistics, inference, and information theory words.
+
+- **event** - key term from [[8.1 Probability Basics]]. Add your own definition after studying it.
+- **outcome** - key term from [[8.1 Probability Basics]]. Add your own definition after studying it.
+- **sample space** - key term from [[8.1 Probability Basics]]. Add your own definition after studying it.
+- **probability scale** - key term from [[8.1 Probability Basics]]. Add your own definition after studying it.
+- **complement** - key term from [[8.1 Probability Basics]]. Add your own definition after studying it.
+- **conditional probability** - key term from [[8.2 Conditional Probability]]. Add your own definition after studying it.
+- **given** - key term from [[8.2 Conditional Probability]]. Add your own definition after studying it.
+- **joint probability** - key term from [[8.2 Conditional Probability]]. Add your own definition after studying it.
+- **independence** - key term from [[8.2 Conditional Probability]]. Add your own definition after studying it.
+- **dependence** - key term from [[8.2 Conditional Probability]]. Add your own definition after studying it.
+- **prior** - key term from [[8.3 Bayes Theorem]]. Add your own definition after studying it.
+- **likelihood** - key term from [[8.3 Bayes Theorem]]. Add your own definition after studying it.
+- **posterior** - key term from [[8.3 Bayes Theorem]]. Add your own definition after studying it.
+- **evidence** - key term from [[8.3 Bayes Theorem]]. Add your own definition after studying it.
+- **Bayesian update** - key term from [[8.3 Bayes Theorem]]. Add your own definition after studying it.
+- **random variable** - key term from [[8.4 Random Variables and Expected Value]]. Add your own definition after studying it.
+- **expected value** - key term from [[8.4 Random Variables and Expected Value]]. Add your own definition after studying it.
+- **variance** - key term from [[8.4 Random Variables and Expected Value]]. Add your own definition after studying it.
+- **standard deviation** - key term from [[8.4 Random Variables and Expected Value]]. Add your own definition after studying it.
+- **linearity of expectation** - key term from [[8.4 Random Variables and Expected Value]]. Add your own definition after studying it.
+- **Bernoulli** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **binomial** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **geometric** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **Poisson** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **probability mass function** - key term from [[8.5 Discrete Distributions]]. Add your own definition after studying it.
+- **continuous variable** - key term from [[8.6 Continuous Distributions]]. Add your own definition after studying it.
+- **density** - key term from [[8.6 Continuous Distributions]]. Add your own definition after studying it.
+- **normal distribution** - key term from [[8.6 Continuous Distributions]]. Add your own definition after studying it.
+- **uniform distribution** - key term from [[8.6 Continuous Distributions]]. Add your own definition after studying it.
+- **area under curve** - key term from [[8.6 Continuous Distributions]]. Add your own definition after studying it.
+- **mean** - key term from [[8.7 Descriptive Statistics]]. Add your own definition after studying it.
+- **median** - key term from [[8.7 Descriptive Statistics]]. Add your own definition after studying it.
+- **mode** - key term from [[8.7 Descriptive Statistics]]. Add your own definition after studying it.
+- **range** - key term from [[8.7 Descriptive Statistics]]. Add your own definition after studying it.
+- **standard deviation** - key term from [[8.7 Descriptive Statistics]]. Add your own definition after studying it.
+- **correlation** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **linear regression** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **slope** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **residual** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **coefficient** - key term from [[8.8 Correlation and Regression]]. Add your own definition after studying it.
+- **null hypothesis** - key term from [[8.9 Hypothesis Testing]]. Add your own definition after studying it.
+- **alternative hypothesis** - key term from [[8.9 Hypothesis Testing]]. Add your own definition after studying it.
+- **p-value** - key term from [[8.9 Hypothesis Testing]]. Add your own definition after studying it.
+- **significance level** - key term from [[8.9 Hypothesis Testing]]. Add your own definition after studying it.
+- **test statistic** - key term from [[8.9 Hypothesis Testing]]. Add your own definition after studying it.
+- **posterior distribution** - key term from [[8.10 Bayesian Inference]]. Add your own definition after studying it.
+- **credible interval** - key term from [[8.10 Bayesian Inference]]. Add your own definition after studying it.
+- **Bayesian model** - key term from [[8.10 Bayesian Inference]]. Add your own definition after studying it.
+- **conjugacy** - key term from [[8.10 Bayesian Inference]]. Add your own definition after studying it.
+- **sampling** - key term from [[8.10 Bayesian Inference]]. Add your own definition after studying it.
+- **entropy** - key term from [[8.11 Information Theory]]. Add your own definition after studying it.
+- **bit** - key term from [[8.11 Information Theory]]. Add your own definition after studying it.
+- **information content** - key term from [[8.11 Information Theory]]. Add your own definition after studying it.
+- **cross-entropy** - key term from [[8.11 Information Theory]]. Add your own definition after studying it.
+- **mutual information** - key term from [[8.11 Information Theory]]. Add your own definition after studying it.
+- **randomised algorithm** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **Las Vegas algorithm** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **Monte Carlo algorithm** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **expected runtime** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **amplification** - key term from [[11.2 Randomised Algorithms]]. Add your own definition after studying it.
+- **KL divergence** - key term from [[11.17 Information Theory for ML and Compression]]. Add your own definition after studying it.
+- **cross entropy** - key term from [[11.17 Information Theory for ML and Compression]]. Add your own definition after studying it.
+- **mutual information** - key term from [[11.17 Information Theory for ML and Compression]]. Add your own definition after studying it.
+- **coding theorem** - key term from [[11.17 Information Theory for ML and Compression]]. Add your own definition after studying it.
+- **compression bound** - key term from [[11.17 Information Theory for ML and Compression]]. Add your own definition after studying it.

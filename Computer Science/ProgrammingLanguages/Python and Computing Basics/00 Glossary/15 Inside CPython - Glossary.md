@@ -1,0 +1,199 @@
+# 15.23 Cumulative glossary additions
+
+- **Abstract machine:** formal or conceptual execution model defined by states and state-transition operations rather than one physical processor.
+- **Abstract syntax tree (AST):** hierarchical representation retaining semantically relevant source structure while omitting many punctuation and formatting details.
+- **Adaptive counter:** version-specific runtime state measuring whether an instruction site should attempt, retain, or abandon specialisation.
+- **Adaptive instruction:** interpreter operation capable of gathering runtime evidence and selecting a guarded specialised implementation.
+- **Adaptive specialisation:** runtime configuration or replacement of generic interpreter operations for observed conditions under correctness guards.
+- **Allocation domain:** C API category whose allocation, reallocation, attachment, debugging, and deallocation rules form one memory contract.
+- **Allocation family:** matched group of allocator and deallocator functions, which must not be mixed with another family.
+- **Allocation high-water mark:** greatest measured allocation or memory level reached during an observation interval.
+- **Annotation evaluation:** process by which annotation expressions or deferred representations become annotation values under version-specific rules.
+- **Arena:** large region from which pymalloc obtains pools for small-block allocation; wholly free arenas may become returnable.
+- **Argument vector:** contiguous array of object pointers used by vectorcall to convey positional and keyword values without mandatory tuple construction.
+- **AST context:** <code>Load</code>, <code>Store</code>, or <code>Del</code> marker stating a target/name node’s syntactic role.
+- **AST transformer:** visitor capable of replacing or removing syntax-tree nodes while preserving compiler structural and location invariants.
+- **Attached thread state:** CPython thread state currently associated with a native thread so permitted Python C API work can occur.
+- **Basic block:** maximal straight-line instruction sequence entered at its beginning and left at its end, used in control-flow analysis.
+- **Biased reference counting:** free-threading technique giving one thread inexpensive ownership updates while separately accounting for cross-thread references.
+- **Binary interface:** machine-level calling, layout, symbol, and linking contract between separately compiled components.
+- **Block (code block):** source region whose names are classified together, such as a module, function, class, or comprehension scope.
+- **Borrowed reference:** C API pointer usable without transferred ownership only while another owner and stated stability conditions keep it valid.
+- **Bound method:** callable object or equivalent optimised call state pairing a function-like descriptor result with its receiver.
+- **Breakpoint:** debugger condition that suspends execution at a selected location or event for state inspection.
+- **Build configuration:** compiler, flags, features, debug state, ABI choices, and platform properties used to produce an executable.
+- **Bytecode:** compact version-specific CPython interpreter instruction representation stored in and associated with code objects.
+- **Bytecode cache:** <code>pyc</code> artefact retaining marshalled compiled code so eligible imports can avoid repeated source compilation.
+- **Byte-order mark (BOM):** leading byte sequence that can identify Unicode encoding; Python recognises a UTF-8 BOM under source rules.
+- **Cache tag:** implementation/version identifier incorporated into bytecode-cache filenames to distinguish incompatible compiled artefacts.
+- **Call chain:** dynamic sequence of active invocations in which each callee was entered from a caller.
+- **Call protocol:** language and implementation rules by which a callable receives evaluated arguments and returns or raises.
+- **Call stack:** conceptual stack of active invocations; it must be distinguished from evaluation stacks and the native machine stack.
+- **Callable:** object for which the call operation is supported, commonly through a function, method, type, or call slot.
+- **Cell:** runtime object holding a lexical binding shared with or supplied to nested function code.
+- **Cell variable:** local binding represented through a cell because nested code requires access to it.
+- **Checked-hash pyc:** bytecode cache whose stored source hash is checked against source before cached code is accepted.
+- **Code object:** immutable CPython object containing bytecode plus constants, names, flags, positions, exception regions, and execution metadata.
+- **Code unit:** fixed-width unit in CPython’s bytecode encoding; an instruction can occupy additional units for arguments or caches.
+- **Column offset:** source-position coordinate represented as a UTF-8 byte offset in relevant CPython AST/code metadata.
+- **Combined dictionary:** dictionary representation in which keys/hashes and values are held within one table arrangement rather than shared keys.
+- **Compilation:** translation from validated syntax and symbol information to executable code objects and their metadata.
+- **Compiler:** program or subsystem translating one representation into another while preserving the specified observable meaning.
+- **Compiler flag:** bit or option controlling parsing/compilation semantics, optimisation, future features, or code-object properties.
+- **Concrete syntax tree:** representation preserving grammar and punctuation structure more closely than an abstract syntax tree.
+- **Constant folding:** compile-time replacement of an expression over known constants by an equivalent constant under permitted semantics.
+- **Control-flow graph:** directed graph whose nodes are basic blocks and whose edges are possible normal or exceptional transfers.
+- **Coroutine frame:** execution state retained by a suspended coroutine so awaiting can later resume at its prior position.
+- **C API:** documented native-language interface through which extensions and embedding applications interact with CPython.
+- **Cyclic isolate:** group of objects unreachable from outside itself but connected internally by strong references.
+- **Cyclic garbage collection:** graph analysis and reclamation of selected unreachable cycles that reference counts alone cannot reclaim.
+- **Debug allocator hooks:** memory instrumentation adding guard regions, fill patterns, family checks, and traceback association around allocations.
+- **Debug build:** interpreter build enabling assertions and diagnostics omitted or reduced in an optimised release build.
+- **Decoding:** conversion of source bytes into Unicode text according to a selected character encoding.
+- **Decrement:** release of one strong reference under CPython ownership rules, potentially triggering deallocation and re-entrant effects.
+- **Deallocation:** type-specific destruction process initiated when an ordinary object’s lifetime rules determine it is no longer owned.
+- **Deferred reference counting:** technique postponing accounting for selected references until coordinated scanning rather than updating on every access.
+- **Descriptor slot:** type-level operation supporting attribute-binding behaviour such as <code>__get__</code>, <code>__set__</code>, or <code>__delete__</code>.
+- **Detached thread state:** saved but currently unattached CPython state while native code performs work that cannot use ordinary Python APIs.
+- **Dispatch:** selection and execution of the native implementation corresponding to the current interpreter opcode or object protocol.
+- **Dynamic activation:** one live or suspended invocation of compiled code, distinct from the static code object.
+- **Error indicator:** exception information stored in an attached thread state when a C API operation fails.
+- **Error sentinel:** documented return value, such as <code>NULL</code> or selected <code>-1</code>, signalling that exception state must be examined.
+- **Evaluation breaker:** compact CPython condition routing the evaluator to infrequent pending obligations at safe checking points.
+- **Evaluation loop:** conceptual machinery that dispatches bytecode, updates frames and ownership, and transfers among operations or frames.
+- **Evaluation stack:** per-frame last-in, first-out storage for temporary object references used by interpreter instructions.
+- **Exception chaining:** association of a raised exception with an explicit cause or implicit context from an earlier active exception.
+- **Exception context:** exception automatically recorded when another exception arises while the first is being handled.
+- **Exception group:** tree-shaped exception containing multiple leaf exceptions and supporting subgroup handling with <code>except*</code>.
+- **Exception normalisation:** conversion/validation process ensuring exception state has an appropriate exception instance and related metadata.
+- **Exception table:** code-object metadata mapping protected instruction regions to handlers and required stack restoration state.
+- **Execution frame:** state for one active or suspended code invocation, including bindings, instruction position, stack, and exception context.
+- **External root:** reference path originating outside a candidate garbage-collection subgraph and thereby preserving reachability.
+- **Finaliser:** hook executed as an object enters finalisation, capable of arbitrary effects, failure, or resurrection.
+- **Finder:** import-protocol object that can return a module specification for a requested fully qualified name.
+- **Frame materialisation:** creation/exposure of a Python frame object corresponding to efficient internal interpreter-frame state.
+- **Free list:** type- or runtime-specific cache retaining deallocated structures for rapid reuse rather than immediate allocator return.
+- **Free variable:** name whose binding is obtained from an enclosing lexical function scope through a closure cell.
+- **Free-threaded build:** CPython configuration permitting parallel Python execution without one global interpreter lock.
+- **Full C API:** broader CPython native API surface exposing more functionality and version coupling than the limited API.
+- **Function object:** callable combining a code object with globals, defaults, closure cells, annotations, metadata, and attributes.
+- **GC generation:** age/policy class used to schedule cyclic-collector scans, with count and meaning dependent on CPython version.
+- **GC header:** private metadata adjacent to or associated with a tracked object for cyclic-collector lists and temporary state.
+- **Generational hypothesis:** empirical observation that many newly allocated objects become unreachable young, motivating more frequent young scans.
+- **Global interpreter lock (GIL):** broad mutual-exclusion mechanism serialising much Python-object/bytecode execution in conventional CPython builds.
+- **Global binding:** name resolved or assigned in a module namespace from the perspective of a function block.
+- **Grammar:** formal rules describing which token arrangements constitute syntactically valid language constructs.
+- **Guard:** runtime condition proving that a specialised fast path’s assumptions still hold before it executes.
+- **Hash-based invalidation:** pyc policy using a source-content hash rather than only timestamp and size to decide cache validity.
+- **Identity reuse:** allocation of a later object at an address/identity value formerly used by an object whose lifetime ended.
+- **Immortal object:** CPython object whose lifetime bookkeeping is arranged so ordinary reference decrements do not deallocate it.
+- **Import cache:** <code>sys.modules</code> mapping through which import reuses module objects and exposes partial modules during recursion.
+- **Import hook:** custom finder or loader participating in module discovery, creation, or execution under the import protocol.
+- **Import lock:** synchronisation preventing conflicting concurrent module initialisation while accounting for recursive imports.
+- **Inline cache:** instruction-site-associated data retaining guarded lookup/type evidence for faster repeated interpreter operations.
+- **Instruction:** opcode together with any argument and associated cache/position context in an interpreter representation.
+- **Instruction offset:** version-specific location within a bytecode/code-unit stream, not a source character index.
+- **Interning:** reuse of one immutable object for selected equal values to reduce storage or accelerate comparisons/lookups.
+- **Interpreter frame:** efficient private CPython representation of one code activation, potentially without a materialised frame object.
+- **Interpreter loop:** another name for the dispatch/evaluation machinery, not necessarily one literal source-code loop.
+- **Interpreter state:** per-interpreter collection of modules, built-ins, configuration, pending state, locks, and runtime resources.
+- **Invalidation:** event making cached/specialised assumptions unusable and requiring fallback, refresh, or deoptimisation.
+- **Jump target:** instruction offset to which control may transfer rather than arrive solely through linear fall-through.
+- **Keyword-name tuple (kwnames):** vectorcall tuple listing keyword names whose values follow positional values in the argument vector.
+- **Lexical analysis:** conversion of decoded source text into tokens under rules for names, literals, indentation, and operators.
+- **Lexical block:** code region whose binding relationships derive from source nesting rather than runtime caller relationships.
+- **Limited API:** restricted C API subset intended to reduce dependence on version-specific CPython structures.
+- **Line table:** compact code metadata mapping instruction regions to source line/position information for tracing and diagnostics.
+- **Loader:** import-protocol object responsible for module creation where needed and execution/population under a module specification.
+- **Locals plus:** implementation term for combined indexed frame storage containing locals, cells, and free variables.
+- **Logical frame:** implementation-independent notion of execution state required for one active or suspended invocation.
+- **Magic number:** version-specific byte sequence identifying a pyc format compatible with a particular interpreter/compiler format.
+- **Marshal:** Python/CPython-specific binary serialisation used for code caches, not a stable or safe untrusted-data format.
+- **Materialisation:** conversion of implicit or optimised internal state into an observable object representation when required.
+- **Memory allocator:** subsystem assigning suitably aligned storage regions and later resizing, recycling, or returning them.
+- **Memory domain:** CPython allocator family for interpreter-associated non-object buffers requiring documented thread-state conditions.
+- **Meta path:** ordered <code>sys.meta_path</code> sequence of finders consulted for top-level import discovery.
+- **Metaclass slot:** operation on the type of a class object governing class calls, attributes, construction, or protocols.
+- **Method cache:** implementation cache accelerating repeated type attribute/method resolution under invalidation guards.
+- **Module object:** object with a namespace and import metadata populated through module execution and loader protocols.
+- **Module specification (ModuleSpec):** import record identifying module name, loader, origin, package search state, and creation/execution metadata.
+- **Multi-phase initialisation:** extension-module protocol separating module creation from execution and supporting per-module state.
+- **Native frame:** activation record used by compiled C/C++/machine execution, distinct from a Python frame object.
+- **Native stack:** operating-system thread’s machine call stack used by compiled interpreter and extension code.
+- **New reference:** C API result transferring an independent strong-reference release obligation to the receiver.
+- **Nonlocal binding:** binding selected from an existing lexically enclosing function block by a <code>nonlocal</code> declaration.
+- **Object domain:** CPython allocation family used for Python-object storage and associated allocations under object API rules.
+- **Object free list:** cache of type-specific deallocated structures kept for reuse, sometimes cleared by a full collection.
+- **Object header:** common prefix state through which CPython identifies type and manages lifetime under a chosen build.
+- **Opcode:** numeric or named identifier selecting one interpreter operation category.
+- **Operand argument (oparg):** encoded integer interpreted according to its opcode, perhaps as an index, count, flag pack, or jump distance.
+- **Ownership ledger:** control-flow record of where each native reference was acquired, transferred, stolen, retained, and released.
+- **Parsing Expression Grammar (PEG):** grammar formalism used by modern CPython’s generated parser, supporting ordered-choice parsing decisions.
+- **Pending call:** native/runtime request scheduled for execution later at an appropriate interpreter checking point.
+- **Per-interpreter GIL:** lock associated with one interpreter state so appropriately isolated interpreters can execute in parallel.
+- **Pool:** pymalloc page-sized region divided into blocks of one size class and obtained from a larger arena.
+- **Position range:** start/end line and column span associating an instruction or AST node with source text.
+- **Private API:** implementation interface not covered by ordinary compatibility guarantees and free to change with internals.
+- **Prompt reclamation:** release occurring soon after the final owner disappears, common for acyclic conventional CPython objects but not language-guaranteed.
+- **Public C API:** documented native interface supported for extensions under its stated version and compatibility conditions.
+- **pyc file:** version-tagged bytecode-cache file containing header/invalidation data and marshalled compiled code.
+- **pymalloc:** CPython small-block allocator grouping object-domain requests into size classes, pools, and arenas.
+- **PyObject:** C API common object-prefix type through which arbitrary Python object pointers are handled.
+- **PyTypeObject:** CPython type-object structure/API abstraction containing metadata and slots that govern instances.
+- **PyVarObject:** common prefix model extending <code>PyObject</code> with size information for variable-sized representations.
+- **Quickening:** preparation/adaptation of instruction sites so runtime specialisation information can be collected and installed.
+- **Raw domain:** allocator family available under documented conditions without requiring an attached Python thread state.
+- **Reachable:** connected by a relevant strong-reference path from a runtime root and therefore not cyclic garbage.
+- **Reference count:** implementation ownership state summarising strong-reference claims, not a stable count of source-level names.
+- **Reference counting:** lifetime mechanism acquiring/releasing strong ownership and ordinarily deallocating conventional objects at zero.
+- **Reference ownership:** obligation defining whether a reference retains an object, may be transferred, and must be released.
+- **Reference stealing:** C API convention in which a callee takes over an ownership obligation supplied by its caller.
+- **Re-entrancy:** execution of callbacks or other code before an operation finishes, allowing state to be observed or modified recursively.
+- **Release build:** interpreter built for normal deployment performance with many debug assertions/instrumentations absent.
+- **Resident set size (RSS):** operating-system estimate of process pages currently resident in physical memory under platform accounting.
+- **Resurrection:** creation of a reachable reference to an object during its finalisation, returning it to live state.
+- **Root:** runtime starting point from which reachability is traced, such as active/interpreter/module state.
+- **Scope classification:** compile-time assignment of name uses to local, cell, free, global, or other access categories.
+- **Sentinel return:** distinguished native return value indicating failure only in conjunction with the API’s exception-state rule.
+- **Shallow size:** memory attributed to one object representation without recursively counting separately allocated referents.
+- **Signal checkpoint:** safe interpreter opportunity at which a deferred Python signal handler can run after low-level notification.
+- **Source encoding declaration:** permitted leading comment identifying the codec used to decode a Python source file.
+- **Source position:** line/column metadata associating syntax or instructions with a span of original source.
+- **Special-method slot:** type-level function pointer or wrapper implementing an implicit protocol such as addition, call, or iteration.
+- **Specialised instruction:** guarded opcode/form optimised for observed types or structure while preserving generic fallback semantics.
+- **Speculative optimisation:** acceleration based on tested assumptions with deoptimisation or fallback when a guard fails.
+- **Split dictionary:** representation sharing keys across related mappings while keeping value arrays separate, common for instance namespaces.
+- **Stable ABI:** binary-compatibility promise for an eligible limited-API extension across specified Python 3 releases/platform conditions.
+- **Stack effect:** net change an instruction makes to evaluation-stack depth for a specified argument/control-flow outcome.
+- **Stolen reference:** ownership transferred to a callee so the caller must no longer release that same claim.
+- **Stop-the-world phase:** coordinated interval in which participating interpreter threads pause so global graph/lifetime work can be performed safely.
+- **Strong reference:** ownership edge that keeps its target alive under CPython lifetime rules.
+- **Structured disassembly:** programmatic <code>Instruction</code> records rather than parsing human-formatted disassembly text.
+- **Subinterpreter:** separate interpreter state within one process, with distinct module/built-in state but shared process resources.
+- **Suspended frame:** generator/coroutine execution state preserved at a yield/await point for later resumption.
+- **Symbol table:** compiler representation mapping identifiers in each block to binding, use, scope, and nesting properties.
+- **Thread state:** CPython state associating a native thread with an interpreter, exception context, evaluation, recursion, and monitoring data.
+- **Timestamp invalidation:** pyc validation policy comparing stored source modification metadata rather than a checked content hash.
+- **Token:** lexically classified source span such as a name, number, operator, indentation marker, or string.
+- **Tokenisation:** production of a token stream from decoded source under lexical and indentation rules.
+- **Trace function:** callback receiving selected execution events through <code>sys.settrace</code>, with significant observability and overhead consequences.
+- **Traceback:** linked object structure recording frames and instruction/source positions along exception propagation.
+- **tracemalloc domain:** integer namespace separating traced native allocation categories in allocation-trace records.
+- **Traversal:** type-provided enumeration of owned outgoing Python references for cyclic graph analysis.
+- **Trial deletion:** conceptual cycle-detection method subtracting candidate-internal references to expose external support and unreachable groups.
+- **Type flag:** bit describing a type object’s supported layout, inheritance, GC, calling, or protocol properties.
+- **Type object:** runtime object defining representation, slots, inheritance, and behaviour of its instances.
+- **Uncollectable object:** unreachable object the collector cannot reclaim under its current finalisation/extension constraints or diagnostic mode.
+- **Unchecked-hash pyc:** hash-bearing cache trusted without rechecking source content under the selected invalidation policy.
+- **Unbound local:** statically local binding read on a path before it has acquired a value, producing <code>UnboundLocalError</code>.
+- **Unreachable:** lacking a strong-reference path from relevant runtime roots, even if cyclic internal references remain.
+- **Vectorcall:** CPython call protocol passing arguments in a pointer vector with compact positional/keyword metadata.
+- **Vectorcall offset flag:** <code>nargsf</code> flag indicating an available scratch slot before the argument vector for selected call optimisations.
+- **Version tag:** identifier marking an artefact, ABI, or cache as belonging to a particular implementation/version contract.
+- **Weak callback:** function invoked when a weakly referenced object is finalised, without receiving a live referent ownership claim.
+- **Weak key:** mapping key held through a weak reference so its independent death can remove the entry.
+- **Weak mapping:** mapping whose keys or values do not contribute strong ownership under its weak-reference policy.
+- **Weak reference:** object designating another object without keeping it alive and yielding <code>None</code> after referent death.
+- **weakref.finalize:** one-shot fallback finalisation object invoking a callback without requiring the callback to capture its owner.
+- **Wordcode:** historical/colloquial description of fixed-width CPython code units; current details remain release-specific.
+- **Zero-cost exception table:** handler-region metadata reducing normal-path setup overhead, not eliminating the cost of raising or unwinding.

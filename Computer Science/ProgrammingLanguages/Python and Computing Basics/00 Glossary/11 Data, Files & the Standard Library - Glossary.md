@@ -1,0 +1,87 @@
+# 11.20 Cumulative glossary additions
+
+- **Binary stream:** stream whose units are bytes.
+- **Buffer:** storage temporarily retaining data to combine or defer transfers.
+- **Context manager:** an object governing entry to and exit from a runtime context.
+- **CSV:** a family of delimited tabular text formats with quoting and framing rules.
+- **Deserialisation:** reconstruction of state from an external representation.
+- **Durability:** persistence of an accepted update across a named failure model.
+- **File offset:** position used by sequential file operations.
+- **Framing:** division of a stream into meaningful records or messages.
+- **JSON:** a text interchange format with objects, arrays, strings, numbers, Booleans, and null.
+- **Pickle:** Python-specific object serialisation protocol capable of invoking reconstruction code.
+- **Serialisation:** transformation of state into a storable or transmissible representation.
+- **Text stream:** stream applying character encoding/decoding and possible newline translation above bytes.
+- **Time-of-check to time-of-use:** race between observing external state and later acting on the assumption that it is unchanged.
+
+Additional terms introduced by the expanded treatment are:
+
+- **Absolute path:** path anchored to a root, drive, or share according to its path grammar; not a permanent object identity.
+- **Aliasing:** condition in which two or more references provide access to the same mutable object or external resource.
+- **Application schema:** rules assigning domain names, types, constraints, and interpretations to a generic representation.
+- **Atomic namespace replacement:** replacement for which relevant name resolvers observe the old or new directory entry, not an intermediate partial entry, under stated filesystem conditions.
+- **Authenticity:** evidence supporting a claim about the origin or principal responsible for data.
+- **Backpressure:** mechanism by which downstream capacity constrains upstream production.
+- **Boundary adapter:** component translating between an external representation/effect interface and domain values or exceptions.
+- **Boundary experiment:** minimal recorded experiment designed to test one uncertain interface claim.
+- **Byte-order mark (BOM):** encoded U+FEFF used at the beginning of some text representations to indicate byte order or an encoding convention.
+- **Byte order:** ordering of bytes that jointly represent a multi-byte value, commonly big-endian or little-endian.
+- **Canonical equivalence:** Unicode-defined equivalence between code-point sequences representing the same abstract textual content under canonical rules.
+- **Canonicalisation:** transformation of permitted representations into one defined representative form.
+- **Capability:** operation an object or principal is able and authorised to request; for streams, examples include reading, writing, and seeking.
+- **Code point:** numbered position in the Unicode codespace.
+- **Code unit:** fixed-width unit used by an encoding form, such as an octet in UTF-8.
+- **Commit point:** transition after which an operation is treated as accepted and ordinary rollback is no longer available.
+- **Compensation:** new effect intended to counteract an earlier completed effect without erasing its history.
+- **Contract card:** compact record of an API's accepted values, outputs, effects, failures, costs, ordering, limits, trust, and version dependencies.
+- **CSV dialect:** set of lexical parameters defining delimiter, quoting, escaping, spacing, and line termination for one CSV variant.
+- **Decode error handler:** named policy determining the response to bytes invalid under a selected codec.
+- **Directory handle:** acquired reference to a directory that can anchor relative operations more strongly than ambient current-directory resolution.
+- **Extended grapheme cluster:** Unicode-defined default approximation to a user-perceived text element, possibly comprising several code points.
+- **Failure atomicity:** property that an operation either has its complete specified effect or no relevant visible effect within a named observation model.
+- **File descriptor:** small process-local integer used by POSIX-like APIs to identify an acquired open resource.
+- **File-like object:** object supporting the subset of stream methods required by a consumer, independent of one concrete file class.
+- **Filesystem namespace:** mapping through which path components resolve to filesystem objects.
+- **Flush:** operation requesting transfer of data retained in one buffering layer to the next layer; not by itself universal durable persistence.
+- **Glyph:** visual shape produced by a font and text-shaping system.
+- **Hard link:** directory entry referring to the same underlying filesystem object as another entry on supporting filesystems.
+- **Idempotence:** property that repeating an operation has the same relevant effect as applying it once under a stated observation model.
+- **Idempotency key:** stable identifier by which a receiver recognises repeated delivery of one logical request.
+- **Incremental decoder:** stateful decoder that accepts successive byte chunks and retains incomplete codec state across them.
+- **Integrity:** evidence that data has not changed outside permitted transformations.
+- **JSON Lines:** convention in which each physical line contains one complete JSON text; encoding, limits, and blank/final-line policy require separate specification.
+- **Lease:** time-bounded authority or ownership requiring renewal to remain valid.
+- **Line buffering:** buffering policy under which selected line endings trigger transfer through the current text layer.
+- **Live layered view:** composite mapping, such as <code>ChainMap</code>, that searches retained underlying mappings and reflects their later mutation.
+- **Materialisation:** construction and retention of all requested values from a lazy source.
+- **Memo:** state mapping previously encountered object identities so a serialiser or algorithm can preserve sharing, handle cycles, or avoid repetition.
+- **Metadata:** information describing a resource—such as type, size, time, ownership, or permissions—rather than its ordinary content.
+- **Normalisation form:** Unicode-defined transformation such as NFC, NFD, NFKC, or NFKD selecting a representation under canonical or compatibility rules.
+- **Open file description:** POSIX-like kernel object retaining offset and status behind one or more file descriptors.
+- **Out-of-band buffer:** buffer transferred separately from a main serialisation stream and referenced by that stream under a compound protocol.
+- **Path traversal:** escape from an intended namespace root through components, absolute names, links, archives, races, or related resolution mechanisms.
+- **Persistent ID:** pickle hook representation whose meaning is resolved through an external object store by a corresponding unpickler.
+- **Pure computational core:** program region whose results depend on explicit values and which intentionally performs no external effects.
+- **Raw I/O:** lowest Python I/O layer exposing direct byte transfers with minimal buffering semantics.
+- **Recovery point objective:** maximum acceptable amount of recent state loss after a disruption.
+- **Recovery time objective:** maximum acceptable duration required to restore a service or dataset after a disruption.
+- **Redo record:** logged information sufficient to reproduce an accepted state change during recovery.
+- **Relative path:** path resolved from a supplied or ambient directory context.
+- **Representation validity:** conformity of external units to the selected lowest-layer representation, such as valid UTF-8 bytes.
+- **Resource budget:** explicit limit on consumption such as bytes, elements, depth, time, descriptors, memory, or output.
+- **Schema version:** identifier for one interpretation of a persistent or exchanged representation.
+- **Seekability:** stream capability permitting its logical position to be changed under defined origins and offsets.
+- **Semantic validity:** conformity of parsed values to domain meaning and relationships.
+- **Snapshot:** representation intended to describe state at one logical instant or version.
+- **Sparse file:** regular file whose logical zero-filled regions can be represented without allocating corresponding physical blocks.
+- **Spooled temporary file:** temporary stream initially held in memory and rolled over to filesystem storage after a threshold or forcing operation.
+- **Structural validity:** conformity of a parsed value to required members, shapes, and primitive types.
+- **Symbolic link:** filesystem object whose content redirects pathname resolution to another path.
+- **Syntactic validity:** conformity of decoded input to a format grammar.
+- **Text cookie:** opaque position returned by a text stream for supported later seeking, potentially encoding decoder and newline state.
+- **Torn write:** update of which only part becomes visible or persistent after failure.
+- **Trust boundary:** interface between components governed by different assumptions about identity, integrity, authority, or behaviour.
+- **Umask:** POSIX-like process mask removing selected permission bits from requested modes during object creation.
+- **Undo record:** logged information sufficient to reverse an uncommitted change during recovery.
+- **Visibility:** ability of a named observer to perceive an update; distinct from persistence across failure.
+- **Write-ahead log:** recovery log made sufficiently durable before the primary state changes whose recovery it governs.

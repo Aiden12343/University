@@ -1,0 +1,76 @@
+# 10.18 Cumulative glossary additions
+
+- **ABI (application binary interface):** low-level contract for binary calling conventions, symbols, data layouts, and compiled-component compatibility.
+- **Absolute import:** import whose module name begins at an import-system root rather than using current-package dots.
+- **Application entry point:** process-facing adapter that accepts launch inputs, coordinates the application, emits results/diagnostics, and returns process status.
+- **Artefact hash:** digest binding an expected distribution selection to exact archive bytes under a trust policy.
+- **Backtracking resolver:** resolver capable of revising earlier candidate choices when later dependency constraints conflict.
+- **Build backend:** project-selected component implementing standard hooks to build metadata, sdists, wheels, or editable installations.
+- **Build frontend:** user-facing tool that creates suitable build contexts and invokes backend hooks.
+- **Build isolation:** execution of a build backend in an environment provisioned from declared build requirements rather than arbitrary ambient packages.
+- **Bytecode cache:** stored compiled Python code used to reduce later compilation work without suppressing module execution.
+- **Canonical import path:** supported module/name path designated as the stable location through which clients should import an object.
+- **Circular import:** directed cycle in module loading dependencies, exposing partially initialised state and temporal order constraints.
+- **Cohesion:** degree to which responsibilities within a component belong to one comprehensible purpose and reason to change.
+- **Compatibility tag:** wheel filename/metadata tag describing supported Python, ABI, and platform categories.
+- **Composition root:** outer application location that constructs concrete components, supplies dependencies, and owns long-lived resource assembly.
+- **Console script:** command wrapper generated during distribution installation from declared entry-point metadata.
+- **Constraint:** resolver input limiting versions or candidates of a project when it is otherwise required, rather than necessarily requesting installation itself.
+- **Coupling:** dependency of one component on another’s interface, representation, control, timing, failures, deployment, or authority.
+- **Dependency confusion:** supply-chain attack in which an internal dependency name resolves to an unintended project from another source.
+- **Dependency graph:** directed graph of project requirements or module imports, with nodes as components and edges as declared dependencies.
+- **Dependency injection:** external supply of a collaborator, value, or factory to a component that needs it.
+- **Dependency inversion:** arrangement in which volatile concrete adapters depend on interfaces owned by stable higher-level policy.
+- **Dependency specifier:** standard string describing a distribution requirement with optional extras, version constraints, direct reference, and environment marker.
+- **Deprecation:** staged notice that a currently supported interface is scheduled for change or removal with a migration path.
+- **Direct dependency:** distribution intentionally required by the project itself rather than only through another requirement.
+- **Distribution:** installable versioned collection of files and metadata; distinct from runtime import packages.
+- **Editable installation:** development installation that makes a source tree importable through backend-defined indirection while exposing distribution metadata.
+- **Entry point (packaging):** metadata mapping a named capability or command to an importable object reference.
+- **Environment marker:** conditional expression in dependency metadata evaluated against a target Python/platform environment.
+- **Exit status:** process result communicated to its parent environment, conventionally zero for success and nonzero for failure classes.
+- **Extra:** named optional feature of a distribution that activates an additional set of requirements during resolution.
+- **Façade module:** stable public module that re-exports a curated API while concealing internal layout.
+- **Finder:** import-system object that determines whether and how a fully qualified module name can be located and returns a module specification.
+- **Functional core:** portion of an architecture concentrating deterministic transformation with effects supplied or moved to an outer shell.
+- **Imperative shell:** outer coordination layer that acquires resources, performs effects, and invokes a more deterministic core.
+- **Import graph:** directed graph whose edges represent module loading dependencies.
+- **Import hook:** extension point able to alter module discovery or loading, commonly through meta-path or path-entry mechanisms.
+- **Import package:** module with a submodule search path and therefore capable of containing child modules.
+- **Information hiding:** publication of stable required knowledge while retaining implementation decisions behind a non-public boundary.
+- **Install requirement:** dependency causing a distribution to be selected and installed subject to constraints and markers.
+- **Installed distribution metadata:** discoverable records such as project name, version, requirements, entry points, and installed files.
+- **Loader:** import-system component creating and/or executing a module according to a module specification; distinct from an operating-system executable loader.
+- **Lock:** tool-specific record of a selected dependency solution, often including environment conditions and artefact identities.
+- **Meta-path finder:** finder consulted from <code>sys.meta_path</code> near the beginning of uncached import processing.
+- **Module:** runtime namespace object loaded or created under a module name.
+- **Module identity:** object identity associated ordinarily with one canonical <code>sys.modules</code> key in one interpreter.
+- **Module specification:** object encapsulating import-related facts such as name, loader, origin, parent relationship, and submodule search locations.
+- **Namespace package:** package whose portions can be contributed from multiple search locations without one ordinary initializer.
+- **Namespace portion:** one location contributing child packages or modules to a namespace package.
+- **Optional dependency:** requirement activated for a selected extra, environment, or capability rather than every base installation.
+- **Package resource:** logical non-code data owned by an import package and accessed through loader-aware resource APIs.
+- **Partially initialised module:** module object placed in the import cache whose loader has not completed execution of its namespace.
+- **Path entry finder:** finder associated with one import-path entry and used by the path-based finder.
+- **Project name normalisation:** packaging rule under which selected case and punctuation variants represent the same distribution project key.
+- **Public API:** supported names and semantic contracts on which external callers may rely.
+- **Regular package:** package commonly backed by a directory with an executed <code>__init__.py</code> and one package module object.
+- **Relative import:** import resolved from current package metadata using one or more leading dots.
+- **Reproducible build:** build for which defined equivalent inputs produce bit-for-bit identical output artefacts under a stated process.
+- **Requirement:** declaration that a distribution/capability must be present subject to version, marker, extra, and source rules.
+- **Resolver:** tool or algorithm selecting a mutually compatible dependency graph from available candidates.
+- **Sdist (source distribution):** standard archive supplying source, metadata, and inputs for compatible build operations.
+- **Service locator:** registry consulted by consumers to acquire collaborators during execution, thereby making dependencies ambient.
+- **Shadowing (import):** resolution of an unintended same-named module earlier in the active import search order.
+- **Site-packages:** conventional environment location containing installed third-party importables and distribution metadata.
+- **SPDX licence expression:** standard expression identifying licence identifiers and combinations under packaging licence metadata rules.
+- **Strongly connected component:** maximal directed-graph node set in which every node is reachable from every other; a multi-node import component contains cycles.
+- **Submodule search locations:** module-spec/package locations consulted to find children of a package.
+- **Supply chain:** people, systems, source, dependencies, build tools, repositories, credentials, and deployment steps that produce executable software.
+- **Transitive dependency:** distribution required indirectly through one or more other distributions.
+- **Traversable:** resource abstraction providing path-like navigation/read operations without requiring an ordinary filesystem path.
+- **Typosquatting:** publication of a misleadingly similar project name intended to capture mistaken installation requests.
+- **Vendoring:** copying dependency source into a project’s own distribution and assuming responsibility for its updates and licences.
+- **Version specifier:** packaging expression denoting an allowed set of parsed distribution versions.
+- **Virtual environment:** isolated Python installation context with its own prefixes and normally its own installed distributions.
+- **Wheel:** standard built distribution archive designed for installation and labelled with compatibility tags.
